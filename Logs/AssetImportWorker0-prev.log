@@ -1,0 +1,949 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.985; Version 2009; 64bit' Language: 'ja' Physical Memory: 7939 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/coop/Desktop/unity date/WarpAction
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63281
+Successfully changed project path to: C:/Users/coop/Desktop/unity date/WarpAction
+C:/Users/coop/Desktop/unity date/WarpAction
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 44.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.7f1 (dd97f2c94397)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/coop/Desktop/unity date/WarpAction/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x3ea0)
+    Vendor:   
+    VRAM:     3969 MB
+    Driver:   24.20.100.6292
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002258 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 82.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.302 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002908 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 35.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.979 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.4 MB.
+System memory in use after: 85.3 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2267.
+Total: 2.652600 ms (FindLiveObjects: 0.172800 ms CreateObjectMapping: 0.103300 ms MarkObjects: 2.200100 ms  DeleteObjects: 0.175400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/UnityChan2D/Demo/Scenes/Start.unity
+  artifactKey: Guid(b763c98f277cc420aa68ceb3fc0daf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/Demo/Scenes/Start.unity using Guid(b763c98f277cc420aa68ceb3fc0daf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23204af1badbb33db4d98a1730bb9bfb') in 0.019459 seconds
+  Import took 0.022719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045448 seconds.
+  path: Assets/Prefabs/prefabs.txt
+  artifactKey: Guid(57eb2e91cb4f80246a23b3c707e97f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/prefabs.txt using Guid(57eb2e91cb4f80246a23b3c707e97f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35605437693e022559eb2db5faf04238') in 0.033682 seconds
+  Import took 0.037209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047524 seconds.
+  path: Assets/Sprites/UI/Gauge.psd
+  artifactKey: Guid(f401b8a3f59db294e885c381c6ee02d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Gauge.psd using Guid(f401b8a3f59db294e885c381c6ee02d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e75296a769a7a4c491f9c8397af32e2') in 0.109252 seconds
+  Import took 0.112554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010728 seconds.
+  path: Assets/UnityChan2D/Demo/Scenes/World 1-1.unity
+  artifactKey: Guid(bc1bc11bd56944cb68646a65a5fff077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/Demo/Scenes/World 1-1.unity using Guid(bc1bc11bd56944cb68646a65a5fff077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2cf40cdea503b585c38f0ee2123f37b') in 0.007336 seconds
+  Import took 0.010906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019596 seconds.
+  path: Assets/Scripts/System/GameManager.cs
+  artifactKey: Guid(54c25f16e0d24464c9c242ee0c4a9e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/System/GameManager.cs using Guid(54c25f16e0d24464c9c242ee0c4a9e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93cad0c9b5cc17a1ae7b107474800df') in 0.044101 seconds
+  Import took 0.047931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040629 seconds.
+  path: Assets/Prefabs/UI/Dropdown.prefab
+  artifactKey: Guid(e504772e69ed6f9438499eb0a1b296bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Dropdown.prefab using Guid(e504772e69ed6f9438499eb0a1b296bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622bd7412d5e8cc1fa87cb4248e9f069') in 0.114535 seconds
+  Import took 0.118280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007981 seconds.
+  path: Assets/Prefabs/System
+  artifactKey: Guid(6ba5bc88fab8de14da5a91f818f6509a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/System using Guid(6ba5bc88fab8de14da5a91f818f6509a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187195f52eca646ed542df69f095783e') in 0.007522 seconds
+  Import took 0.011186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026172 seconds.
+  path: Assets/Prefabs/UI/InputField.prefab
+  artifactKey: Guid(87b945157f7c50642ad4ad7bf5dc7492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/InputField.prefab using Guid(87b945157f7c50642ad4ad7bf5dc7492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7eb296d4c0bb7fcb7f8aca20abf809') in 0.019127 seconds
+  Import took 0.022971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024394 seconds.
+  path: Assets/Prefabs/UI/Canvas/MainCanvas.prefab
+  artifactKey: Guid(45ff14101d0679942af97aa23d5298cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Canvas/MainCanvas.prefab using Guid(45ff14101d0679942af97aa23d5298cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d8d223efd0512da3b58d414ee6fe6a') in 0.012658 seconds
+  Import took 0.017042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019895 seconds.
+  path: Assets/Scripts/Item/BaseItemObject.cs
+  artifactKey: Guid(1256109e3f624d24db5841365695a02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Item/BaseItemObject.cs using Guid(1256109e3f624d24db5841365695a02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6950e314350b07fdd103891d6d7118b') in 0.007351 seconds
+  Import took 0.010918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063940 seconds.
+  path: Assets/UnityChan2D/License/ENGLISH/LicenseNotice.pdf
+  artifactKey: Guid(c63a3e913965c4904a6597fef7ecfb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/License/ENGLISH/LicenseNotice.pdf using Guid(c63a3e913965c4904a6597fef7ecfb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aba194d3c5553ddf44440987f111824') in 0.065214 seconds
+  Import took 0.071865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012313 seconds.
+  path: Assets/Prefabs/Lights
+  artifactKey: Guid(5554abd0ab63fe84583bd0ab4b43e3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lights using Guid(5554abd0ab63fe84583bd0ab4b43e3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd4dc90b4a37d8a152f2efed47de458') in 0.012768 seconds
+  Import took 0.017832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031483 seconds.
+  path: Assets/UnityChan2D/License/ENGLISH/Summary Unity-Chan License.pdf
+  artifactKey: Guid(c156ee310fd424ce29fc16ecb6195b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/License/ENGLISH/Summary Unity-Chan License.pdf using Guid(c156ee310fd424ce29fc16ecb6195b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '401a83e0ff5f27b5410537f9c9cb548d') in 0.010557 seconds
+  Import took 0.014659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051105 seconds.
+  path: Assets/UnityChan2D/Demo/Animations/uni.controller
+  artifactKey: Guid(d5169a0782b524a0b87d30d65b0b0562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/Demo/Animations/uni.controller using Guid(d5169a0782b524a0b87d30d65b0b0562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcbb9a825734c3e52c18e86968fb9ef4') in 0.026807 seconds
+  Import took 0.033467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.196156 seconds.
+  path: Assets/Prefabs/Lights/Directional Light.prefab
+  artifactKey: Guid(50c9ebbe74679254cb77a6ca43bfc835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lights/Directional Light.prefab using Guid(50c9ebbe74679254cb77a6ca43bfc835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd54e45127199b55cc118aaf8c6fe117') in 0.011670 seconds
+  Import took 0.016194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042696 seconds.
+  path: Assets/Sprites/UI/SliderHandle.psd
+  artifactKey: Guid(16b2ba4973c4815408a6e48b1ba9ab75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/SliderHandle.psd using Guid(16b2ba4973c4815408a6e48b1ba9ab75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da29f7b9850612bcdb2e8b6835252040') in 0.017134 seconds
+  Import took 0.021206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034736 seconds.
+  path: Assets/Sprites/UI/DropdownArrow.psd
+  artifactKey: Guid(27a19381e970b054fbc87cff2b5c2bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/DropdownArrow.psd using Guid(27a19381e970b054fbc87cff2b5c2bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91768d971c0c535bf0057cef9b30836b') in 0.014682 seconds
+  Import took 0.018325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010844 seconds.
+  path: Assets/UnityChan2D/Physics2DMaterials/Physics2D Material.physicsMaterial2D
+  artifactKey: Guid(b16a8177aae984aed8618944cfd3e34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/Physics2DMaterials/Physics2D Material.physicsMaterial2D using Guid(b16a8177aae984aed8618944cfd3e34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966c165e01f65b5ae5071f45a74a3658') in 0.010100 seconds
+  Import took 0.013501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019724 seconds.
+  path: Assets/Prefabs/UI/Canvas/TitleCanvas.prefab
+  artifactKey: Guid(141f5c1b1be41b5439ce216e2f73744c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Canvas/TitleCanvas.prefab using Guid(141f5c1b1be41b5439ce216e2f73744c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145f7f1ba452490c0fa9e92839810835') in 0.017987 seconds
+  Import took 0.021792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050012 seconds.
+  path: Assets/UnityChan2D/License/キャラクター利用のガイドライン.pdf
+  artifactKey: Guid(4f035f3a24af04655bae51b328c8d4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/License/キャラクター利用のガイドライン.pdf using Guid(4f035f3a24af04655bae51b328c8d4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039ba29c286da1114379925121ec896a') in 0.010325 seconds
+  Import took 0.013952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009989 seconds.
+  path: Assets/UnityChan2D/Demo/Prefabs
+  artifactKey: Guid(fb17e6ff1a22abf48aa9ff73c14499ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/Demo/Prefabs using Guid(fb17e6ff1a22abf48aa9ff73c14499ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9442d381fc54ff2cd83f294d705633') in 0.006815 seconds
+  Import took 0.010278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009138 seconds.
+  path: Assets/Scripts/Extension
+  artifactKey: Guid(af358fa5d6ddb7e46b67b45395644684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Extension using Guid(af358fa5d6ddb7e46b67b45395644684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba79376c7ff76318b23946b4634eb5b0') in 0.007380 seconds
+  Import took 0.010835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048372 seconds.
+  path: Assets/Scripts/Obstacle/BaseObstacleController.cs
+  artifactKey: Guid(055715203793d7d48b8ca32f9423d197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Obstacle/BaseObstacleController.cs using Guid(055715203793d7d48b8ca32f9423d197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b95ccec950297ffa91bd82d1ac31d6') in 0.007406 seconds
+  Import took 0.010493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020070 seconds.
+  path: Assets/Sprites/UI/CheckMark.psd
+  artifactKey: Guid(d451aa23cad557044b1c2063c5fa8f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/CheckMark.psd using Guid(d451aa23cad557044b1c2063c5fa8f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4059e253667da40afa53a2511d2c6f') in 0.014185 seconds
+  Import took 0.017610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.094310 seconds.
+  path: Assets/UnityChan2D/Documents/Introduction.pdf
+  artifactKey: Guid(fef7db6dcd9634027a96740db50184eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/Documents/Introduction.pdf using Guid(fef7db6dcd9634027a96740db50184eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f621a0389add626ea5b13d05e9d65d') in 0.013061 seconds
+  Import took 0.018178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012663 seconds.
+  path: Assets/UnityChan2D/Animations/Jump_down.anim
+  artifactKey: Guid(8c2f91b5894c48c41b05954ff2db2962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/Animations/Jump_down.anim using Guid(8c2f91b5894c48c41b05954ff2db2962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df76c20a4278e9de9f9f710e35ad8af9') in 0.010908 seconds
+  Import took 0.014364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025124 seconds.
+  path: Assets/Sprites/UI/Button.psd
+  artifactKey: Guid(aff34e6a954e0de40942c27b10f292b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Button.psd using Guid(aff34e6a954e0de40942c27b10f292b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39bb3df40052baa15baef2d651b3c80e') in 0.016309 seconds
+  Import took 0.020361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034162 seconds.
+  path: Assets/Prefabs/UI/Text.prefab
+  artifactKey: Guid(2f570d7a46098b9468e213560703f882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Text.prefab using Guid(2f570d7a46098b9468e213560703f882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4347aaa381f2df471f432eac75b0dad4') in 0.012962 seconds
+  Import took 0.016987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060732 seconds.
+  path: Assets/UnityChan2D/License/ユニティちゃんライセンス条項・要約版.pdf
+  artifactKey: Guid(2df5b46f56e224bb7815f9f94410b60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/License/ユニティちゃんライセンス条項・要約版.pdf using Guid(2df5b46f56e224bb7815f9f94410b60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b57b69fd66f4e5a9eb87dd1b5d42f607') in 0.037882 seconds
+  Import took 0.041625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022729 seconds.
+  path: Assets/Scripts/UI
+  artifactKey: Guid(fb4d62ab5611cb34f9cf3b631081b404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI using Guid(fb4d62ab5611cb34f9cf3b631081b404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6309ff8a5eb0dde4b83aa920faf2d1e9') in 0.010819 seconds
+  Import took 0.014783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010361 seconds.
+  path: Assets/Prefabs/Cameras
+  artifactKey: Guid(2a1d8175589680d4b97a949ea678aafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cameras using Guid(2a1d8175589680d4b97a949ea678aafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a8617654be593c6911c44a8d130e14f') in 0.009013 seconds
+  Import took 0.012425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048270 seconds.
+  path: Assets/Scripts/Copy.cs
+  artifactKey: Guid(12933f1ced9f5f141be7e706ecd5784a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Copy.cs using Guid(12933f1ced9f5f141be7e706ecd5784a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56bc839f2c6ff5c57d987729b900cccf') in 0.008504 seconds
+  Import took 0.012149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009624 seconds.
+  path: Assets/Sprites/UI
+  artifactKey: Guid(47dc1219401d10a4297b8bbf70ca0d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI using Guid(47dc1219401d10a4297b8bbf70ca0d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e3b3f7530def4a025589ebc317fbb38') in 0.004035 seconds
+  Import took 0.007750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032379 seconds.
+  path: Assets/Sprites/sprites.txt
+  artifactKey: Guid(86a3816830d72de41b1cd7ca6544f832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/sprites.txt using Guid(86a3816830d72de41b1cd7ca6544f832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3f9ac87913cd2e58ecdde90b2df26a') in 0.008890 seconds
+  Import took 0.012263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020090 seconds.
+  path: Assets/Prefabs/UI/Canvas/FadeCanvas.prefab
+  artifactKey: Guid(149000a3c7f0c66498f0bb0e31e97354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Canvas/FadeCanvas.prefab using Guid(149000a3c7f0c66498f0bb0e31e97354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c551912e934278048dc76d3d50ebbe42') in 0.010204 seconds
+  Import took 0.013803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020142 seconds.
+  path: Assets/UnityChan2D/Demo/Prefabs/Coin.prefab
+  artifactKey: Guid(e698ee99f4e4443bda9ef4f8640c7ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/Demo/Prefabs/Coin.prefab using Guid(e698ee99f4e4443bda9ef4f8640c7ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81845447a100c222a1862fe4abfb91c8') in 0.012906 seconds
+  Import took 0.017135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013482 seconds.
+  path: Assets/Scenes/SampleSceneSettings.lighting
+  artifactKey: Guid(697988f8bbe158c47a4f4ebcd3bb1ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleSceneSettings.lighting using Guid(697988f8bbe158c47a4f4ebcd3bb1ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1143d10c836abf250a1de1ef06643e2') in 0.009841 seconds
+  Import took 0.013196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013399 seconds.
+  path: Assets/UnityChan2D/Animations/Jump_up.anim
+  artifactKey: Guid(edd2edd3028351548a4a16af988cdafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/Animations/Jump_up.anim using Guid(edd2edd3028351548a4a16af988cdafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f055e9aa4a2e55f200232804f6f94f1c') in 0.008640 seconds
+  Import took 0.012197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008986 seconds.
+  path: Assets/UnityChan2D/License
+  artifactKey: Guid(45119f1304599c04da77c4657464a8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/License using Guid(45119f1304599c04da77c4657464a8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61321b20407ca7bcb2b8ca82430755d7') in 0.007515 seconds
+  Import took 0.010887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044998 seconds.
+  path: Assets/Sprites/Sample/TitleLogo.psd
+  artifactKey: Guid(27ea1201ca1ab9d47b9295d381a4b341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sample/TitleLogo.psd using Guid(27ea1201ca1ab9d47b9295d381a4b341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1c36bd447f1c7b412387819af9dec4') in 0.022549 seconds
+  Import took 0.027896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025650 seconds.
+  path: Assets/Scripts/UI/VolumeController.cs
+  artifactKey: Guid(e7d3fe03516b18449878a6943b859276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/VolumeController.cs using Guid(e7d3fe03516b18449878a6943b859276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b90b5ea07b444d3fe207fc392000e81f') in 0.007935 seconds
+  Import took 0.011145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021095 seconds.
+  path: Assets/Sprites/UI/Window.psd
+  artifactKey: Guid(0a240f05db173e0478ec926b11b81c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Window.psd using Guid(0a240f05db173e0478ec926b11b81c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4123ca2cb9c7bbca46e2b94c023524a8') in 0.018120 seconds
+  Import took 0.023191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011153 seconds.
+  path: Assets/UnityChan2D/License/ENGLISH
+  artifactKey: Guid(f10ef85abc1f4fd4c8450164e1b3007d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/License/ENGLISH using Guid(f10ef85abc1f4fd4c8450164e1b3007d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2220013fea18de537cedb6d85f27ca9a') in 0.011973 seconds
+  Import took 0.015218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016109 seconds.
+  path: Assets/Scripts/Item
+  artifactKey: Guid(dbda98b3e520c1141a63ef2bb4829a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Item using Guid(dbda98b3e520c1141a63ef2bb4829a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78bf384e7297fd23ad3270713ea676f0') in 0.007655 seconds
+  Import took 0.010743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075892 seconds.
+  path: Assets/Prefabs/UI/Toggle.prefab
+  artifactKey: Guid(af7eeb7f362138148894623d7bd76699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Toggle.prefab using Guid(af7eeb7f362138148894623d7bd76699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb451d25171f87a2108c069d8c5a4f0') in 0.011901 seconds
+  Import took 0.015720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054835 seconds.
+  path: Assets/UnityChan2D/Demo/Prefabs/Uni.prefab
+  artifactKey: Guid(bc8e0417fb4494ca38ac4188f7f6d1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/Demo/Prefabs/Uni.prefab using Guid(bc8e0417fb4494ca38ac4188f7f6d1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13fb9514bcb2dd35a8e21e6b2fa58cde') in 0.010503 seconds
+  Import took 0.013995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053664 seconds.
+  path: Assets/Sprites/UI/ScrollbarHandle.psd
+  artifactKey: Guid(9df7d45f1c14c904b99b3c5c2d59d3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/ScrollbarHandle.psd using Guid(9df7d45f1c14c904b99b3c5c2d59d3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347c32effb0edd8948b79ced4a21968a') in 0.036780 seconds
+  Import took 0.042434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026612 seconds.
+  path: Assets/Sprites/Basic/Circle.psd
+  artifactKey: Guid(5d6b5595bea4da44ab3c2e523c2781f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Basic/Circle.psd using Guid(5d6b5595bea4da44ab3c2e523c2781f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407001ef0bcfd45184085aea360a4eec') in 0.021045 seconds
+  Import took 0.024799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.110453 seconds.
+  path: Assets/UnityChan2D/Demo/Prefabs/Block 2.prefab
+  artifactKey: Guid(a4e5a4326cc6447f885d6491a4a7543e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/Demo/Prefabs/Block 2.prefab using Guid(a4e5a4326cc6447f885d6491a4a7543e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e785bf6fdd0a15537e0f89037d2b66a6') in 0.013618 seconds
+  Import took 0.018822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048833 seconds.
+  path: Assets/Sprites/UI/InputField.psd
+  artifactKey: Guid(9b3c0e827b2c94a47b31ce31a8474928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/InputField.psd using Guid(9b3c0e827b2c94a47b31ce31a8474928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ce0d11bfcc07b30ae0ccac781c1e2f') in 0.019749 seconds
+  Import took 0.023790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051285 seconds.
+  path: Assets/Scenes/scenes.txt
+  artifactKey: Guid(28cae9d93f7d4ea4b91937ab2a2af8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/scenes.txt using Guid(28cae9d93f7d4ea4b91937ab2a2af8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4cfc98e63f2bbb11d82b6662c1a9492') in 0.012680 seconds
+  Import took 0.017392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021439 seconds.
+  path: Assets/UnityChan2D/Demo/Prefabs/DemoUnityChan2D.prefab
+  artifactKey: Guid(e3ff126a806b2454eaff021fe39cea19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/Demo/Prefabs/DemoUnityChan2D.prefab using Guid(e3ff126a806b2454eaff021fe39cea19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f681d40efd931b6faeb8cb8a41e724') in 0.011254 seconds
+  Import took 0.015078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.133203 seconds.
+  path: Assets/UnityChan2D/Scenes
+  artifactKey: Guid(a91f006266672184e8f29c2515dda895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/Scenes using Guid(a91f006266672184e8f29c2515dda895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40271bebda6529349a60dfa8d2d489d6') in 0.008128 seconds
+  Import took 0.011792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051438 seconds.
+  path: Assets/Prefabs/Cameras/Main Camera.prefab
+  artifactKey: Guid(53506a62b3618f54299ca1f9d20b015c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cameras/Main Camera.prefab using Guid(53506a62b3618f54299ca1f9d20b015c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119de0622b941a4ff436262ab3f1b963') in 0.015059 seconds
+  Import took 0.019823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.129147 seconds.
+  path: Assets/UnityChan2D/Animations/Damage.anim
+  artifactKey: Guid(c74aa118a248f40eca05829f9cbf18fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/Animations/Damage.anim using Guid(c74aa118a248f40eca05829f9cbf18fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8565ebfeb408ddc8a479ea9b94d2f1') in 0.009922 seconds
+  Import took 0.014177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.168064 seconds.
+  path: Assets/UnityChan2D/License/License Logo/LUUL_logo-guideline.pdf
+  artifactKey: Guid(e4d5e599bd03649d5af593b949dfc194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/License/License Logo/LUUL_logo-guideline.pdf using Guid(e4d5e599bd03649d5af593b949dfc194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71378d573c7666d7af0d52c22a1efe33') in 0.009702 seconds
+  Import took 0.013512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021126 seconds.
+  path: Assets/UnityChan2D/Demo/Prefabs/Block 1.prefab
+  artifactKey: Guid(0d48e37a4bc314299ba002c9549b7ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/Demo/Prefabs/Block 1.prefab using Guid(0d48e37a4bc314299ba002c9549b7ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d61c5661fbb08468ab242289e771f6') in 0.013541 seconds
+  Import took 0.018834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027996 seconds.
+  path: Assets/UnityChan2D/Demo/Fonts/slkscrb.ttf
+  artifactKey: Guid(025dd04cabfc64bfc8094b98f02d2774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/Demo/Fonts/slkscrb.ttf using Guid(025dd04cabfc64bfc8094b98f02d2774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16844e8b0cc3e8f095ae1b24d899ef63') in 0.146953 seconds
+  Import took 0.152999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028043 seconds.
+  path: Assets/Sprites/UI/ToggleBG.psd
+  artifactKey: Guid(d4ce2b7592ae05449b63cbab9757b415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/ToggleBG.psd using Guid(d4ce2b7592ae05449b63cbab9757b415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d4826e7634a83d86fe3cbab5d156bc') in 0.023531 seconds
+  Import took 0.030029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015401 seconds.
+  path: Assets/Tiles
+  artifactKey: Guid(496cdea94bed79a43825e6460a8f268c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles using Guid(496cdea94bed79a43825e6460a8f268c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384d7c6c4a73bb1ce0587a3228b7e69e') in 0.010312 seconds
+  Import took 0.014557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013366 seconds.
+  path: Assets/Sprites/Basic
+  artifactKey: Guid(a7663cd98cd8b584698e0d9ab3594b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Basic using Guid(a7663cd98cd8b584698e0d9ab3594b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a44b76f54dc36f220c8625030c79bc2') in 0.008253 seconds
+  Import took 0.012762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036670 seconds.
+  path: Assets/Prefabs/UI/Canvas/HowToPlayCanvas.prefab
+  artifactKey: Guid(00fab45fee25d0146a7c6d470e75ab9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Canvas/HowToPlayCanvas.prefab using Guid(00fab45fee25d0146a7c6d470e75ab9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881250385de634b8652e3f043360276c') in 0.021604 seconds
+  Import took 0.027358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027449 seconds.
+  path: Assets/Prefabs/UI/Canvas/Canvas.prefab
+  artifactKey: Guid(c19c854d22dc2ca4988349be8c9b98a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Canvas/Canvas.prefab using Guid(c19c854d22dc2ca4988349be8c9b98a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43492ad82720ede462925fad2893cde5') in 0.013734 seconds
+  Import took 0.019442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062662 seconds.
+  path: Assets/Scripts/UI/FadeCanvas.cs
+  artifactKey: Guid(fc61a122c4611db459cdd47db1fa0a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/FadeCanvas.cs using Guid(fc61a122c4611db459cdd47db1fa0a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c562461cdbd0acc8239808316ad3fd7') in 0.004279 seconds
+  Import took 0.009961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079461 seconds.
+  path: Assets/Scripts/System/MoveSceneManager.cs
+  artifactKey: Guid(87ef4221a165da64da7de5cf63175179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/System/MoveSceneManager.cs using Guid(87ef4221a165da64da7de5cf63175179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3a456545bc7a0da5e1758253e61b16') in 0.011719 seconds
+  Import took 0.017529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.102149 seconds.
+  path: Assets/Prefabs/UI/Text_White.prefab
+  artifactKey: Guid(3215e95d3bf767e4a9f5b025fc2d7cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Text_White.prefab using Guid(3215e95d3bf767e4a9f5b025fc2d7cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e4dc949ec38c47a7511f8e2760d67ec') in 0.019805 seconds
+  Import took 0.026372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014286 seconds.
+  path: Assets/UnityChan2D/License/License Logo
+  artifactKey: Guid(d8972fe553fbd1649b531a88868db7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/License/License Logo using Guid(d8972fe553fbd1649b531a88868db7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2911e4c165a05d496b182630e33e938d') in 0.009690 seconds
+  Import took 0.015006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.113374 seconds.
+  path: Assets/Scripts/System/SaveData.cs
+  artifactKey: Guid(374e6742967140f40b68c52672f93867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/System/SaveData.cs using Guid(374e6742967140f40b68c52672f93867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f643bba2ba0addea2ae534d967efc3e4') in 0.008932 seconds
+  Import took 0.013141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010131 seconds.
+  path: Assets/Prefabs/UI/Canvas
+  artifactKey: Guid(614e115513195bd41bf9dea6fd145e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Canvas using Guid(614e115513195bd41bf9dea6fd145e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2b755bdc95cd80d6004b1a35d3b095') in 0.002973 seconds
+  Import took 0.007650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012493 seconds.
+  path: Assets/Scripts/System
+  artifactKey: Guid(790b5906f5d08ae4486637c3d84a6582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/System using Guid(790b5906f5d08ae4486637c3d84a6582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92723a3df50ec4a6a19fde64f0b6ed2d') in 0.003655 seconds
+  Import took 0.009161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022915 seconds.
+  path: Assets/UnityChan2D/Demo/Scenes/Intro 1-1.unity
+  artifactKey: Guid(b624da3e00d714908a6ad67aba8ddba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/Demo/Scenes/Intro 1-1.unity using Guid(b624da3e00d714908a6ad67aba8ddba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c586ca6a04f861e80d7544b9ebae15ed') in 0.009152 seconds
+  Import took 0.012845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020124 seconds.
+  path: Assets/Scripts/Character/Player_Sample.cs
+  artifactKey: Guid(27e403bbb1dbb4643a1325d15752de52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Character/Player_Sample.cs using Guid(27e403bbb1dbb4643a1325d15752de52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04e168c30463c6e90bef57f1895473f') in 0.009175 seconds
+  Import took 0.013934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011162 seconds.
+  path: Assets/UnityChan2D/Animations/InvincibleMode.anim
+  artifactKey: Guid(ef3bbf19287044a7f82b2ece60ceab22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/Animations/InvincibleMode.anim using Guid(ef3bbf19287044a7f82b2ece60ceab22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ff325f7955437711a1a48244da47eb') in 0.013748 seconds
+  Import took 0.019875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033153 seconds.
+  path: Assets/Prefabs/System/GameManager.prefab
+  artifactKey: Guid(4fff3c148aa0cc84ab6a81a41fdbe9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/System/GameManager.prefab using Guid(4fff3c148aa0cc84ab6a81a41fdbe9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278f8666d14a7d04e1dedaada4bfdc1e') in 0.011235 seconds
+  Import took 0.016268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030842 seconds.
+  path: Assets/Scripts/System/SoundManager.cs
+  artifactKey: Guid(229dd47ae742c4546a6ea6cf6816c8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/System/SoundManager.cs using Guid(229dd47ae742c4546a6ea6cf6816c8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9485adcc7b918dc57b1bdd8dd2f442d2') in 0.010356 seconds
+  Import took 0.014809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043579 seconds.
+  path: Assets/Scripts/Obstacle/ReciprocatingObstacle.cs
+  artifactKey: Guid(9ca08446fe3027e4c8aa37431fcd9d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Obstacle/ReciprocatingObstacle.cs using Guid(9ca08446fe3027e4c8aa37431fcd9d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe5f0741e6a5b43fc82701af41d539d') in 0.008419 seconds
+  Import took 0.012653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065222 seconds.
+  path: Assets/Sprites/UI/SliderBG.psd
+  artifactKey: Guid(5d49821a1a5c92b41862b9f7770b5dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/SliderBG.psd using Guid(5d49821a1a5c92b41862b9f7770b5dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec72a5842c3bed56c7f109eb7133bca8') in 0.014881 seconds
+  Import took 0.018937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010821 seconds.
+  path: Assets/UnityChan2D/Animations/Jump_top.anim
+  artifactKey: Guid(81592dad0ac99d44fa04472eff6556e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/Animations/Jump_top.anim using Guid(81592dad0ac99d44fa04472eff6556e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13c0a11bea41caaadac5920981eb2df') in 0.008203 seconds
+  Import took 0.012052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042841 seconds.
+  path: Assets/UnityChan2D/Prefabs/UnityChan2D.prefab
+  artifactKey: Guid(1355a58c3bd9c40679bea54b926e0179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/Prefabs/UnityChan2D.prefab using Guid(1355a58c3bd9c40679bea54b926e0179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9238faa1f7584e76ecdb1c9717d9ed') in 0.010048 seconds
+  Import took 0.013836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059987 seconds.
+  path: Assets/UnityChan2D/Documents
+  artifactKey: Guid(7f1095028c50d824fa2edb007bed6da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/Documents using Guid(7f1095028c50d824fa2edb007bed6da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485b9502f03b83c4474647ad61c7c2b2') in 0.008067 seconds
+  Import took 0.011596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056345 seconds.
+  path: Assets/Scripts/System/SaveManager.cs
+  artifactKey: Guid(984ef67c9202f374689245e2f5d12f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/System/SaveManager.cs using Guid(984ef67c9202f374689245e2f5d12f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d41132d28dd10631752c0a6c85799d3') in 0.008559 seconds
+  Import took 0.012156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051934 seconds.
+  path: Assets/Sprites/UI/ScrollViewBG.psd
+  artifactKey: Guid(81b3388e0f4c4494caac9984a8ff162f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/ScrollViewBG.psd using Guid(81b3388e0f4c4494caac9984a8ff162f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb65b062fb1465f5ce439735d602e4d1') in 0.015371 seconds
+  Import took 0.019373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048325 seconds.
+  path: Assets/UnityChan2D/Documents/Demoプロジェクトについて.pdf
+  artifactKey: Guid(037df4bb95f2540b99ca5f34dcb8d60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/Documents/Demoプロジェクトについて.pdf using Guid(037df4bb95f2540b99ca5f34dcb8d60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de90f0f090102875f6e363837bec94e5') in 0.008090 seconds
+  Import took 0.011847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031178 seconds.
+  path: Assets/UnityChan2D/Animations/UnityChan2D.controller
+  artifactKey: Guid(3a2e89326cda64858a11433ffce27df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/Animations/UnityChan2D.controller using Guid(3a2e89326cda64858a11433ffce27df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c25f7de3ed79437cbe6ae3d712e4f6') in 0.010668 seconds
+  Import took 0.014477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.241783 seconds.
+  path: Assets/UnityChan2D/License/License Logo/LUUL_logo-guideline_en.pdf
+  artifactKey: Guid(e38d156797c714c6f8e296dcf1db67d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/License/License Logo/LUUL_logo-guideline_en.pdf using Guid(e38d156797c714c6f8e296dcf1db67d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e4c4bb003e58e1c0e6713b8aa70cf7c') in 0.011348 seconds
+  Import took 0.014920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049033 seconds.
+  path: Assets/Prefabs/UI/Canvas/OptionCanvas.prefab
+  artifactKey: Guid(a30b40498220f3a4e9ecabf422f3030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Canvas/OptionCanvas.prefab using Guid(a30b40498220f3a4e9ecabf422f3030b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e51b9638c85e711b1417cc9a91adf16f') in 0.026933 seconds
+  Import took 0.032012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056989 seconds.
+  path: Assets/UnityChan2D/License/License Logo/LUUL_LOGO_rules02.ai
+  artifactKey: Guid(57d4631de55fe45ee904ace21a87fe92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/License/License Logo/LUUL_LOGO_rules02.ai using Guid(57d4631de55fe45ee904ace21a87fe92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1618a2f5a6d7a6d1d30aeafd05c46262') in 0.012544 seconds
+  Import took 0.018102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011081 seconds.
+  path: Assets/Sprites/Sample
+  artifactKey: Guid(9f5fd1cfc7b4a944486aca0d817cb958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sample using Guid(9f5fd1cfc7b4a944486aca0d817cb958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26f48da0a0c367045cb47274d0228cc') in 0.008823 seconds
+  Import took 0.014303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043623 seconds.
+  path: Assets/UnityChan2D/Demo/Scenes
+  artifactKey: Guid(cae32084b88de8642b9ad916673431a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/Demo/Scenes using Guid(cae32084b88de8642b9ad916673431a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e2e13bbef9388cdf9953f6cdf506bc') in 0.002968 seconds
+  Import took 0.007215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065173 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021f9b817478ba9c4754eaaac2406cc4') in 0.008708 seconds
+  Import took 0.013460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046162 seconds.
+  path: Assets/UnityChan2D/Demo/Animations/Coin.controller
+  artifactKey: Guid(f014b09d44d6c4b6595fd977b3399bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/Demo/Animations/Coin.controller using Guid(f014b09d44d6c4b6595fd977b3399bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '050e6fd6e422bd9d7a56d661c4c437a4') in 0.008436 seconds
+  Import took 0.012040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020886 seconds.
+  path: Assets/Scripts/UI/BaseButtonController.cs
+  artifactKey: Guid(a65b1b0f6ebb3e0499f2d9e0e02422db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/BaseButtonController.cs using Guid(a65b1b0f6ebb3e0499f2d9e0e02422db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb0ac7e6a6b482702116f4f2d5c8da6') in 0.007781 seconds
+  Import took 0.011583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060634 seconds.
+  path: Assets/UnityChan2D/Scenes/Introduction_Demo.unity
+  artifactKey: Guid(c56dff7c92cbb4ceb9bcec778aa67abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/Scenes/Introduction_Demo.unity using Guid(c56dff7c92cbb4ceb9bcec778aa67abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295b4c9663268b7d00199bd004c115d9') in 0.008538 seconds
+  Import took 0.014300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079994 seconds.
+  path: Assets/UnityChan2D/Demo/Animations
+  artifactKey: Guid(7a540e601f942904c96685a89056b3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/Demo/Animations using Guid(7a540e601f942904c96685a89056b3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ac58b0e642c16a758dfe8f16d4283d') in 0.009087 seconds
+  Import took 0.014486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029220 seconds.
+  path: Assets/Scripts/Obstacle
+  artifactKey: Guid(e9d8adcf160f3f8448bdd756d7a4af36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Obstacle using Guid(e9d8adcf160f3f8448bdd756d7a4af36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b47ca8402d38f119b36c0101c9538fd') in 0.007538 seconds
+  Import took 0.011069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.087358 seconds.
+  path: Assets/Scripts/Extension/SingletonMonoBehaviour.cs
+  artifactKey: Guid(17e6f2e5eb07e93499c40a19796d56c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Extension/SingletonMonoBehaviour.cs using Guid(17e6f2e5eb07e93499c40a19796d56c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7baee2273d87fe474af1c633cb4399cf') in 0.008759 seconds
+  Import took 0.012529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016529 seconds.
+  path: Assets/UnityChan2D/Animations/Move.anim
+  artifactKey: Guid(3939e719ef4eb4b02bf39e3af35e8815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/Animations/Move.anim using Guid(3939e719ef4eb4b02bf39e3af35e8815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa71aac41550e7e7845f471fca15401e') in 0.009737 seconds
+  Import took 0.013363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053367 seconds.
+  path: Assets/UnityChan2D/Animations/Footwork.anim
+  artifactKey: Guid(c4f948d6d6b8eef45b36576116fcbb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/Animations/Footwork.anim using Guid(c4f948d6d6b8eef45b36576116fcbb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5510e8ac8f88163f197e81cf9f7afe77') in 0.008438 seconds
+  Import took 0.012007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.107141 seconds.
+  path: Assets/UnityChan2D/License/ユニティちゃんライセンス条項.pdf
+  artifactKey: Guid(9f432fb81115840ccbda4b43221b6ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/License/ユニティちゃんライセンス条項.pdf using Guid(9f432fb81115840ccbda4b43221b6ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b5883575a991bb51074fc4b625ba15') in 0.011242 seconds
+  Import took 0.015908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014180 seconds.
+  path: Assets/UnityChan2D/Animations/AirDamage.anim
+  artifactKey: Guid(1383dae016d2246a0847f7c2d1b540d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/Animations/AirDamage.anim using Guid(1383dae016d2246a0847f7c2d1b540d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e7329f58b36fc6d8dd162501b3acf38') in 0.008588 seconds
+  Import took 0.012687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021319 seconds.
+  path: Assets/UnityChan2D/Physics2DMaterials
+  artifactKey: Guid(c0c1df8a24df5344490ce8bb1a25937d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/Physics2DMaterials using Guid(c0c1df8a24df5344490ce8bb1a25937d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12cde870458c012d7b0338b482d603ea') in 0.009104 seconds
+  Import took 0.012951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013418 seconds.
+  path: Assets/UnityChan2D/Demo/Scenes/Loading 1-1.unity
+  artifactKey: Guid(a35423fc824db4fcab5346624a89eadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/Demo/Scenes/Loading 1-1.unity using Guid(a35423fc824db4fcab5346624a89eadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba595de7d71db0efe81ee08ce2a8f2f6') in 0.008218 seconds
+  Import took 0.012673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.107991 seconds.
+  path: Assets/UnityChan2D/License/ENGLISH/Character Use Guidelines.pdf
+  artifactKey: Guid(062fd5a58ac6d4580b9a2b395e7d86e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/License/ENGLISH/Character Use Guidelines.pdf using Guid(062fd5a58ac6d4580b9a2b395e7d86e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7633bbc6e786e6e1e6ace6beed700ef') in 0.009877 seconds
+  Import took 0.014575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011184 seconds.
+  path: Assets/UnityChan2D/Animations
+  artifactKey: Guid(ce24c03bd0273204c83e18357d717328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/Animations using Guid(ce24c03bd0273204c83e18357d717328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0315f0e274884d4f760afd1d4987536') in 0.003821 seconds
+  Import took 0.008574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064804 seconds.
+  path: Assets/Sprites/UI/DropdownBG.psd
+  artifactKey: Guid(5d4c495f6d2de0b4b89cbe6aa28cea91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/DropdownBG.psd using Guid(5d4c495f6d2de0b4b89cbe6aa28cea91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3902a31b2e29a9c042c22763c9dd1d9d') in 0.022850 seconds
+  Import took 0.027657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020069 seconds.
+  path: Assets/Prefabs/UI/Button.prefab
+  artifactKey: Guid(3e1f828ac74d5944db597ed0f65a7358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/Button.prefab using Guid(3e1f828ac74d5944db597ed0f65a7358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbc0cacd4303f26f6a13ac134e92abe') in 0.007071 seconds
+  Import took 0.011614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038331 seconds.
+  path: Assets/UnityChan2D/Demo/Prefabs/BrokenBlock.prefab
+  artifactKey: Guid(caf0deeb142564d5bbcd349ae1f3e6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/Demo/Prefabs/BrokenBlock.prefab using Guid(caf0deeb142564d5bbcd349ae1f3e6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2744ae83bd2429dcbee39d0dc2deedc2') in 0.009328 seconds
+  Import took 0.013878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029334 seconds.
+  path: Assets/UnityChan2D/License/ライセンス表示について.pdf
+  artifactKey: Guid(05e9d7182271b40cbb2fbcfb3dcbd830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/License/ライセンス表示について.pdf using Guid(05e9d7182271b40cbb2fbcfb3dcbd830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6278ecd92c060434f626e76cbc374b3f') in 0.008613 seconds
+  Import took 0.011962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054084 seconds.
+  path: Assets/UnityChan2D/License/License Logo/LUUL_LOGO_rules02.psd
+  artifactKey: Guid(2aacbb8c0eb594221bc82082e258aa94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/License/License Logo/LUUL_LOGO_rules02.psd using Guid(2aacbb8c0eb594221bc82082e258aa94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ebc2bb6c6a4b10b646d6e81a49c695') in 0.025977 seconds
+  Import took 0.031057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043326 seconds.
+  path: Assets/UnityChan2D/License/ENGLISH/Unity-Chan License Terms and Condition.pdf
+  artifactKey: Guid(0906715dbf223451ab01ce73f7a90e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan2D/License/ENGLISH/Unity-Chan License Terms and Condition.pdf using Guid(0906715dbf223451ab01ce73f7a90e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c961ffbac0c90179de7f7b68f21c4c') in 0.020129 seconds
+  Import took 0.024555 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
