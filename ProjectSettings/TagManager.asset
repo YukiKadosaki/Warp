@@ -7,6 +7,7 @@ TagManager:
   - DamageObject
   - GameManager
   - Wall
+  - Copy
   layers:
   - Default
   - TransparentFX
