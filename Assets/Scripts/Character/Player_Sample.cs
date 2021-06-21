@@ -11,18 +11,34 @@ public class Player_Sample : MonoBehaviour
     [SerializeField]
     private GameObject[] groundCheckObjects;
 
+
+    private float m_MoveSpeed = 3;
     private Rigidbody2D m_RigidBody2D;
     private Transform m_Transform;
     private GameObject m_PlayerCopy;
     private SpriteRenderer m_SpriteRenderer;
     private bool m_DirectionLeft=false;//左を向いているかどうか
     private float m_JumpTimer;//ジャンプしている時間
-    private bool m_FirstJump;
-    private bool m_Jumping;
+    private bool m_IsFirstJumping;//一段目ジャンプボタンを押し続けている間true
+    private bool m_IsSecondJumping;//二段目ジャンプボタンを押し続けている間true
+    private bool m_Jumping;//ジャンプボタンを押し続けている間true
     private bool m_JumpEnd;
     private bool m_isGrounded;
     private bool m_isGroundedPrev;
 
+
+    public float MoveSpeed
+    {
+        set 
+        { 
+            m_MoveSpeed = value;
+            if(m_MoveSpeed < 0)
+            {
+                m_MoveSpeed = 0;
+            }
+        }
+        get => m_MoveSpeed;
+    }
 
     public bool DirectionLeft
     {
@@ -42,10 +58,16 @@ public class Player_Sample : MonoBehaviour
         }
         get => m_JumpTimer;
     }
-    public bool FirstJump
+    public bool IsFirstJumping
     {
-        set { m_FirstJump = value; }
-        get => m_FirstJump;
+        set { m_IsFirstJumping = value; }
+        get => m_IsFirstJumping;
+    }
+
+    public bool IsSecondJumping
+    {
+        set { m_IsSecondJumping = value; }
+        get => m_IsSecondJumping;
     }
 
     public bool Jumping
@@ -71,6 +93,9 @@ public class Player_Sample : MonoBehaviour
         get => m_isGroundedPrev;
     }
 
+
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -84,13 +109,19 @@ public class Player_Sample : MonoBehaviour
     void Update()
     {
 
-        //ジャンプ
-        if (IsGrounded && Input.GetKeyDown(KeyCode.Z))
+        //ジャンプ開始
+        if (IsGrounded && Input.GetKeyDown(KeyCode.Z))//一段目
         {
-            FirstJump = true;
+            IsFirstJumping = true;
             Jumping = true;
         }
-        else if (Input.GetKeyUp(KeyCode.Z) && Jumping)
+        else if (!IsGrounded && !IsSecondJumping)//二段目
+        {
+            IsSecondJumping = true;
+        }
+
+        //ジャンプ終了
+        if (Input.GetKeyUp(KeyCode.Z) && Jumping)
         {
             JumpEnd = true;
         }
@@ -166,14 +197,14 @@ public class Player_Sample : MonoBehaviour
         {
             m_RigidBody2D.velocity = new Vector3(m_RigidBody2D.velocity.x, 0, 0);
             m_RigidBody2D.velocity = new Vector3(m_RigidBody2D.velocity.x, jumpForce, 0); 
-            FirstJump = false;
+            IsFirstJumping = true;
         }
         if (JumpEnd || JumpTimer > maxJumpTime)//Xが離されたか長時間ジャンプしたとき
         {
             m_RigidBody2D.velocity = new Vector3(m_RigidBody2D.velocity.x, m_RigidBody2D.velocity.y / 2, 0);
             JumpTimer = 0;
             JumpEnd = false;
-            FirstJump = false;
+            IsFirstJumping = false;
             Jumping = false;
         }
         

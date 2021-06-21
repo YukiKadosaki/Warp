@@ -1,3 +1,5 @@
+/*ï™êgÉNÉâÉX*/
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -20,5 +22,6 @@ public class Copy : MonoBehaviour
             m_Player.WarpToCopy(m_Transform.position);
             Destroy(this.gameObject);
         }
+        
     }
 }
