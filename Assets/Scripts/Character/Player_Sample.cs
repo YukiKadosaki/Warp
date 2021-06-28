@@ -191,15 +191,19 @@ public class Player_Sample : MonoBehaviour
     {
 
         GameObject playerCopy = Instantiate(m_PlayerCopy);
-        playerCopy.transform.position = m_Transform.position;
+
 
         if (DirectionLeft)
         {
+            playerCopy.transform.position = m_Transform.position + Vector3.left * 0.3f;
+
             playerCopy.GetComponent<Rigidbody2D>().velocity = new Vector3(-copySpeed, 0, 0);
             playerCopy.GetComponent<SpriteRenderer>().flipX = true;
         }
         else
         {
+            playerCopy.transform.position = m_Transform.position + Vector3.right * 0.3
+                f;
             playerCopy.GetComponent<Rigidbody2D>().velocity = new Vector3(copySpeed, 0, 0);
         }
         
@@ -238,7 +242,7 @@ public class Player_Sample : MonoBehaviour
 
     private void Jump()
     {
-        //ジャンプタイマーのチェックは終了
+        
 
         //Xが押されている間
         if (0 < JumpTimer && JumpTimer < maxJumpTime && Jumping)
