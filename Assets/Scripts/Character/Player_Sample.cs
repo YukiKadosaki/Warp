@@ -4,19 +4,19 @@ using UnityEngine;
 
 public class Player_Sample : MonoBehaviour
 {
-    private const float copySpeed = 5;//ƒRƒs[‚ÌˆÚ“®‘¬“x
-    private const float jumpForce = 14;//1’i–ÚƒWƒƒƒ“ƒv‚Ì‹­‚³
-    private const float secondJumpForce = 10;//2’i–ÚƒWƒƒƒ“ƒv‚Ì‹­‚³
-    private const float maxJumpTime = 0.3f;//Å‘åƒWƒƒƒ“ƒv‚ÌŠÔ
-    private const float endSpeed = 1.0f;//ƒWƒƒƒ“ƒvI—¹‚Ì‘¬“x
-    private const float reduceJumpSpeedRate = 0.3f;//è‚ğ—£‚µ‚½‚Æ‚«‚ÌƒWƒƒƒ“ƒv—Í‚ÌŒ¸ŠŠ„‡
-    private const float maxFallingSpeed = -10f;//Å‘å—‰º‘¬“x
-    private const float moveSpeed = 4;//‰¡•ûŒüˆÚ“®‘¬“x
+    private const float copySpeed = 5;//ï¿½Rï¿½sï¿½[ï¿½ÌˆÚ“ï¿½ï¿½ï¿½ï¿½x
+    private const float jumpForce = 14;//1ï¿½iï¿½ÚƒWï¿½ï¿½ï¿½ï¿½ï¿½vï¿½Ì‹ï¿½ï¿½ï¿½
+    private const float secondJumpForce = 10;//2ï¿½iï¿½ÚƒWï¿½ï¿½ï¿½ï¿½ï¿½vï¿½Ì‹ï¿½ï¿½ï¿½
+    private const float maxJumpTime = 0.3f;//ï¿½Å‘ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½vï¿½Ìï¿½ï¿½ï¿½
+    private const float endSpeed = 1.0f;//ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½vï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½Ì‘ï¿½ï¿½x
+    private const float reduceJumpSpeedRate = 0.3f;//ï¿½ï¿½ğ—£‚ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ÌƒWï¿½ï¿½ï¿½ï¿½ï¿½vï¿½Í‚ÌŒï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    private const float maxFallingSpeed = -10f;//ï¿½Å‘å—ï¿½ï¿½ï¿½ï¿½ï¿½x
+    private const float moveSpeed = 4;//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú“ï¿½ï¿½ï¿½ï¿½x
 
     [SerializeField]
     private GameObject[] groundCheckObjects;
     [SerializeField]
-    private GameObject[] rightWallCheckObjects;//‰E‚Éi‚ß‚é‚©‚Ç‚¤‚©‚ğ’²‚×‚é
+    private GameObject[] rightWallCheckObjects;//ï¿½Eï¿½Éiï¿½ß‚é‚©ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½ğ’²‚×‚ï¿½
     [SerializeField]
     private GameObject rightDownWallCheckObject;
 
@@ -27,10 +27,10 @@ public class Player_Sample : MonoBehaviour
     private Transform m_Transform;
     private GameObject m_PlayerCopy;
     private SpriteRenderer m_SpriteRenderer;
-    private bool m_DirectionLeft = false;//¶‚ğŒü‚¢‚Ä‚¢‚é‚©‚Ç‚¤‚©
-    private float m_JumpTimer;//ƒWƒƒƒ“ƒv‚µ‚Ä‚¢‚éŠÔ
-    private bool m_IsFirstJumping;//ˆê’i–ÚƒWƒƒƒ“ƒvƒ{ƒ^ƒ“‚ğ‰Ÿ‚µ‘±‚¯‚Ä‚¢‚éŠÔtrue
-    private bool m_IsSecondJumping;//“ñ’i–ÚƒWƒƒƒ“ƒvƒ{ƒ^ƒ“‚ğ‰Ÿ‚µ‘±‚¯‚Ä‚¢‚éŠÔtrue
+    private bool m_DirectionLeft = false;//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½é‚©ï¿½Ç‚ï¿½ï¿½ï¿½
+    private float m_JumpTimer;//ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Ä‚ï¿½ï¿½éï¿½ï¿½
+    private bool m_IsFirstJumping;//ï¿½ï¿½iï¿½ÚƒWï¿½ï¿½ï¿½ï¿½ï¿½vï¿½{ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½true
+    private bool m_IsSecondJumping;//ï¿½ï¿½iï¿½ÚƒWï¿½ï¿½ï¿½ï¿½ï¿½vï¿½{ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½true
     private bool m_JumpEnd;
     private bool m_isGrounded;
     private bool m_isGroundedPrev;
@@ -132,14 +132,14 @@ public class Player_Sample : MonoBehaviour
     {
         Debug.Log("Vel:" + m_RigidBody2D.velocity.y);
 
-        //ƒWƒƒƒ“ƒvŠJn
+        //ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½vï¿½Jï¿½n
         if (Input.GetKeyDown(KeyCode.Z))
         {
-            if (IsGrounded)//1’i–ÚƒWƒƒƒ“ƒv
+            if (IsGrounded)//1ï¿½iï¿½ÚƒWï¿½ï¿½ï¿½ï¿½ï¿½v
             {
                 IsFirstJumping = true;
             }
-            else if (!IsSecondJumping && CanSecondJump)//‹ó’†ƒWƒƒƒ“ƒv
+            else if (!IsSecondJumping && CanSecondJump)//ï¿½ó’†ƒWï¿½ï¿½ï¿½ï¿½ï¿½v
             {
                 IsSecondJumping = true;
                 CanSecondJump = false;
@@ -148,7 +148,7 @@ public class Player_Sample : MonoBehaviour
 
 
 
-        //ƒWƒƒƒ“ƒvI—¹
+        //ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½vï¿½Iï¿½ï¿½
         if (Input.GetKeyUp(KeyCode.Z))
         {
             JumpEnd = true;
@@ -156,17 +156,17 @@ public class Player_Sample : MonoBehaviour
 
         CalculateJumpTime();
 
-        //•ªg‚ğì‚é
+        //ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½
         if (Input.GetKeyDown(KeyCode.X) && GameObject.FindGameObjectsWithTag("Copy").Length == 0)
         {
             CreateCopy();
         }
 
-        //’…’n”»’è‚ğŒvZ
+        //ï¿½ï¿½ï¿½nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½vï¿½Z
         GroundCheck();
-        //•Ç‚Ì”»’è‚ğŒvZ
+        //ï¿½Ç‚Ì”ï¿½ï¿½ï¿½ï¿½ï¿½vï¿½Z
         RightWallCheck();
-        //—‰ºƒXƒs[ƒh‚ÍÅ‘å7
+        //ï¿½ï¿½ï¿½ï¿½ï¿½Xï¿½sï¿½[ï¿½hï¿½ÍÅ‘ï¿½7
         CheckFallingSpeed();
     }
 
@@ -176,7 +176,7 @@ public class Player_Sample : MonoBehaviour
         Move();
     }
 
-    //•ªg‚©‚çw’è‚³‚ê‚½À•W‚Éƒ[ƒv‚·‚é
+    //ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½wï¿½è‚³ï¿½ê‚½ï¿½ï¿½ï¿½Wï¿½Éƒï¿½ï¿½[ï¿½vï¿½ï¿½ï¿½ï¿½
     public void WarpToCopy(Vector3 pos)
     {
         m_Transform.position = pos;
@@ -188,15 +188,19 @@ public class Player_Sample : MonoBehaviour
     {
 
         GameObject playerCopy = Instantiate(m_PlayerCopy);
-        playerCopy.transform.position = m_Transform.position;
+
 
         if (DirectionLeft)
         {
+            playerCopy.transform.position = m_Transform.position + Vector3.left * 0.3f;
+
             playerCopy.GetComponent<Rigidbody2D>().velocity = new Vector3(-copySpeed, 0, 0);
             playerCopy.GetComponent<SpriteRenderer>().flipX = true;
         }
         else
         {
+            playerCopy.transform.position = m_Transform.position + Vector3.right * 0.3
+                f;
             playerCopy.GetComponent<Rigidbody2D>().velocity = new Vector3(copySpeed, 0, 0);
         }
 
@@ -205,21 +209,21 @@ public class Player_Sample : MonoBehaviour
 
     private void Move()
     {
-        //ˆÚ“®•ûŒü‚Æ‘¬“x‚ğ•\‚·
+        //ï¿½Ú“ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‘ï¿½ï¿½xï¿½ï¿½\ï¿½ï¿½
         float x = Input.GetAxisRaw("Horizontal") * moveSpeed;
 
-        //‰E‚É•Ç‚ª‚È‚¢ê‡ˆÚ“®‚·‚éB
-        //¶‚És‚­‚Æ‚«‚ÍƒvƒŒƒCƒ„[‚Ì‘å‚«‚³‚ğ-1”{‚·‚éŠÖŒW‚Å‰E‚ğ’²‚×‚é‚¾‚¯‚Å—Ç‚¢
+        //ï¿½Eï¿½É•Ç‚ï¿½ï¿½È‚ï¿½ï¿½ê‡ï¿½Ú“ï¿½ï¿½ï¿½ï¿½ï¿½B
+        //ï¿½ï¿½ï¿½Ésï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Íƒvï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½[ï¿½Ì‘å‚«ï¿½ï¿½ï¿½ï¿½-1ï¿½{ï¿½ï¿½ï¿½ï¿½ÖŒWï¿½Å‰Eï¿½ğ’²‚×‚é‚¾ï¿½ï¿½ï¿½Å—Ç‚ï¿½
         if (CanRightMove)
         {
             m_RigidBody2D.velocity = new Vector3(x, m_RigidBody2D.velocity.y);
         }
-        else//‰E‚É•Ç‚ª‚ ‚éê‡ˆÚ“®‚Å‚«‚È‚¢
+        else//ï¿½Eï¿½É•Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½Ú“ï¿½ï¿½Å‚ï¿½ï¿½È‚ï¿½
         {
             m_RigidBody2D.velocity = new Vector3(0, m_RigidBody2D.velocity.y);
         }
 
-        //ƒvƒŒƒCƒ„[‚ÌŒü‚«‚ğ•Ï‚¦‚é
+        //ï¿½vï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½[ï¿½ÌŒï¿½ï¿½ï¿½ï¿½ï¿½Ï‚ï¿½ï¿½ï¿½
         if (x > 0)
         {
             m_Transform.localScale = new Vector3(1, 1, 1);
@@ -235,15 +239,15 @@ public class Player_Sample : MonoBehaviour
 
     private void Jump()
     {
-        //1’i–ÚƒWƒƒƒ“ƒv
+        //1ï¿½iï¿½ÚƒWï¿½ï¿½ï¿½ï¿½ï¿½v
         if (IsFirstJumping)
         {
-            if (0 < JumpTimer && JumpTimer < maxJumpTime && !JumpEnd)//1’iƒWƒƒƒ“ƒv’†‚Íã‚É“®‚­
+            if (0 < JumpTimer && JumpTimer < maxJumpTime && !JumpEnd)//1ï¿½iï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Íï¿½É“ï¿½ï¿½ï¿½
             {
                 //m_RigidBody2D.velocity = new Vector3(m_RigidBody2D.velocity.x, 0, 0);
                 m_RigidBody2D.velocity = new Vector3(m_RigidBody2D.velocity.x, jumpForce * (maxJumpTime - JumpTimer) / maxJumpTime + endSpeed, 0);
             }
-            else//X‚ª—£‚³‚ê‚½‚©’·ŠÔƒWƒƒƒ“ƒv‚µ‚½‚Æ‚«ƒWƒƒƒ“ƒv‚ğ‚â‚ß‚é
+            else//Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÔƒWï¿½ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½ß‚ï¿½
             {
                 m_RigidBody2D.velocity = new Vector3(m_RigidBody2D.velocity.x, m_RigidBody2D.velocity.y * reduceJumpSpeedRate, 0);
                 JumpTimer = 0;
@@ -252,15 +256,15 @@ public class Player_Sample : MonoBehaviour
                 return;
             }
         }
-        else if (IsSecondJumping)//2’iƒWƒƒƒ“ƒv–Ú
+        else if (IsSecondJumping)//2ï¿½iï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½
         {
 
-            if (0 < JumpTimer && JumpTimer < maxJumpTime && !JumpEnd)//2’iƒWƒƒƒ“ƒv’†‚Íã‚É“®‚­AƒWƒƒƒ“ƒvŠÔ‚Í”¼•ª
+            if (0 < JumpTimer && JumpTimer < maxJumpTime && !JumpEnd)//2ï¿½iï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Íï¿½É“ï¿½ï¿½ï¿½ï¿½Aï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½Ô‚Í”ï¿½ï¿½ï¿½
             {
                 //m_RigidBody2D.velocity = new Vector3(m_RigidBody2D.velocity.x, 0, 0);
                 m_RigidBody2D.velocity = new Vector3(m_RigidBody2D.velocity.x, secondJumpForce * (maxJumpTime - JumpTimer) / maxJumpTime + endSpeed, 0);
             }
-            else//X‚ª—£‚³‚ê‚½‚©’·ŠÔƒWƒƒƒ“ƒv‚µ‚½‚Æ‚«ƒWƒƒƒ“ƒv‚ğ‚â‚ß‚é
+            else//Xï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‚½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÔƒWï¿½ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½ß‚ï¿½
             {
                 m_RigidBody2D.velocity = new Vector3(m_RigidBody2D.velocity.x, m_RigidBody2D.velocity.y * reduceJumpSpeedRate, 0);
                 JumpTimer = 0;
@@ -269,7 +273,7 @@ public class Player_Sample : MonoBehaviour
                 return;
             }
         }
-        else if (JumpEnd)//ƒWƒƒƒ“ƒv‚ÍI‚í‚Á‚½‚¯‚Çè‚ğ—£‚³‚ê‚½‚Æ‚«‚Ìˆ—
+        else if (JumpEnd)//ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½vï¿½ÍIï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Çï¿½ğ—£‚ï¿½ï¿½ê‚½ï¿½Æ‚ï¿½ï¿½Ìï¿½ï¿½ï¿½
         {
             JumpTimer = 0;
             JumpEnd = false;
@@ -279,7 +283,7 @@ public class Player_Sample : MonoBehaviour
 
     }
 
-    //‰½•bŠÔƒWƒƒƒ“ƒv’†‚©‚ğŒv‚é
+    //ï¿½ï¿½ï¿½bï¿½ÔƒWï¿½ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½
     private void CalculateJumpTime()
     {
 
@@ -295,17 +299,17 @@ public class Player_Sample : MonoBehaviour
 
     }
 
-    //’…’n”»’è(2’i–ÚƒWƒƒƒ“ƒv•œŠˆ)
-    //JumpEnd‚ğfalse‚É
+    //ï¿½ï¿½ï¿½nï¿½ï¿½ï¿½ï¿½(2ï¿½iï¿½ÚƒWï¿½ï¿½ï¿½ï¿½ï¿½vï¿½ï¿½ï¿½ï¿½)
+    //JumpEndï¿½ï¿½falseï¿½ï¿½
     private void GroundCheck()
     {
         IsGroundedPrev = IsGrounded;
         Collider2D[] groundCheckCollider = new Collider2D[groundCheckObjects.Length];
-        //Ú’n”»’èƒIƒuƒWƒFƒNƒg‚ª‰½‚©‚Éd‚È‚Á‚Ä‚¢‚é‚©‚Ç‚¤‚©‚ğƒ`ƒFƒbƒN
+        //ï¿½Ú’nï¿½ï¿½ï¿½ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Édï¿½È‚ï¿½ï¿½Ä‚ï¿½ï¿½é‚©ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½Fï¿½bï¿½N
         for (int i = 0; i < groundCheckObjects.Length; i++)
         {
             groundCheckCollider[i] = Physics2D.OverlapPoint(groundCheckObjects[i].transform.position);
-            //Ú’n”»’èƒIƒuƒWƒFƒNƒg‚Ì‚¤‚¿A1‚Â‚Å‚à‰½‚©‚Éd‚È‚Á‚Ä‚¢‚½‚çÚ’n‚µ‚Ä‚¢‚é‚à‚Ì‚Æ‚µ‚ÄI—¹
+            //ï¿½Ú’nï¿½ï¿½ï¿½ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½Ì‚ï¿½ï¿½ï¿½ï¿½A1ï¿½Â‚Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Édï¿½È‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½Ú’nï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Æ‚ï¿½ï¿½ÄIï¿½ï¿½
             if (groundCheckCollider[i] != null)
             {
                 IsGrounded = true;
@@ -314,24 +318,24 @@ public class Player_Sample : MonoBehaviour
                 return;
             }
         }
-        //‚±‚±‚Ü‚Å‚«‚½‚Æ‚¢‚¤‚±‚Æ‚Í‰½‚àd‚È‚Á‚Ä‚¢‚È‚¢‚Æ‚¢‚¤‚±‚Æ‚È‚Ì‚ÅAÚ’n‚µ‚Ä‚¢‚È‚¢‚Æ”»’f‚·‚é
+        //ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚Å‚ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Í‰ï¿½ï¿½ï¿½ï¿½dï¿½È‚ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚È‚Ì‚ÅAï¿½Ú’nï¿½ï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½Æ”ï¿½ï¿½fï¿½ï¿½ï¿½ï¿½
         IsGrounded = false;
     }
 
 
-    //•Ç‚É‚ß‚è‚Ü‚ê‚È‚¢‚æ‚¤‚É‚·‚éˆ—
+    //ï¿½Ç‚É‚ß‚èï¿½Ü‚ï¿½È‚ï¿½ï¿½æ‚¤ï¿½É‚ï¿½ï¿½éˆï¿½ï¿½
     private void RightWallCheck()
     {
-        //‰E‰º‚Ì•Çƒ`ƒFƒbƒN
-        //ƒWƒƒƒ“ƒv‚ÅƒuƒƒbƒN‚É‚Ô‚Â‚©‚è‚È‚ª‚ç“o‚é‚Æ‚«‚É‰º‚Ì•û‚ªˆø‚Á‚©‚©‚é‚Ì‚ğ–h~‚·‚é‚½‚ß
-        //Ú’n‚µ‚Ä‚¢‚é‚Æ‚«‚ÍŠÖŒW‚È‚¢
+        //ï¿½Eï¿½ï¿½ï¿½Ì•Çƒ`ï¿½Fï¿½bï¿½N
+        //ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½vï¿½Åƒuï¿½ï¿½ï¿½bï¿½Nï¿½É‚Ô‚Â‚ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½oï¿½ï¿½Æ‚ï¿½ï¿½É‰ï¿½ï¿½Ì•ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚ï¿½hï¿½~ï¿½ï¿½ï¿½é‚½ï¿½ï¿½
+        //ï¿½Ú’nï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ÍŠÖŒWï¿½È‚ï¿½
         if (!IsGrounded)
         {
             Collider2D rightDownWallCheckCollider = new Collider2D();
 
             rightDownWallCheckCollider = Physics2D.OverlapPoint(rightDownWallCheckObject.transform.position);
 
-            //ƒuƒƒbƒN‚ÉG‚ê‚Ä‚¢‚ê‚Î‰E‚És‚¯‚È‚¢B
+            //ï¿½uï¿½ï¿½ï¿½bï¿½Nï¿½ÉGï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Î‰Eï¿½Ésï¿½ï¿½ï¿½È‚ï¿½ï¿½B
             if (rightDownWallCheckCollider != null)
             {
                 CanRightMove = false;
@@ -339,21 +343,21 @@ public class Player_Sample : MonoBehaviour
             }
         }
 
-        //‰E‰º‚ÍƒuƒƒbƒN‚ÉG‚ê‚Ä‚¢‚È‚¢‚Ì‚Å‘¼‚ğ’²‚×‚é
+        //ï¿½Eï¿½ï¿½ï¿½Íƒuï¿½ï¿½ï¿½bï¿½Nï¿½ÉGï¿½ï¿½Ä‚ï¿½ï¿½È‚ï¿½ï¿½Ì‚Å‘ï¿½ï¿½ğ’²‚×‚ï¿½
 
         Collider2D[] rightWallCheckCollider = new Collider2D[rightWallCheckObjects.Length];
-        //•Ç”»’èƒIƒuƒWƒFƒNƒg‚ª‰½‚©‚Éd‚È‚Á‚Ä‚¢‚é‚©‚Ç‚¤‚©‚ğƒ`ƒFƒbƒN
+        //ï¿½Ç”ï¿½ï¿½ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Édï¿½È‚ï¿½ï¿½Ä‚ï¿½ï¿½é‚©ï¿½Ç‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½`ï¿½Fï¿½bï¿½N
         for (int i = 0; i < rightWallCheckObjects.Length; i++)
         {
             rightWallCheckCollider[i] = Physics2D.OverlapPoint(rightWallCheckObjects[i].transform.position);
-            //•Ç”»’èƒIƒuƒWƒFƒNƒg‚Ì‚¤‚¿A1‚Â‚Å‚à‰½‚©‚Éd‚È‚Á‚Ä‚¢‚½‚ç•Ç‚ÉG‚ê‚Ä‚¢‚é‚à‚Ì‚Æ‚µ‚ÄI—¹
+            //ï¿½Ç”ï¿½ï¿½ï¿½Iï¿½uï¿½Wï¿½Fï¿½Nï¿½gï¿½Ì‚ï¿½ï¿½ï¿½ï¿½A1ï¿½Â‚Å‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Édï¿½È‚ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½Ç‚ÉGï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Æ‚ï¿½ï¿½ÄIï¿½ï¿½
             if (rightWallCheckCollider[i] != null)
             {
                 CanRightMove = false;
                 return;
             }
         }
-        //‚±‚±‚Ü‚Å‚«‚½‚Æ‚¢‚¤‚±‚Æ‚Í‰E‚É•Ç‚ª‚È‚¢‚Æ‚¢‚¤‚±‚Æ‚È‚Ì‚Åtrue
+        //ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚Å‚ï¿½ï¿½ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚Í‰Eï¿½É•Ç‚ï¿½ï¿½È‚ï¿½ï¿½Æ‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ‚È‚Ì‚ï¿½true
         CanRightMove = true;
     }
 
