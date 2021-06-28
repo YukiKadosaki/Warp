@@ -4,9 +4,14 @@ using UnityEngine;
 
 public class Player_Sample : MonoBehaviour
 {
-    private const float copySpeed = 3;//コピーの移動速度
-    private const float jumpForce = 8;//ジャンプの強さ
+    private const float copySpeed = 5;//コピーの移動速度
+    private const float jumpForce = 14;//1段目ジャンプの強さ
+    private const float secondJumpForce = 10;//2段目ジャンプの強さ
     private const float maxJumpTime = 0.3f;//最大ジャンプの時間
+    private const float endSpeed = 1.0f;//ジャンプ終了時の速度
+    private const float reduceJumpSpeedRate = 0.3f;//手を離したときのジャンプ力の減衰割合
+    private const float maxFallingSpeed = -10f;//最大落下速度
+    private const float moveSpeed = 4;//横方向移動速度
 
     [SerializeField]
     private GameObject[] groundCheckObjects;
@@ -22,24 +27,24 @@ public class Player_Sample : MonoBehaviour
     private Transform m_Transform;
     private GameObject m_PlayerCopy;
     private SpriteRenderer m_SpriteRenderer;
-    private bool m_DirectionLeft=false;//左を向いているかどうか
+    private bool m_DirectionLeft = false;//左を向いているかどうか
     private float m_JumpTimer;//ジャンプしている時間
     private bool m_IsFirstJumping;//一段目ジャンプボタンを押し続けている間true
     private bool m_IsSecondJumping;//二段目ジャンプボタンを押し続けている間true
-    private bool m_Jumping;//ジャンプボタンを押し続けている間true
     private bool m_JumpEnd;
     private bool m_isGrounded;
     private bool m_isGroundedPrev;
     private bool m_CanLeftMove;
     private bool m_CanRightMove;
+    private bool m_CanSecondJump;
 
 
     public float MoveSpeed
     {
-        set 
-        { 
+        set
+        {
             m_MoveSpeed = value;
-            if(m_MoveSpeed < 0)
+            if (m_MoveSpeed < 0)
             {
                 m_MoveSpeed = 0;
             }
@@ -55,10 +60,10 @@ public class Player_Sample : MonoBehaviour
 
     public float JumpTimer
     {
-        set 
-        { 
-            m_JumpTimer = value; 
-            if(m_JumpTimer < 0)
+        set
+        {
+            m_JumpTimer = value;
+            if (m_JumpTimer < 0)
             {
                 m_JumpTimer = 0;
             }
@@ -75,12 +80,6 @@ public class Player_Sample : MonoBehaviour
     {
         set { m_IsSecondJumping = value; }
         get => m_IsSecondJumping;
-    }
-
-    public bool Jumping
-    {
-        set { m_Jumping = value; }
-        get => m_Jumping;
     }
     public bool JumpEnd
     {
@@ -111,6 +110,11 @@ public class Player_Sample : MonoBehaviour
         set { m_CanRightMove = value; }
         get => m_CanRightMove;
     }
+    public bool CanSecondJump
+    {
+        set { m_CanSecondJump = value; }
+        get => m_CanSecondJump;
+    }
 
 
 
@@ -126,43 +130,34 @@ public class Player_Sample : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-
+        Debug.Log("Vel:" + m_RigidBody2D.velocity.y);
 
         //ジャンプ開始
         if (Input.GetKeyDown(KeyCode.Z))
         {
-            if (IsGrounded)
+            if (IsGrounded)//1段目ジャンプ
             {
                 IsFirstJumping = true;
-                Jumping = true;
             }
-            else if (!IsSecondJumping)//後で各・・・・・・・。。。。。。。。。。。。。
+            else if (!IsSecondJumping && CanSecondJump)//空中ジャンプ
             {
-
+                IsSecondJumping = true;
+                CanSecondJump = false;
             }
         }
 
-        if (IsGrounded && Input.GetKeyDown(KeyCode.Z))//一段目
-        {
-            IsFirstJumping = true;
-            Jumping = true;
-        }
-        else if (!IsGrounded && !IsSecondJumping)//二段目
-        {
-            IsSecondJumping = true;
-        }
+
 
         //ジャンプ終了
-        if (Input.GetKeyUp(KeyCode.Z) && Jumping)
+        if (Input.GetKeyUp(KeyCode.Z))
         {
             JumpEnd = true;
         }
-        
+
         CalculateJumpTime();
 
         //分身を作る
-        if (Input.GetKeyDown(KeyCode.X) && GameObject.FindGameObjectsWithTag("Copy").Length  < 1)
+        if (Input.GetKeyDown(KeyCode.X) && GameObject.FindGameObjectsWithTag("Copy").Length == 0)
         {
             CreateCopy();
         }
@@ -171,6 +166,8 @@ public class Player_Sample : MonoBehaviour
         GroundCheck();
         //壁の判定を計算
         RightWallCheck();
+        //落下スピードは最大7
+        CheckFallingSpeed();
     }
 
     private void FixedUpdate()
@@ -184,7 +181,7 @@ public class Player_Sample : MonoBehaviour
     {
         m_Transform.position = pos;
         m_RigidBody2D.velocity = Vector3.zero;
-        Jumping = false;
+        CanSecondJump = true;
     }
 
     private void CreateCopy()
@@ -202,14 +199,14 @@ public class Player_Sample : MonoBehaviour
         {
             playerCopy.GetComponent<Rigidbody2D>().velocity = new Vector3(copySpeed, 0, 0);
         }
-        
+
     }
 
 
     private void Move()
     {
         //移動方向と速度を表す
-        float x = Input.GetAxisRaw("Horizontal") * 3;
+        float x = Input.GetAxisRaw("Horizontal") * moveSpeed;
 
         //右に壁がない場合移動する。
         //左に行くときはプレイヤーの大きさを-1倍する関係で右を調べるだけで良い
@@ -238,33 +235,55 @@ public class Player_Sample : MonoBehaviour
 
     private void Jump()
     {
-        //ジャンプタイマーのチェックは終了
-
-        //Xが押されている間
-        if (0 < JumpTimer && JumpTimer < maxJumpTime && Jumping)
+        //1段目ジャンプ
+        if (IsFirstJumping)
         {
-            m_RigidBody2D.velocity = new Vector3(m_RigidBody2D.velocity.x, 0, 0);
-            m_RigidBody2D.velocity = new Vector3(m_RigidBody2D.velocity.x, jumpForce, 0); 
-            IsFirstJumping = true;
+            if (0 < JumpTimer && JumpTimer < maxJumpTime && !JumpEnd)//1段ジャンプ中は上に動く
+            {
+                //m_RigidBody2D.velocity = new Vector3(m_RigidBody2D.velocity.x, 0, 0);
+                m_RigidBody2D.velocity = new Vector3(m_RigidBody2D.velocity.x, jumpForce * (maxJumpTime - JumpTimer) / maxJumpTime + endSpeed, 0);
+            }
+            else//Xが離されたか長時間ジャンプしたときジャンプをやめる
+            {
+                m_RigidBody2D.velocity = new Vector3(m_RigidBody2D.velocity.x, m_RigidBody2D.velocity.y * reduceJumpSpeedRate, 0);
+                JumpTimer = 0;
+                JumpEnd = false;
+                IsFirstJumping = false;
+                return;
+            }
         }
-        if (JumpEnd || JumpTimer > maxJumpTime)//Xが離されたか長時間ジャンプしたとき
+        else if (IsSecondJumping)//2段ジャンプ目
         {
-            m_RigidBody2D.velocity = new Vector3(m_RigidBody2D.velocity.x, m_RigidBody2D.velocity.y / 2, 0);
+
+            if (0 < JumpTimer && JumpTimer < maxJumpTime && !JumpEnd)//2段ジャンプ中は上に動く、ジャンプ時間は半分
+            {
+                //m_RigidBody2D.velocity = new Vector3(m_RigidBody2D.velocity.x, 0, 0);
+                m_RigidBody2D.velocity = new Vector3(m_RigidBody2D.velocity.x, secondJumpForce * (maxJumpTime - JumpTimer) / maxJumpTime + endSpeed, 0);
+            }
+            else//Xが離されたか長時間ジャンプしたときジャンプをやめる
+            {
+                m_RigidBody2D.velocity = new Vector3(m_RigidBody2D.velocity.x, m_RigidBody2D.velocity.y * reduceJumpSpeedRate, 0);
+                JumpTimer = 0;
+                JumpEnd = false;
+                IsSecondJumping = false;
+                return;
+            }
+        }
+        else if (JumpEnd)//ジャンプは終わったけど手を離されたときの処理
+        {
             JumpTimer = 0;
             JumpEnd = false;
-            IsFirstJumping = false;
-            Jumping = false;
         }
-        
 
-        
+
+
     }
 
     //何秒間ジャンプ中かを計る
     private void CalculateJumpTime()
     {
-        
-        if (Jumping)
+
+        if (IsFirstJumping || IsSecondJumping)
         {
             JumpTimer += Time.deltaTime;
         }
@@ -276,6 +295,8 @@ public class Player_Sample : MonoBehaviour
 
     }
 
+    //着地判定(2段目ジャンプ復活)
+    //JumpEndをfalseに
     private void GroundCheck()
     {
         IsGroundedPrev = IsGrounded;
@@ -288,6 +309,8 @@ public class Player_Sample : MonoBehaviour
             if (groundCheckCollider[i] != null)
             {
                 IsGrounded = true;
+                CanSecondJump = true;
+                JumpEnd = false;
                 return;
             }
         }
@@ -295,8 +318,8 @@ public class Player_Sample : MonoBehaviour
         IsGrounded = false;
     }
 
-    
 
+    //壁にめり込まれないようにする処理
     private void RightWallCheck()
     {
         //右下の壁チェック
@@ -333,5 +356,13 @@ public class Player_Sample : MonoBehaviour
         //ここまできたということは右に壁がないということなのでtrue
         CanRightMove = true;
     }
+
+    private void CheckFallingSpeed()
+    {
+        if(m_RigidBody2D.velocity.y < maxFallingSpeed)
+        {
+            m_RigidBody2D.velocity = new Vector3(m_RigidBody2D.velocity.x, maxFallingSpeed, 0);
+        }
+    }
 }
-        
+
