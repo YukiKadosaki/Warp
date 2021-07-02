@@ -1,0 +1,196 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1052; Version 2009; 64bit' Language: 'ja' Physical Memory: 7939 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/coop/Desktop/unity_date/Warp
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54251
+Successfully changed project path to: C:/Users/coop/Desktop/unity_date/Warp
+C:/Users/coop/Desktop/unity_date/Warp
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 49.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.7f1 (dd97f2c94397)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/coop/Desktop/unity_date/Warp/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x3ea0)
+    Vendor:   
+    VRAM:     3969 MB
+    Driver:   24.20.100.6292
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003813 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 40.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  9.170 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002029 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 55.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.583 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1788 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.6 MB.
+System memory in use after: 84.5 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2232.
+Total: 2.684000 ms (FindLiveObjects: 0.188600 ms CreateObjectMapping: 0.069100 ms MarkObjects: 2.264100 ms  DeleteObjects: 0.161100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Pixel2DCastleTileset/Sprites/anim_light3.png
+  artifactKey: Guid(66ccc38c5cd908a41a6b315e44ab8658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel2DCastleTileset/Sprites/anim_light3.png using Guid(66ccc38c5cd908a41a6b315e44ab8658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8ae6c7c914646bb34841fc264930dc') in 0.216240 seconds
+  Import took 0.222014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001006 seconds.
+  path: Assets/Pixel2DCastleTileset/Sprites/anim_lights.png
+  artifactKey: Guid(f3a2259b73274f24baf08a7487d47e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel2DCastleTileset/Sprites/anim_lights.png using Guid(f3a2259b73274f24baf08a7487d47e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef97873c94932712fe147a4c4546586') in 0.026328 seconds
+  Import took 0.035627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Pixel2DCastleTileset/Sprites/ground.png
+  artifactKey: Guid(0d5f3f330d5ae6e46b61136c76710a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel2DCastleTileset/Sprites/ground.png using Guid(0d5f3f330d5ae6e46b61136c76710a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2fa34d0eec1a0e3b50eb3dd5d33822') in 0.031986 seconds
+  Import took 0.036366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Pixel2DCastleTileset/Sprites/walls_side_top_far.png
+  artifactKey: Guid(0a9eefdd43270eb43aaa96835ef11345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel2DCastleTileset/Sprites/walls_side_top_far.png using Guid(0a9eefdd43270eb43aaa96835ef11345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfaebc549aec4e0b9e4e22fa3b1c9fd6') in 0.031123 seconds
+  Import took 0.039033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Pixel2DCastleTileset/Sprites/anim_light2.png
+  artifactKey: Guid(5dad671b9f272e84fb3fcdc2431a88d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel2DCastleTileset/Sprites/anim_light2.png using Guid(5dad671b9f272e84fb3fcdc2431a88d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '438c1364f7e1b98e4e5b919b134c0e56') in 0.025575 seconds
+  Import took 0.032347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Pixel2DCastleTileset/Sprites/walls_far.png
+  artifactKey: Guid(bebd8e9ee8f970645b3fa5a0103c898a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel2DCastleTileset/Sprites/walls_far.png using Guid(bebd8e9ee8f970645b3fa5a0103c898a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90df9941245f5aaf991823881b65efc9') in 0.036989 seconds
+  Import took 0.045263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Pixel2DCastleTileset/Sprites/env_objects_far.png
+  artifactKey: Guid(c6b8c7836e692f644bbf62eeec018d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel2DCastleTileset/Sprites/env_objects_far.png using Guid(c6b8c7836e692f644bbf62eeec018d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85bca788c0c3bff5bed1b79d13b9c4a9') in 0.035257 seconds
+  Import took 0.045548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Pixel2DCastleTileset/Sprites/terrain.png
+  artifactKey: Guid(35cd0037933bb40448a06507a321c698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel2DCastleTileset/Sprites/terrain.png using Guid(35cd0037933bb40448a06507a321c698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d7eb1ed341bb98ef4a5c8f2ef650ad') in 0.028707 seconds
+  Import took 0.037737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Pixel2DCastleTileset/Sprites/environment.png
+  artifactKey: Guid(2ea956eda35b470459b94905e0606c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel2DCastleTileset/Sprites/environment.png using Guid(2ea956eda35b470459b94905e0606c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f998987f207bb477de80fa3ff4f374') in 0.030825 seconds
+  Import took 0.036918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Pixel2DCastleTileset/Sprites/env_objects.png
+  artifactKey: Guid(bce3da605826f684396b1ac38bdb6c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel2DCastleTileset/Sprites/env_objects.png using Guid(bce3da605826f684396b1ac38bdb6c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8d2cabe776c184c182c2af1e87f499') in 0.027424 seconds
+  Import took 0.033120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Pixel2DCastleTileset/Sprites/env_objects.asset
+  artifactKey: Guid(d4e0f0f47f7fa0243abd4f4de94d1fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel2DCastleTileset/Sprites/env_objects.asset using Guid(d4e0f0f47f7fa0243abd4f4de94d1fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6857f7d19b9a566922cec2ddf8bb722c') in 0.041267 seconds
+  Import took 0.049589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Pixel2DCastleTileset/Sprites/walls_side_top.png
+  artifactKey: Guid(841b0af3aff6b1e41ac0b4e231ca426e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel2DCastleTileset/Sprites/walls_side_top.png using Guid(841b0af3aff6b1e41ac0b4e231ca426e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd469152817a99a1201ad8c54d1e1235f') in 0.023834 seconds
+  Import took 0.029550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Pixel2DCastleTileset/Sprites/walls.png
+  artifactKey: Guid(4ec1ca871f54032478cd0d55888a86dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel2DCastleTileset/Sprites/walls.png using Guid(4ec1ca871f54032478cd0d55888a86dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48883592c509173738394c1784bcdbc4') in 0.032223 seconds
+  Import took 0.039990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Pixel2DCastleTileset/Sprites/anim_light1.png
+  artifactKey: Guid(1d3377103e67eed4b8bea7ebcc27ef5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel2DCastleTileset/Sprites/anim_light1.png using Guid(1d3377103e67eed4b8bea7ebcc27ef5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a0f9e4fe94b66b752e5b8acffe7b57') in 0.024100 seconds
+  Import took 0.031499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Pixel2DCastleTileset/Sprites/background.png
+  artifactKey: Guid(6286f87a892e2f34ab4786a47b616885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel2DCastleTileset/Sprites/background.png using Guid(6286f87a892e2f34ab4786a47b616885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668cfe232ed3fc5ada4c1606bea61c85') in 0.025196 seconds
+  Import took 0.030154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Pixel2DCastleTileset/Sprites/wood_env.png
+  artifactKey: Guid(b14f9130a4f0b104b997ebaff72d3201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel2DCastleTileset/Sprites/wood_env.png using Guid(b14f9130a4f0b104b997ebaff72d3201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ab03ba72c6bedc301924ddf391dac5') in 0.026511 seconds
+  Import took 0.037105 seconds .
+

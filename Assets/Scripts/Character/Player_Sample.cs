@@ -193,14 +193,12 @@ public class Player_Sample : MonoBehaviour
         if (DirectionLeft)
         {
             playerCopy.transform.position = m_Transform.position + Vector3.left * 0.3f;
-
             playerCopy.GetComponent<Rigidbody2D>().velocity = new Vector3(-copySpeed, 0, 0);
             playerCopy.GetComponent<SpriteRenderer>().flipX = true;
         }
         else
         {
-            playerCopy.transform.position = m_Transform.position + Vector3.right * 0.3
-                f;
+            playerCopy.transform.position = m_Transform.position + Vector3.right * 0.3f;
             playerCopy.GetComponent<Rigidbody2D>().velocity = new Vector3(copySpeed, 0, 0);
         }
 
