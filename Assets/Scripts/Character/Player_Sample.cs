@@ -9,15 +9,15 @@ public class Player_Sample : MonoBehaviour
     private const float jumpForce = 14;//1段目のジャンプ力
     private const float secondJumpForce = 10;//2段目のジャンプ力
     private const float maxJumpTime = 0.3f;//最大ジャンプの秒数
-    private const float endSpeed = 1.0f;//
-    private const float reduceJumpSpeedRate = 0.3f;//��𗣂����Ƃ��̃W�����v�͂̌�������
-    private const float maxFallingSpeed = -10f;//�ő嗎�����x
-    private const float moveSpeed = 4;//�������ړ����x
+    private const float endSpeed = 1.0f;//指を離したときのスピード
+    private const float reduceJumpSpeedRate = 0.3f;//ジャンプをやめたときのスピード減少率
+    private const float maxFallingSpeed = -10f;//最大落下速度
+    private const float moveSpeed = 4;//横移動速度
 
     [SerializeField]
     private GameObject[] groundCheckObjects;
     [SerializeField]
-    private GameObject[] rightWallCheckObjects;//�E�ɐi�߂邩�ǂ����𒲂ׂ�
+    private GameObject[] rightWallCheckObjects;//右の壁をチェックする
     [SerializeField]
     private GameObject rightDownWallCheckObject;
 
@@ -28,10 +28,10 @@ public class Player_Sample : MonoBehaviour
     private Transform m_Transform;
     private GameObject m_PlayerCopy;
     private SpriteRenderer m_SpriteRenderer;
-    private bool m_DirectionLeft = false;//���������Ă��邩�ǂ���
+    private bool m_DirectionLeft = false;//左を向いてればtrue
     private float m_JumpTimer;//�W�����v���Ă��鎞��
-    private bool m_IsFirstJumping;//��i�ڃW�����v�{�^�������������Ă����true
-    private bool m_IsSecondJumping;//��i�ڃW�����v�{�^�������������Ă����true
+    private bool m_IsFirstJumping;//一段ジャンプ中true
+    private bool m_IsSecondJumping;//2段ジャンプ中true
     private bool m_JumpEnd;
     private bool m_isGrounded;
     private bool m_isGroundedPrev;
@@ -137,11 +137,11 @@ public class Player_Sample : MonoBehaviour
         //�W�����v�J�n
         if (Input.GetKeyDown(KeyCode.Z))
         {
-            if (IsGrounded)//1�i�ڃW�����v
+            if (IsGrounded)//1段ジャンプ
             {
                 IsFirstJumping = true;
             }
-            else if (!IsSecondJumping && CanSecondJump)//�󒆃W�����v
+            else if (!IsSecondJumping && CanSecondJump)//2段ジャンプ
             {
                 IsSecondJumping = true;
                 CanSecondJump = false;
@@ -178,7 +178,7 @@ public class Player_Sample : MonoBehaviour
         Move();
     }
 
-    //���g����w�肳�ꂽ���W�Ƀ��[�v����
+    //分身の位置まで移動する
     public void WarpToCopy(Vector3 pos)
     {
         m_Transform.position = pos;
@@ -209,21 +209,21 @@ public class Player_Sample : MonoBehaviour
 
     private void Move()
     {
-        //�ړ������Ƒ��x��\��
+        //移動速度計算
         float x = Input.GetAxisRaw("Horizontal") * moveSpeed;
 
-        //�E�ɕǂ��Ȃ��ꍇ�ړ�����B
-        //���ɍs���Ƃ��̓v���C���[�̑傫����-1�{����֌W�ŉE�𒲂ׂ邾���ŗǂ�
+        //壁に触れていないとき
+        //移動する
         if (CanRightMove)
         {
             m_RigidBody2D.velocity = new Vector3(x, m_RigidBody2D.velocity.y);
         }
-        else//�E�ɕǂ�����ꍇ�ړ��ł��Ȃ�
+        else//壁に触れているとき
         {
             m_RigidBody2D.velocity = new Vector3(0, m_RigidBody2D.velocity.y);
         }
 
-        //�v���C���[�̌�����ς���
+        //プレイヤーの向きの変更
         if (x > 0)
         {
             m_Transform.localScale = new Vector3(1, 1, 1);
@@ -242,12 +242,12 @@ public class Player_Sample : MonoBehaviour
         //1段目ジャンプ
         if (IsFirstJumping)
         {
-            if (0 < JumpTimer && JumpTimer < maxJumpTime && !JumpEnd)//1�i�W�����v���͏�ɓ���
+            if (0 < JumpTimer && JumpTimer < maxJumpTime && !JumpEnd)//ジャンプ中
             {
                 //m_RigidBody2D.velocity = new Vector3(m_RigidBody2D.velocity.x, 0, 0);
                 m_RigidBody2D.velocity = new Vector3(m_RigidBody2D.velocity.x, jumpForce * (maxJumpTime - JumpTimer) / maxJumpTime + endSpeed, 0);
             }
-            else//X�������ꂽ�������ԃW�����v�����Ƃ��W�����v����߂�
+            else//ジャンプをやめたとき
             {
                 m_RigidBody2D.velocity = new Vector3(m_RigidBody2D.velocity.x, m_RigidBody2D.velocity.y * reduceJumpSpeedRate, 0);
                 JumpTimer = 0;
@@ -256,15 +256,15 @@ public class Player_Sample : MonoBehaviour
                 return;
             }
         }
-        else if (IsSecondJumping)//2�i�W�����v��
+        else if (IsSecondJumping)//2段目ジャンプ
         {
 
-            if (0 < JumpTimer && JumpTimer < maxJumpTime && !JumpEnd)//2�i�W�����v���͏�ɓ����A�W�����v���Ԃ͔���
+            if (0 < JumpTimer && JumpTimer < maxJumpTime && !JumpEnd)//2段目ジャンプ中
             {
                 //m_RigidBody2D.velocity = new Vector3(m_RigidBody2D.velocity.x, 0, 0);
                 m_RigidBody2D.velocity = new Vector3(m_RigidBody2D.velocity.x, secondJumpForce * (maxJumpTime - JumpTimer) / maxJumpTime + endSpeed, 0);
             }
-            else//X�������ꂽ�������ԃW�����v�����Ƃ��W�����v����߂�
+            else//2段目ジャンプ終了
             {
                 m_RigidBody2D.velocity = new Vector3(m_RigidBody2D.velocity.x, m_RigidBody2D.velocity.y * reduceJumpSpeedRate, 0);
                 JumpTimer = 0;
@@ -273,7 +273,7 @@ public class Player_Sample : MonoBehaviour
                 return;
             }
         }
-        else if (JumpEnd)//�W�����v�͏I��������ǎ�𗣂��ꂽ�Ƃ��̏���
+        else if (JumpEnd)//落下中に手を離したとき
         {
             JumpTimer = 0;
             JumpEnd = false;
