@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Player_Sample : MonoBehaviour
 {
-    private const float copySpeed = 5;//�R�s�[�̈ړ����x
-    private const float jumpForce = 14;//1�i�ڃW�����v�̋���
-    private const float secondJumpForce = 10;//2�i�ڃW�����v�̋���
-    private const float maxJumpTime = 0.3f;//�ő�W�����v�̎���
-    private const float endSpeed = 1.0f;//�W�����v�I�����̑��x
+    private const float copySpeed = 5;//分身の移動速度
+    private const float jumpForce = 14;//1段目のジャンプ力
+    private const float secondJumpForce = 10;//2段目のジャンプ力
+    private const float maxJumpTime = 0.3f;//最大ジャンプの秒数
+    private const float endSpeed = 1.0f;//
     private const float reduceJumpSpeedRate = 0.3f;//��𗣂����Ƃ��̃W�����v�͂̌�������
     private const float maxFallingSpeed = -10f;//�ő嗎�����x
     private const float moveSpeed = 4;//�������ړ����x
@@ -121,6 +122,7 @@ public class Player_Sample : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Application.targetFrameRate = 50;//フレームレートを50に
         m_RigidBody2D = this.GetComponent<Rigidbody2D>();
         m_Transform = this.transform;
         m_PlayerCopy = (GameObject)Resources.Load("Prefab/PlayerCopy");
@@ -237,7 +239,7 @@ public class Player_Sample : MonoBehaviour
 
     private void Jump()
     {
-        //1�i�ڃW�����v
+        //1段目ジャンプ
         if (IsFirstJumping)
         {
             if (0 < JumpTimer && JumpTimer < maxJumpTime && !JumpEnd)//1�i�W�����v���͏�ɓ���
