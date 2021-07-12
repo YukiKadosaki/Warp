@@ -1,0 +1,2412 @@
+fileFormatVersion: 2
+guid: 4bac277e82323be498002748f5c57a42
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8234744064544822521
+    second: WallOutside-Fantasy1-A4-removebg-preview_0
+  - first:
+      213: -7526095700864415837
+    second: WallOutside-Fantasy1-A4-removebg-preview_1
+  - first:
+      213: 5330562815082666374
+    second: WallOutside-Fantasy1-A4-removebg-preview_2
+  - first:
+      213: 7728611090547523529
+    second: WallOutside-Fantasy1-A4-removebg-preview_3
+  - first:
+      213: -2275643033628788701
+    second: WallOutside-Fantasy1-A4-removebg-preview_4
+  - first:
+      213: 7487116476282440187
+    second: WallOutside-Fantasy1-A4-removebg-preview_5
+  - first:
+      213: 917044903425013791
+    second: WallOutside-Fantasy1-A4-removebg-preview_6
+  - first:
+      213: -7838741996609768954
+    second: WallOutside-Fantasy1-A4-removebg-preview_7
+  - first:
+      213: -6755019693640816563
+    second: WallOutside-Fantasy1-A4-removebg-preview_8
+  - first:
+      213: -7067917279166590289
+    second: WallOutside-Fantasy1-A4-removebg-preview_9
+  - first:
+      213: -1809469949454558876
+    second: WallOutside-Fantasy1-A4-removebg-preview_10
+  - first:
+      213: -7554305249228334160
+    second: WallOutside-Fantasy1-A4-removebg-preview_11
+  - first:
+      213: -5230188224893831190
+    second: WallOutside-Fantasy1-A4-removebg-preview_12
+  - first:
+      213: 5341772163530685494
+    second: WallOutside-Fantasy1-A4-removebg-preview_13
+  - first:
+      213: -4571069381594111607
+    second: WallOutside-Fantasy1-A4-removebg-preview_14
+  - first:
+      213: 4787566908493080107
+    second: WallOutside-Fantasy1-A4-removebg-preview_15
+  - first:
+      213: 6556873372812808762
+    second: WallOutside-Fantasy1-A4-removebg-preview_16
+  - first:
+      213: -6021382541856257171
+    second: WallOutside-Fantasy1-A4-removebg-preview_17
+  - first:
+      213: 5918878903502653379
+    second: WallOutside-Fantasy1-A4-removebg-preview_18
+  - first:
+      213: 2717305106681874446
+    second: WallOutside-Fantasy1-A4-removebg-preview_19
+  - first:
+      213: 6982391143052209438
+    second: WallOutside-Fantasy1-A4-removebg-preview_20
+  - first:
+      213: -1021747520016404731
+    second: WallOutside-Fantasy1-A4-removebg-preview_21
+  - first:
+      213: -8910694981739560458
+    second: WallOutside-Fantasy1-A4-removebg-preview_22
+  - first:
+      213: -4060636253520431603
+    second: WallOutside-Fantasy1-A4-removebg-preview_23
+  - first:
+      213: 7333854543409779558
+    second: WallOutside-Fantasy1-A4-removebg-preview_24
+  - first:
+      213: -553106352687890424
+    second: WallOutside-Fantasy1-A4-removebg-preview_25
+  - first:
+      213: 4693591234157933208
+    second: WallOutside-Fantasy1-A4-removebg-preview_26
+  - first:
+      213: 7517335897775898324
+    second: WallOutside-Fantasy1-A4-removebg-preview_27
+  - first:
+      213: 2010156346019689278
+    second: WallOutside-Fantasy1-A4-removebg-preview_28
+  - first:
+      213: 1517079632903804856
+    second: WallOutside-Fantasy1-A4-removebg-preview_29
+  - first:
+      213: -9028258472804216874
+    second: WallOutside-Fantasy1-A4-removebg-preview_30
+  - first:
+      213: 5669911420523505740
+    second: WallOutside-Fantasy1-A4-removebg-preview_31
+  - first:
+      213: -2735083762049697749
+    second: WallOutside-Fantasy1-A4-removebg-preview_32
+  - first:
+      213: 4726974673291451023
+    second: WallOutside-Fantasy1-A4-removebg-preview_33
+  - first:
+      213: 5266541097645308807
+    second: WallOutside-Fantasy1-A4-removebg-preview_34
+  - first:
+      213: 8698611672247422847
+    second: WallOutside-Fantasy1-A4-removebg-preview_35
+  - first:
+      213: 4248275152192246283
+    second: WallOutside-Fantasy1-A4-removebg-preview_36
+  - first:
+      213: -5857934149048613184
+    second: WallOutside-Fantasy1-A4-removebg-preview_37
+  - first:
+      213: 8981439270780885933
+    second: WallOutside-Fantasy1-A4-removebg-preview_38
+  - first:
+      213: -8233678747865103544
+    second: WallOutside-Fantasy1-A4-removebg-preview_39
+  - first:
+      213: -8000980998849374941
+    second: WallOutside-Fantasy1-A4-removebg-preview_40
+  - first:
+      213: -5005228856896165533
+    second: WallOutside-Fantasy1-A4-removebg-preview_41
+  - first:
+      213: -3844043611859625745
+    second: WallOutside-Fantasy1-A4-removebg-preview_42
+  - first:
+      213: -4105794348649749843
+    second: WallOutside-Fantasy1-A4-removebg-preview_43
+  - first:
+      213: 1595184822697718793
+    second: WallOutside-Fantasy1-A4-removebg-preview_44
+  - first:
+      213: 2054066395807735444
+    second: WallOutside-Fantasy1-A4-removebg-preview_45
+  - first:
+      213: -1035691071162117709
+    second: WallOutside-Fantasy1-A4-removebg-preview_46
+  - first:
+      213: -2401046347114303021
+    second: WallOutside-Fantasy1-A4-removebg-preview_47
+  - first:
+      213: 4356371062917437754
+    second: WallOutside-Fantasy1-A4-removebg-preview_48
+  - first:
+      213: -2358982102142818168
+    second: WallOutside-Fantasy1-A4-removebg-preview_49
+  - first:
+      213: -5188005503845199055
+    second: WallOutside-Fantasy1-A4-removebg-preview_50
+  - first:
+      213: 6472041773182748818
+    second: WallOutside-Fantasy1-A4-removebg-preview_51
+  - first:
+      213: 6659942687731420356
+    second: WallOutside-Fantasy1-A4-removebg-preview_52
+  - first:
+      213: 7090558263124071969
+    second: WallOutside-Fantasy1-A4-removebg-preview_53
+  - first:
+      213: 5438604743952971820
+    second: WallOutside-Fantasy1-A4-removebg-preview_54
+  - first:
+      213: 2925616559095162107
+    second: WallOutside-Fantasy1-A4-removebg-preview_55
+  - first:
+      213: 3457181135986044050
+    second: WallOutside-Fantasy1-A4-removebg-preview_56
+  - first:
+      213: 5934420760661360173
+    second: WallOutside-Fantasy1-A4-removebg-preview_57
+  - first:
+      213: 8975299832342701632
+    second: WallOutside-Fantasy1-A4-removebg-preview_58
+  - first:
+      213: 7433509236279754722
+    second: WallOutside-Fantasy1-A4-removebg-preview_59
+  - first:
+      213: -5278937661098716587
+    second: WallOutside-Fantasy1-A4-removebg-preview_60
+  - first:
+      213: -1843808158186837736
+    second: WallOutside-Fantasy1-A4-removebg-preview_61
+  - first:
+      213: 7640931008075460559
+    second: WallOutside-Fantasy1-A4-removebg-preview_62
+  - first:
+      213: -3035533928372208712
+    second: WallOutside-Fantasy1-A4-removebg-preview_63
+  - first:
+      213: -3249080181746225405
+    second: WallOutside-Fantasy1-A4-removebg-preview_64
+  - first:
+      213: -2454341593358637460
+    second: WallOutside-Fantasy1-A4-removebg-preview_65
+  - first:
+      213: 2767824326160661287
+    second: WallOutside-Fantasy1-A4-removebg-preview_66
+  - first:
+      213: 3536736328498625919
+    second: WallOutside-Fantasy1-A4-removebg-preview_67
+  - first:
+      213: 3726884203514192873
+    second: WallOutside-Fantasy1-A4-removebg-preview_68
+  - first:
+      213: 6410023805723335489
+    second: WallOutside-Fantasy1-A4-removebg-preview_69
+  - first:
+      213: -5256342127972973403
+    second: WallOutside-Fantasy1-A4-removebg-preview_70
+  - first:
+      213: -8792165586005291711
+    second: WallOutside-Fantasy1-A4-removebg-preview_71
+  - first:
+      213: -1961736076023386373
+    second: WallOutside-Fantasy1-A4-removebg-preview_72
+  - first:
+      213: -6629202413207089922
+    second: WallOutside-Fantasy1-A4-removebg-preview_73
+  - first:
+      213: -277998302420963699
+    second: WallOutside-Fantasy1-A4-removebg-preview_74
+  - first:
+      213: 5338664767913476638
+    second: WallOutside-Fantasy1-A4-removebg-preview_75
+  - first:
+      213: -1898730559551014578
+    second: WallOutside-Fantasy1-A4-removebg-preview_76
+  - first:
+      213: -6163945193289280073
+    second: WallOutside-Fantasy1-A4-removebg-preview_77
+  - first:
+      213: 1967204604278375968
+    second: WallOutside-Fantasy1-A4-removebg-preview_78
+  - first:
+      213: -3332715967007498618
+    second: WallOutside-Fantasy1-A4-removebg-preview_79
+  - first:
+      213: 7487111589246533215
+    second: WallOutside-Fantasy1-A4-removebg-preview_80
+  - first:
+      213: -1570751441241243595
+    second: WallOutside-Fantasy1-A4-removebg-preview_81
+  - first:
+      213: 6279735373281488193
+    second: WallOutside-Fantasy1-A4-removebg-preview_82
+  - first:
+      213: 8292992283024415830
+    second: WallOutside-Fantasy1-A4-removebg-preview_83
+  - first:
+      213: 1863782780084161084
+    second: WallOutside-Fantasy1-A4-removebg-preview_84
+  - first:
+      213: 2234734429738660790
+    second: WallOutside-Fantasy1-A4-removebg-preview_85
+  - first:
+      213: 2078665438902248329
+    second: WallOutside-Fantasy1-A4-removebg-preview_86
+  - first:
+      213: 2395781400644030061
+    second: WallOutside-Fantasy1-A4-removebg-preview_87
+  - first:
+      213: 567205523200566874
+    second: WallOutside-Fantasy1-A4-removebg-preview_88
+  - first:
+      213: -7893080114381201066
+    second: WallOutside-Fantasy1-A4-removebg-preview_89
+  - first:
+      213: -6692442160428764843
+    second: WallOutside-Fantasy1-A4-removebg-preview_90
+  - first:
+      213: 2603770444039768867
+    second: WallOutside-Fantasy1-A4-removebg-preview_91
+  - first:
+      213: 8031403560970683165
+    second: WallOutside-Fantasy1-A4-removebg-preview_92
+  - first:
+      213: 3218991822135097500
+    second: WallOutside-Fantasy1-A4-removebg-preview_93
+  - first:
+      213: 2003130313852040306
+    second: WallOutside-Fantasy1-A4-removebg-preview_94
+  - first:
+      213: -7799344166441488287
+    second: WallOutside-Fantasy1-A4-removebg-preview_95
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4537fd810b74270800000000000000
+      internalID: 8234744064544822521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7c164c5dfed8790800000000000000
+      internalID: -7526095700864415837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68998e543a6f9f940800000000000000
+      internalID: 5330562815082666374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cfba33c6da814b60800000000000000
+      internalID: 7728611090547523529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328b6f0c7ba4b60e0800000000000000
+      internalID: -2275643033628788701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf90ac844c497e760800000000000000
+      internalID: 7487116476282440187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18fabf1b7ff9bc00800000000000000
+      internalID: 917044903425013791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602732e7fa1373390800000000000000
+      internalID: -7838741996609768954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4865c5d0695142a0800000000000000
+      internalID: -6755019693640816563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa21e699ea6b9ed90800000000000000
+      internalID: -7067917279166590289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469540ffaa873e6e0800000000000000
+      internalID: -1809469949454558876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb50e67667b92790800000000000000
+      internalID: -7554305249228334160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7b5ca2583aa67b0800000000000000
+      internalID: -5230188224893831190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cf0561b79c12a40800000000000000
+      internalID: 5341772163530685494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9812b62bd9c4090c0800000000000000
+      internalID: -4571069381594111607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b262527dcbad07240800000000000000
+      internalID: 4787566908493080107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3299bfb791befa50800000000000000
+      internalID: 6556873372812808762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b4be71b70cf6ca0800000000000000
+      internalID: -6021382541856257171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c744dfc005142250800000000000000
+      internalID: 5918878903502653379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08c02ef89ec5b520800000000000000
+      internalID: 2717305106681874446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1de57410cf66e060800000000000000
+      internalID: 6982391143052209438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f29434b0602d1f0800000000000000
+      internalID: -1021747520016404731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1ce8fff1ad65480800000000000000
+      internalID: -8910694981739560458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0677d277d8b5a7c0800000000000000
+      internalID: -4060636253520431603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663135ec9d517c560800000000000000
+      internalID: 7333854543409779558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800c605e3b8f258f0800000000000000
+      internalID: -553106352687890424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892fed81c5cf22140800000000000000
+      internalID: 4693591234157933208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de7934ab21f25860800000000000000
+      internalID: 7517335897775898324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e333083eb8285eb10800000000000000
+      internalID: 2010156346019689278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7163763efbd0510800000000000000
+      internalID: 1517079632903804856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df0814b0ce25b280800000000000000
+      internalID: -9028258472804216874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48eb3085629fae40800000000000000
+      internalID: 5669911420523505740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28b61c3fc70b0ad0800000000000000
+      internalID: -2735083762049697749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a1ec7bb66999140800000000000000
+      internalID: 4726974673291451023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78bf4289933861940800000000000000
+      internalID: 5266541097645308807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7fcf5b8a3da7b870800000000000000
+      internalID: 8698611672247422847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02998a1eb7e4fa30800000000000000
+      internalID: 4248275152192246283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6c3589def64bea0800000000000000
+      internalID: -5857934149048613184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab53aa5e6b74ac70800000000000000
+      internalID: 8981439270780885933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84341de7dc81cbd80800000000000000
+      internalID: -8233678747865103544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325deec2c2ec6f090800000000000000
+      internalID: -8000980998849374941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3696b2d9fdad98ab0800000000000000
+      internalID: -5005228856896165533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe85ffd93b637aac0800000000000000
+      internalID: -3844043611859625745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2ece71bc94507c0800000000000000
+      internalID: -4105794348649749843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904fdf3052c332610800000000000000
+      internalID: 1595184822697718793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49edf2b0182818c10800000000000000
+      internalID: 2054066395807735444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_46
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b19656457c70a1f0800000000000000
+      internalID: -1035691071162117709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_47
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1b00f8115cdaed0800000000000000
+      internalID: -2401046347114303021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a391cf29660f47c30800000000000000
+      internalID: 4356371062917437754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888e54ac646334fd0800000000000000
+      internalID: -2358982102142818168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13319824b708008b0800000000000000
+      internalID: -5188005503845199055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2980c0ec3bf41d950800000000000000
+      internalID: 6472041773182748818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc01bea69edc6c50800000000000000
+      internalID: 6659942687731420356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_53
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12698b44c29b66260800000000000000
+      internalID: 7090558263124071969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_54
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28321d133ec97b40800000000000000
+      internalID: 5438604743952971820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_55
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf42ed982c0e99820800000000000000
+      internalID: 2925616559095162107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_56
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c21ae1def5aff20800000000000000
+      internalID: 3457181135986044050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_57
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e7cea6d3c4b5250800000000000000
+      internalID: 5934420760661360173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_58
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046e863f4abae8c70800000000000000
+      internalID: 8975299832342701632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_59
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef3a071441292760800000000000000
+      internalID: 7433509236279754722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_60
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55297ce8a227db6b0800000000000000
+      internalID: -5278937661098716587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_61
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8196e41cf3a7966e0800000000000000
+      internalID: -1843808158186837736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcfea99b44a0a0a60800000000000000
+      internalID: 7640931008075460559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_63
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb7abf99fd9fd5d0800000000000000
+      internalID: -3035533928372208712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_64
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f21400ac2f8e2d0800000000000000
+      internalID: -3249080181746225405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_65
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c666462135d60fdd0800000000000000
+      internalID: -2454341593358637460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_66
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bbd716f89496620800000000000000
+      internalID: 2767824326160661287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_67
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d316cc3f2051130800000000000000
+      internalID: 3536736328498625919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_68
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e36a7def6d88b330800000000000000
+      internalID: 3726884203514192873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_69
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14bdfe580baf4f850800000000000000
+      internalID: 6410023805723335489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_70
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a400441fa8bd07b0800000000000000
+      internalID: -5256342127972973403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_71
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d8dbf7bf3fbf580800000000000000
+      internalID: -8792165586005291711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_72
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfeae8dbe6386c4e0800000000000000
+      internalID: -1961736076023386373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_73
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc01a837875004a0800000000000000
+      internalID: -6629202413207089922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_74
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e6900540a542cf0800000000000000
+      internalID: -277998302420963699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_75
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12406a225fb61a40800000000000000
+      internalID: 5338664767913476638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4978c1bd9a56a5e0800000000000000
+      internalID: -1898730559551014578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_77
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b514033184457aa0800000000000000
+      internalID: -6163945193289280073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_78
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02686863a2aec4b10800000000000000
+      internalID: 1967204604278375968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_79
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ede394c70dfb1d0800000000000000
+      internalID: -3332715967007498618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5effbe625097e760800000000000000
+      internalID: 7487111589246533215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_81
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530026ae2e1933ae0800000000000000
+      internalID: -1570751441241243595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_82
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14de5efec0a162750800000000000000
+      internalID: 6279735373281488193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_83
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65cd9b21b80a61370800000000000000
+      internalID: 8292992283024415830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a0861509c7dd910800000000000000
+      internalID: 1863782780084161084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_85
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b378ebaf1f530f10800000000000000
+      internalID: 2234734429738660790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_86
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98366a41437e8dc10800000000000000
+      internalID: 2078665438902248329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_87
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e00e09d768f3120800000000000000
+      internalID: 2395781400644030061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56620d0b6e1fd700800000000000000
+      internalID: 567205523200566874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_89
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651eb9e8475267290800000000000000
+      internalID: -7893080114381201066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_90
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551bbcb205baf13a0800000000000000
+      internalID: -6692442160428764843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_91
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32bc6a96c63722420800000000000000
+      internalID: 2603770444039768867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_92
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13077b8cf6457f60800000000000000
+      internalID: 8031403560970683165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_93
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98ff3dd1082cac20800000000000000
+      internalID: 3218991822135097500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_94
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274b7fb486c8ccb10800000000000000
+      internalID: 2003130313852040306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WallOutside-Fantasy1-A4-removebg-preview_95
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1607d36adc923c390800000000000000
+      internalID: -7799344166441488287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
