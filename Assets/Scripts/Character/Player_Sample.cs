@@ -132,7 +132,7 @@ public class Player_Sample : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("Vel:" + m_RigidBody2D.velocity.y);
+
 
         //�W�����v�J�n
         if (Input.GetKeyDown(KeyCode.Z))
@@ -310,7 +310,7 @@ public class Player_Sample : MonoBehaviour
         {
             groundCheckCollider[i] = Physics2D.OverlapPoint(groundCheckObjects[i].transform.position);
             //�ڒn����I�u�W�F�N�g�̂����A1�ł������ɏd�Ȃ��Ă�����ڒn���Ă�����̂Ƃ��ďI��
-            if (groundCheckCollider[i] != null)
+            if (groundCheckCollider[i] != null && groundCheckCollider[i].isTrigger == false)
             {
                 IsGrounded = true;
                 CanSecondJump = true;
@@ -323,7 +323,7 @@ public class Player_Sample : MonoBehaviour
     }
 
 
-    //�ǂɂ߂荞�܂�Ȃ��悤�ɂ��鏈��
+    //壁の判定のチェック
     private void RightWallCheck()
     {
         //�E���̕ǃ`�F�b�N
@@ -336,7 +336,7 @@ public class Player_Sample : MonoBehaviour
             rightDownWallCheckCollider = Physics2D.OverlapPoint(rightDownWallCheckObject.transform.position);
 
             //�u���b�N�ɐG��Ă���ΉE�ɍs���Ȃ��B
-            if (rightDownWallCheckCollider != null)
+            if (rightDownWallCheckCollider != null && rightDownWallCheckCollider.isTrigger == false)
             {
                 CanRightMove = false;
                 return;
@@ -351,13 +351,13 @@ public class Player_Sample : MonoBehaviour
         {
             rightWallCheckCollider[i] = Physics2D.OverlapPoint(rightWallCheckObjects[i].transform.position);
             //�ǔ���I�u�W�F�N�g�̂����A1�ł������ɏd�Ȃ��Ă�����ǂɐG��Ă�����̂Ƃ��ďI��
-            if (rightWallCheckCollider[i] != null)
+            if (rightWallCheckCollider[i] != null && rightWallCheckCollider[i].isTrigger == false)
             {
                 CanRightMove = false;
                 return;
             }
         }
-        //�����܂ł����Ƃ������Ƃ͉E�ɕǂ��Ȃ��Ƃ������ƂȂ̂�true
+        //ここまで来ていると言うことは右に壁が無いということなのでtrue
         CanRightMove = true;
     }
 

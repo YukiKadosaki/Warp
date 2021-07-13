@@ -15,11 +15,11 @@ C:/Users/coop/Desktop/unity_date/Warp
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65172
+64206
 Successfully changed project path to: C:/Users/coop/Desktop/unity_date/Warp
 C:/Users/coop/Desktop/unity_date/Warp
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 85.90 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 252.26 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,1098 +35,1122 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003141 seconds.
+Registered in 0.007361 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 87.11 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 149.51 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.893 seconds
+- Completed reload, in 14.039 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001594 seconds.
+Registered in 0.002956 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 72.12 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 168.18 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.458 seconds
+- Completed reload, in  2.804 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.40 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1788 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.8 MB.
-System memory in use after: 86.8 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2232.
-Total: 7.600700 ms (FindLiveObjects: 0.825800 ms CreateObjectMapping: 0.480100 ms MarkObjects: 5.985800 ms  DeleteObjects: 0.304800 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview.png
-  artifactKey: Guid(4bac277e82323be498002748f5c57a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview.png using Guid(4bac277e82323be498002748f5c57a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58720048c5b2d18cd82d61e25a13a97') in 0.136517 seconds
-  Import took 0.141435 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.442318 seconds.
-  path: Assets/Sprites/Stages
-  artifactKey: Guid(66dc6b913fda41b4698071dfcf97f555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages using Guid(66dc6b913fda41b4698071dfcf97f555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ffc7dc287d11033be1fd1b54ca5d1c') in 0.015220 seconds
-  Import took 0.020029 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.496972 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview.png
-  artifactKey: Guid(4bac277e82323be498002748f5c57a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview.png using Guid(4bac277e82323be498002748f5c57a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952394a96f90515d8ace791f1bb7bae6') in 0.021538 seconds
-  Import took 0.026661 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008807 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview.png
-  artifactKey: Guid(4bac277e82323be498002748f5c57a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview.png using Guid(4bac277e82323be498002748f5c57a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952394a96f90515d8ace791f1bb7bae6') in 0.023090 seconds
-  Import took 0.030018 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 122.646975 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview.png
-  artifactKey: Guid(4bac277e82323be498002748f5c57a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview.png using Guid(4bac277e82323be498002748f5c57a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35241261b098a7305d7c0393b42459e7') in 0.265778 seconds
-  Import took 0.271211 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.850850 seconds.
-  path: Assets/Sprites/Stages/NewCastle.prefab
-  artifactKey: Guid(1f9d4c12cf598324e951738ecf4ce885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/NewCastle.prefab using Guid(1f9d4c12cf598324e951738ecf4ce885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e59b060aedfbe765467c0bdd6e14dbb') in 0.052604 seconds
-  Import took 0.059728 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.804306 seconds.
-  path: Assets/Sprites/Stages/NewCastle.prefab
-  artifactKey: Guid(1f9d4c12cf598324e951738ecf4ce885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/NewCastle.prefab using Guid(1f9d4c12cf598324e951738ecf4ce885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea4dd783e20f2f1c7240862dbc1107f') in 0.008870 seconds
-  Import took 0.015496 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_3.asset
-  artifactKey: Guid(8b04de5752f8c6142bf68584013e6d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_3.asset using Guid(8b04de5752f8c6142bf68584013e6d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef16d858e5966a7afa6cb512e820083') in 0.038828 seconds
-  Import took 0.049528 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000427 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_11.asset
-  artifactKey: Guid(604d58bab6f0268479a0a9fce7ceea92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_11.asset using Guid(604d58bab6f0268479a0a9fce7ceea92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec30165a9565977f3934d0545a299a5') in 0.025589 seconds
-  Import took 0.033439 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_40.asset
-  artifactKey: Guid(f671273e84d55344893c4a9eedd18d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_40.asset using Guid(f671273e84d55344893c4a9eedd18d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3406318de89a7f26bd33f918c956f5f') in 0.035492 seconds
-  Import took 0.042658 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000515 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_46.asset
-  artifactKey: Guid(7a2e9e9fcfe74f24aaaec946320fa2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_46.asset using Guid(7a2e9e9fcfe74f24aaaec946320fa2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2ee4c13c97ff63cdd33146845e3cfd') in 0.031184 seconds
-  Import took 0.038067 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_4.asset
-  artifactKey: Guid(9b0b76197dc151346a33c92a3b8d04de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_4.asset using Guid(9b0b76197dc151346a33c92a3b8d04de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e860ade05d05a323922426dfd3b8c3') in 0.028777 seconds
-  Import took 0.035244 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_17.asset
-  artifactKey: Guid(f23ca67e0832ca245af6aac61c99ee70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_17.asset using Guid(f23ca67e0832ca245af6aac61c99ee70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '566df8cc189235e07d87e95272f9cbe3') in 0.029490 seconds
-  Import took 0.035024 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_47.asset
-  artifactKey: Guid(4ca6dcf4929763a4181deb4f9d3644ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_47.asset using Guid(4ca6dcf4929763a4181deb4f9d3644ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dcc013b9695fbee1eaa1873625eec40') in 0.025530 seconds
-  Import took 0.031961 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_5.asset
-  artifactKey: Guid(8128781629fb58e4e9e3ab1150c11d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_5.asset using Guid(8128781629fb58e4e9e3ab1150c11d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5df64a514174504181099b0b4841cf') in 0.026186 seconds
-  Import took 0.031293 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_16.asset
-  artifactKey: Guid(0c218d0b7a85c6e4883c30727f1d4080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_16.asset using Guid(0c218d0b7a85c6e4883c30727f1d4080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e1ae868156f19f33e98602f47c0f97') in 0.029209 seconds
-  Import took 0.034504 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_2.asset
-  artifactKey: Guid(83e67d784e498844db838c34eb0c0d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_2.asset using Guid(83e67d784e498844db838c34eb0c0d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff3bdf979cf86cddc180d3a3fb71ec5') in 0.016884 seconds
-  Import took 0.021584 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_50.asset
-  artifactKey: Guid(6e4116d4758a76f42990bf391ba00a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_50.asset using Guid(6e4116d4758a76f42990bf391ba00a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549dc7aefa364d3f47a3fdcce00cf396') in 0.016483 seconds
-  Import took 0.021274 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_31.asset
-  artifactKey: Guid(b9c3a3f431031aa4398e71c62da25172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_31.asset using Guid(b9c3a3f431031aa4398e71c62da25172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c325668b9c66fcc83eab67ec9da86b5') in 0.017166 seconds
-  Import took 0.022891 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_49.asset
-  artifactKey: Guid(5ae612194e2ae104c83e66d3a4d88466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_49.asset using Guid(5ae612194e2ae104c83e66d3a4d88466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b52a445bad9c19b7689a021f1ef78bc') in 0.022044 seconds
-  Import took 0.027099 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_19.asset
-  artifactKey: Guid(7f1079d4a0ce06f4aaf43a3531fb6aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_19.asset using Guid(7f1079d4a0ce06f4aaf43a3531fb6aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ba0688a0c7d5caeae9837deee7073c') in 0.015386 seconds
-  Import took 0.020471 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_12.asset
-  artifactKey: Guid(9cd1e0918a77a8a4184c5f8ae3872dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_12.asset using Guid(9cd1e0918a77a8a4184c5f8ae3872dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf851909a098b0090c5071e6accf781') in 0.016935 seconds
-  Import took 0.023337 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_28.asset
-  artifactKey: Guid(9a8548400589e964d92622164826b8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_28.asset using Guid(9a8548400589e964d92622164826b8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86c742420cc255d173f065a2752e7fc') in 0.017394 seconds
-  Import took 0.021583 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_1.asset
-  artifactKey: Guid(0bec7346539cde14880cb92b2ad59050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_1.asset using Guid(0bec7346539cde14880cb92b2ad59050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425627b10749198cfa6fa0ca8be81d3e') in 0.021214 seconds
-  Import took 0.027099 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_8.asset
-  artifactKey: Guid(70872e4687dedd74d8aa0043cbd0dba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_8.asset using Guid(70872e4687dedd74d8aa0043cbd0dba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdada32f32f5c209d2f2222e28ad1cce') in 0.016673 seconds
-  Import took 0.021730 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_10.asset
-  artifactKey: Guid(6d1effa7e61e55c47803f572537cb9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_10.asset using Guid(6d1effa7e61e55c47803f572537cb9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb60b44506a01ccc12316ff6e9b72f4') in 0.025522 seconds
-  Import took 0.030698 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_21.asset
-  artifactKey: Guid(5bd3ee6f4e35e12488192c165afe17a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_21.asset using Guid(5bd3ee6f4e35e12488192c165afe17a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f0996f5df090c1551241ee14976dc5') in 0.019861 seconds
-  Import took 0.025974 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000429 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_9.asset
-  artifactKey: Guid(69c4fd881aae3c84386941d56cc6da84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_9.asset using Guid(69c4fd881aae3c84386941d56cc6da84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e44e706184f8ea9aa5e03a8017b6f3') in 0.023429 seconds
-  Import took 0.027951 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_36.asset
-  artifactKey: Guid(5b4c9f8a62ff83e4881271e951ca3478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_36.asset using Guid(5b4c9f8a62ff83e4881271e951ca3478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5853576738156c4d891fb304d57b0c35') in 0.019776 seconds
-  Import took 0.025028 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000383 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_15.asset
-  artifactKey: Guid(d9be1ae0f4590664f976d997e4068ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_15.asset using Guid(d9be1ae0f4590664f976d997e4068ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b485bea3befaa20e98100800f67778') in 0.018785 seconds
-  Import took 0.026064 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_7.asset
-  artifactKey: Guid(0a9d82da31fef01458382eea2e1e193c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_7.asset using Guid(0a9d82da31fef01458382eea2e1e193c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1579c08d78f8e3b57a3d865637c51942') in 0.018838 seconds
-  Import took 0.024062 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_38.asset
-  artifactKey: Guid(f97fdc0ed4970f944b94a14dd7e5a217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_38.asset using Guid(f97fdc0ed4970f944b94a14dd7e5a217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e12eafb6490a0ac9076f4ff943997f') in 0.021767 seconds
-  Import took 0.026266 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_43.asset
-  artifactKey: Guid(4923e887ec49c8546b8676e7e999779c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_43.asset using Guid(4923e887ec49c8546b8676e7e999779c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c7ebe63c2721c0540273fb11582bbc') in 0.021180 seconds
-  Import took 0.026350 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_14.asset
-  artifactKey: Guid(b7ba42f708dc3814b9af8f188006109f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_14.asset using Guid(b7ba42f708dc3814b9af8f188006109f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b04cd09d4c582a676470be0ffe96569') in 0.019385 seconds
-  Import took 0.023479 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000494 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_39.asset
-  artifactKey: Guid(8473569d73f5c0548948e79ae873d17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_39.asset using Guid(8473569d73f5c0548948e79ae873d17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0364b58748e49df72adb13c9c6770e97') in 0.021219 seconds
-  Import took 0.026064 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_42.asset
-  artifactKey: Guid(86c530329ee53ca4a940cd3881d10f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_42.asset using Guid(86c530329ee53ca4a940cd3881d10f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d699e0c6f4a789aeda272915738c5d') in 0.017032 seconds
-  Import took 0.022676 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_30.asset
-  artifactKey: Guid(d49fbb73b3f0ef6439a8f7595a92c961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_30.asset using Guid(d49fbb73b3f0ef6439a8f7595a92c961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e18c5dda85fae7e1b6b2b2609bf878') in 0.023097 seconds
-  Import took 0.027982 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_24.asset
-  artifactKey: Guid(e549e4dc61eb8b345a60b6bc81abdf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_24.asset using Guid(e549e4dc61eb8b345a60b6bc81abdf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648695f9e899c818002413d2b91c387b') in 0.022592 seconds
-  Import took 0.027545 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000429 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_26.asset
-  artifactKey: Guid(d2c42f90762c6a042add81b5cc2d3c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_26.asset using Guid(d2c42f90762c6a042add81b5cc2d3c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b22704e7af9af4f42bc37278d54e7dd') in 0.032328 seconds
-  Import took 0.037232 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000372 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_29.asset
-  artifactKey: Guid(c7510599fce08fd44b4d28d8c3e86870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_29.asset using Guid(c7510599fce08fd44b4d28d8c3e86870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d4e33a8044dce834d0d40435cdc609') in 0.025542 seconds
-  Import took 0.031175 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_33.asset
-  artifactKey: Guid(592ed908c97c18848abd13ea84d49599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_33.asset using Guid(592ed908c97c18848abd13ea84d49599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb85d336f51709377d765b56fca6f18') in 0.023754 seconds
-  Import took 0.030032 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_23.asset
-  artifactKey: Guid(f84ec7f76a9c5aa4d966a6103d9f7a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_23.asset using Guid(f84ec7f76a9c5aa4d966a6103d9f7a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c95f7dd003d57acf8b5bd63ad404c6d') in 0.023350 seconds
-  Import took 0.028581 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_25.asset
-  artifactKey: Guid(99207bb898f2ec547ba9b691125df8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_25.asset using Guid(99207bb898f2ec547ba9b691125df8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6beaaada2fb32a05b3b1131230246792') in 0.026835 seconds
-  Import took 0.034336 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_32.asset
-  artifactKey: Guid(a48311cd72dbdc14caa38c8df2b9947e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_32.asset using Guid(a48311cd72dbdc14caa38c8df2b9947e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0576dc27ee04a4e3a64618771cb653') in 0.034179 seconds
-  Import took 0.040005 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_35.asset
-  artifactKey: Guid(ea2770e765ddbb84ba16336256808c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_35.asset using Guid(ea2770e765ddbb84ba16336256808c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e408cd91fe789bb2eaf94ddaffe6988') in 0.027531 seconds
-  Import took 0.033191 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_44.asset
-  artifactKey: Guid(b24becb88313c5440a6beaa0a9b0c462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_44.asset using Guid(b24becb88313c5440a6beaa0a9b0c462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b0bb440fd9960019426d14a09365bc7') in 0.039337 seconds
-  Import took 0.046774 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001223 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_0.asset
-  artifactKey: Guid(6baaa28fa6fa1c443849c9d1d87e2741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_0.asset using Guid(6baaa28fa6fa1c443849c9d1d87e2741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd5633cd00ecc76f0871953b678059c') in 0.040437 seconds
-  Import took 0.050146 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_22.asset
-  artifactKey: Guid(81623643b90fc194284530d4d42047e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_22.asset using Guid(81623643b90fc194284530d4d42047e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52658e065892fe7926d1ba3eafdb07f4') in 0.037023 seconds
-  Import took 0.044544 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_18.asset
-  artifactKey: Guid(650c48f250fdf0a44ae83d8be26b6acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_18.asset using Guid(650c48f250fdf0a44ae83d8be26b6acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0acf5d1f3111b93f74cbb8ad51ed47be') in 0.043263 seconds
-  Import took 0.050727 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_27.asset
-  artifactKey: Guid(1ebd4272748b0d449b2fddf69ba5e5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_27.asset using Guid(1ebd4272748b0d449b2fddf69ba5e5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09cdcc1f7b516fa75f889076da94cb43') in 0.030522 seconds
-  Import took 0.038470 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_45.asset
-  artifactKey: Guid(561cb096882549440a7823e3778d8ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_45.asset using Guid(561cb096882549440a7823e3778d8ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b904c2cff7fd2826fc188cd3f1c4a3c3') in 0.053110 seconds
-  Import took 0.061035 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_34.asset
-  artifactKey: Guid(c57dc299795071d4890a8a1410dbd0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_34.asset using Guid(c57dc299795071d4890a8a1410dbd0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d494b4127fdd76a2db9fc53d65ac6c') in 0.024744 seconds
-  Import took 0.031980 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000533 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_37.asset
-  artifactKey: Guid(f2b5109bbcaa7f64da97c74e566ad0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_37.asset using Guid(f2b5109bbcaa7f64da97c74e566ad0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bfd2a8e748d2317e540062a0db328a9') in 0.023018 seconds
-  Import took 0.031364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001121 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_48.asset
-  artifactKey: Guid(420484fd99a36d141b678f2a67d5ce78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_48.asset using Guid(420484fd99a36d141b678f2a67d5ce78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f0bbc08e0b9ae20d3791e2f4a89c1d') in 0.036421 seconds
-  Import took 0.044557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000659 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_20.asset
-  artifactKey: Guid(3fa3c5e6af3e9864eb94277efd3a4479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_20.asset using Guid(3fa3c5e6af3e9864eb94277efd3a4479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fbbbb7ddee56b655119738fab4cb2d0') in 0.027436 seconds
-  Import took 0.033579 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000422 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_13.asset
-  artifactKey: Guid(e301897e77159664fa03bc5f472c69d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_13.asset using Guid(e301897e77159664fa03bc5f472c69d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f91c8e78cc76a0537d9a66a04169f8') in 0.031529 seconds
-  Import took 0.040583 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001142 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_6.asset
-  artifactKey: Guid(1da137691f2da9f4cb8c70afffa28e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_6.asset using Guid(1da137691f2da9f4cb8c70afffa28e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a23625d38baea333f69d63f3c3c4315') in 0.025811 seconds
-  Import took 0.038144 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000495 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_41.asset
-  artifactKey: Guid(d77575c3b93c3c847b39117af03da1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_41.asset using Guid(d77575c3b93c3c847b39117af03da1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad10b9af6974838a9982dd822d59c4d1') in 0.026904 seconds
-  Import took 0.036450 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.076584 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_51.asset
-  artifactKey: Guid(33bf622778147b246b4d42feb9affd58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_51.asset using Guid(33bf622778147b246b4d42feb9affd58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9bae6aa012c623d3d0e83228a3c887') in 0.017112 seconds
-  Import took 0.021305 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000427 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_53.asset
-  artifactKey: Guid(811025b4fc86cbd41ac0201732500cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_53.asset using Guid(811025b4fc86cbd41ac0201732500cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0a566894679045708baa9fc480aae4') in 0.017629 seconds
-  Import took 0.022267 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_61.asset
-  artifactKey: Guid(4dc760421465f0646b87c6f66cf89642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_61.asset using Guid(4dc760421465f0646b87c6f66cf89642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f9dd8936fd6ed859286aec2996e8f4') in 0.025070 seconds
-  Import took 0.032291 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000426 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_63.asset
-  artifactKey: Guid(f1eaf2131e4349e449da1660f5766180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_63.asset using Guid(f1eaf2131e4349e449da1660f5766180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e07fc34b40be4a25583a2bdfc91d973') in 0.020095 seconds
-  Import took 0.026471 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_59.asset
-  artifactKey: Guid(54782ec2a9fc4b148a267dbfa8d9f073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_59.asset using Guid(54782ec2a9fc4b148a267dbfa8d9f073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9242729bec48a03dd0c89f473d4ed59') in 0.019524 seconds
-  Import took 0.023809 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_54.asset
-  artifactKey: Guid(907ca48f2bfa20e45beedc59b365722a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_54.asset using Guid(907ca48f2bfa20e45beedc59b365722a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de6f791cc73dbf52fe14694d24d8fc8') in 0.018566 seconds
-  Import took 0.023899 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000402 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_66.asset
-  artifactKey: Guid(98c657eb1f67c924989db242de1bafd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_66.asset using Guid(98c657eb1f67c924989db242de1bafd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82bcfa4f5c0d39c1c4209726594f99cf') in 0.019052 seconds
-  Import took 0.024717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_72.asset
-  artifactKey: Guid(0497507c53f916e4580f92606b030555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_72.asset using Guid(0497507c53f916e4580f92606b030555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02fda0045bbb5007dee07ec12d7e53a6') in 0.014997 seconds
-  Import took 0.022804 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000446 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_65.asset
-  artifactKey: Guid(4c2566c15c46e3444a7a171a08972ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_65.asset using Guid(4c2566c15c46e3444a7a171a08972ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1653ab9f3f240116ae6f26e55b87cf') in 0.019783 seconds
-  Import took 0.027365 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_71.asset
-  artifactKey: Guid(f191c3392b61376408531b527ce59671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_71.asset using Guid(f191c3392b61376408531b527ce59671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91037997dbbb0e2b8ca4c4aa2853c776') in 0.018789 seconds
-  Import took 0.025494 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_69.asset
-  artifactKey: Guid(a9e0ebdea87cfbb42a97e9d22b4281a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_69.asset using Guid(a9e0ebdea87cfbb42a97e9d22b4281a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7024b121540a5cba23c07aeab1c3c9d3') in 0.015403 seconds
-  Import took 0.021011 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_79.asset
-  artifactKey: Guid(7cf0acae95458474987b37347d324ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_79.asset using Guid(7cf0acae95458474987b37347d324ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e77d688c6873d843c56e326e2f9fa0') in 0.021064 seconds
-  Import took 0.028120 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_84.asset
-  artifactKey: Guid(face4b10ec089c942a41020ba204e430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_84.asset using Guid(face4b10ec089c942a41020ba204e430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3bb940ea595da80ff265c6546449e1') in 0.020857 seconds
-  Import took 0.026509 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000450 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_78.asset
-  artifactKey: Guid(20aae470c9d10d34083e3a77826fc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_78.asset using Guid(20aae470c9d10d34083e3a77826fc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a9502bea84b7735a771799ab615723e') in 0.020017 seconds
-  Import took 0.025349 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_91.asset
-  artifactKey: Guid(4b38c3ca43ff37342bfa2584ec568162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_91.asset using Guid(4b38c3ca43ff37342bfa2584ec568162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce92f1543fda45ca5c1a64c6f8905d30') in 0.029895 seconds
-  Import took 0.035840 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000422 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_90.asset
-  artifactKey: Guid(fd1beaf7c40edd744bc8b47106327057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_90.asset using Guid(fd1beaf7c40edd744bc8b47106327057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e37947100d6177d709087f3c32a6891') in 0.019192 seconds
-  Import took 0.026738 seconds .
+Unloading 1835 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.1 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2281.
+Total: 6.161800 ms (FindLiveObjects: 0.672200 ms CreateObjectMapping: 0.144500 ms MarkObjects: 4.958100 ms  DeleteObjects: 0.384100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/Gimmics/MoveCamera.cs
+  artifactKey: Guid(6f88af24bc2636648a8c5dbce377d2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gimmics/MoveCamera.cs using Guid(6f88af24bc2636648a8c5dbce377d2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad3a7fbb97ede90a03e60bcbc9a08736') in 0.173536 seconds
+  Import took 0.193026 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003490 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.336 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.1 MB.
+System memory in use after: 88.0 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2284.
+Total: 6.202100 ms (FindLiveObjects: 0.542500 ms CreateObjectMapping: 0.480000 ms MarkObjects: 4.956400 ms  DeleteObjects: 0.219700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 649.464664 seconds.
+  path: Assets/Scripts/Gimmics/MoveCamera.cs
+  artifactKey: Guid(6f88af24bc2636648a8c5dbce377d2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gimmics/MoveCamera.cs using Guid(6f88af24bc2636648a8c5dbce377d2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd060d0dd54605f949b8b62363df4aac') in 0.019499 seconds
+  Import took 0.040968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.464299 seconds.
+  path: Assets/Scripts/Gimmics/MoveCamera.cs
+  artifactKey: Guid(6f88af24bc2636648a8c5dbce377d2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gimmics/MoveCamera.cs using Guid(6f88af24bc2636648a8c5dbce377d2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd060d0dd54605f949b8b62363df4aac') in 0.007204 seconds
+  Import took 0.013147 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016967 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.631 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.1 MB.
+System memory in use after: 88.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2287.
+Total: 4.090700 ms (FindLiveObjects: 0.297500 ms CreateObjectMapping: 0.124900 ms MarkObjects: 3.461900 ms  DeleteObjects: 0.204200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002341 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.079 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.1 MB.
+System memory in use after: 88.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2290.
+Total: 4.200000 ms (FindLiveObjects: 0.320300 ms CreateObjectMapping: 0.121600 ms MarkObjects: 3.576200 ms  DeleteObjects: 0.177100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008267 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.365 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.1 MB.
+System memory in use after: 88.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2293.
+Total: 7.247100 ms (FindLiveObjects: 0.692000 ms CreateObjectMapping: 0.299400 ms MarkObjects: 5.941200 ms  DeleteObjects: 0.310900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003022 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.603 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.1 MB.
+System memory in use after: 88.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2296.
+Total: 5.465200 ms (FindLiveObjects: 0.378100 ms CreateObjectMapping: 0.219300 ms MarkObjects: 4.589200 ms  DeleteObjects: 0.275600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002397 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.993 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.1 MB.
+System memory in use after: 88.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2299.
+Total: 4.259400 ms (FindLiveObjects: 0.481200 ms CreateObjectMapping: 0.213500 ms MarkObjects: 3.335700 ms  DeleteObjects: 0.226200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003054 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.772 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2302.
+Total: 5.876800 ms (FindLiveObjects: 0.520700 ms CreateObjectMapping: 0.182700 ms MarkObjects: 4.966200 ms  DeleteObjects: 0.204400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003271 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.921 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2305.
+Total: 5.117500 ms (FindLiveObjects: 0.369300 ms CreateObjectMapping: 0.166500 ms MarkObjects: 4.309600 ms  DeleteObjects: 0.269500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003414 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.444 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2308.
+Total: 8.159800 ms (FindLiveObjects: 0.872500 ms CreateObjectMapping: 0.294400 ms MarkObjects: 6.643600 ms  DeleteObjects: 0.345200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002186 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.364 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2311.
+Total: 8.001300 ms (FindLiveObjects: 0.598900 ms CreateObjectMapping: 0.265400 ms MarkObjects: 6.747200 ms  DeleteObjects: 0.385000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002576 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.356 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2314.
+Total: 4.697200 ms (FindLiveObjects: 0.410000 ms CreateObjectMapping: 0.132900 ms MarkObjects: 3.801700 ms  DeleteObjects: 0.350700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002715 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.232 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2317.
+Total: 4.524900 ms (FindLiveObjects: 0.268600 ms CreateObjectMapping: 0.113600 ms MarkObjects: 3.916600 ms  DeleteObjects: 0.223800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002781 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.305 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2320.
+Total: 4.779300 ms (FindLiveObjects: 0.386500 ms CreateObjectMapping: 0.092700 ms MarkObjects: 4.096000 ms  DeleteObjects: 0.201400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004123 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.418 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2323.
+Total: 4.240300 ms (FindLiveObjects: 0.328600 ms CreateObjectMapping: 0.125400 ms MarkObjects: 3.570500 ms  DeleteObjects: 0.213600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002566 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.133 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2326.
+Total: 3.996900 ms (FindLiveObjects: 0.305200 ms CreateObjectMapping: 0.127200 ms MarkObjects: 3.350200 ms  DeleteObjects: 0.211600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003728 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.695 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.14 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2329.
+Total: 5.542400 ms (FindLiveObjects: 0.446600 ms CreateObjectMapping: 0.161600 ms MarkObjects: 4.400700 ms  DeleteObjects: 0.530900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003581 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.262 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2332.
+Total: 3.953300 ms (FindLiveObjects: 0.419200 ms CreateObjectMapping: 0.133900 ms MarkObjects: 3.178300 ms  DeleteObjects: 0.219600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002132 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.333 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2335.
+Total: 5.452300 ms (FindLiveObjects: 0.504500 ms CreateObjectMapping: 0.230300 ms MarkObjects: 4.399100 ms  DeleteObjects: 0.315700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002257 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.586 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2338.
+Total: 8.037800 ms (FindLiveObjects: 0.908100 ms CreateObjectMapping: 0.256700 ms MarkObjects: 6.376200 ms  DeleteObjects: 0.493500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002151 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.476 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2341.
+Total: 8.333400 ms (FindLiveObjects: 0.287500 ms CreateObjectMapping: 0.130200 ms MarkObjects: 3.278800 ms  DeleteObjects: 4.635000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003655 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.839 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2344.
+Total: 6.070200 ms (FindLiveObjects: 0.402100 ms CreateObjectMapping: 0.161100 ms MarkObjects: 5.204100 ms  DeleteObjects: 0.299700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002780 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.385 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2347.
+Total: 4.857700 ms (FindLiveObjects: 0.395300 ms CreateObjectMapping: 0.155000 ms MarkObjects: 3.979400 ms  DeleteObjects: 0.325300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003870 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.388 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2350.
+Total: 3.909800 ms (FindLiveObjects: 0.304800 ms CreateObjectMapping: 0.093600 ms MarkObjects: 3.238500 ms  DeleteObjects: 0.270400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003604 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.687 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2353.
+Total: 3.642000 ms (FindLiveObjects: 0.260700 ms CreateObjectMapping: 0.099200 ms MarkObjects: 3.076700 ms  DeleteObjects: 0.203200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002746 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.350 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2356.
+Total: 4.559700 ms (FindLiveObjects: 0.289900 ms CreateObjectMapping: 0.164900 ms MarkObjects: 3.920300 ms  DeleteObjects: 0.182300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002825 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.192 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2359.
+Total: 4.890300 ms (FindLiveObjects: 0.367100 ms CreateObjectMapping: 0.167800 ms MarkObjects: 3.945100 ms  DeleteObjects: 0.407400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002413 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.256 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2362.
+Total: 4.650300 ms (FindLiveObjects: 0.418100 ms CreateObjectMapping: 0.199000 ms MarkObjects: 3.706000 ms  DeleteObjects: 0.325100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002689 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.207 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2365.
+Total: 5.909200 ms (FindLiveObjects: 0.487500 ms CreateObjectMapping: 0.218600 ms MarkObjects: 4.919000 ms  DeleteObjects: 0.281400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002801 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.780 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2368.
+Total: 3.774200 ms (FindLiveObjects: 0.336100 ms CreateObjectMapping: 0.155000 ms MarkObjects: 3.040400 ms  DeleteObjects: 0.241200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003852 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.316 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2371.
+Total: 6.687000 ms (FindLiveObjects: 0.555200 ms CreateObjectMapping: 0.351500 ms MarkObjects: 5.457800 ms  DeleteObjects: 0.317500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 6588.175764 seconds.
+  path: Assets/PixelPack03_Free
+  artifactKey: Guid(2294d50928c9c2e48b6f5daf7a05b79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PixelPack03_Free using Guid(2294d50928c9c2e48b6f5daf7a05b79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45f87374af95cd2e5d251c7bf7d2fb5') in 0.029181 seconds
+  Import took 0.045136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.802779 seconds.
+  path: Assets/Pixel2DCastleTileset
+  artifactKey: Guid(d5405c3598cf90e41bf63fea5d161e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel2DCastleTileset using Guid(d5405c3598cf90e41bf63fea5d161e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bfab803bb3d6a8e4fa7f539b032e250') in 0.020090 seconds
+  Import took 0.033045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 276.133668 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_90.asset
+  artifactKey: Guid(e146ffe9e5c9a8444bf61b00bf0d670f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_90.asset using Guid(e146ffe9e5c9a8444bf61b00bf0d670f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2429cdc4804f3a5b3d9890f8f5d88bde') in 0.224499 seconds
+  Import took 0.245151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_93.asset
+  artifactKey: Guid(1bee2878d74fab646ad35615940d53f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_93.asset using Guid(1bee2878d74fab646ad35615940d53f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77f277458fe0b5a3356f3975eb214c0') in 0.033461 seconds
+  Import took 0.045848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_94.asset
+  artifactKey: Guid(9fdd22c69bfd2fc459fa19db073307df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_94.asset using Guid(9fdd22c69bfd2fc459fa19db073307df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0172cef01bedfcb47f80fddfbf809e26') in 0.042149 seconds
+  Import took 0.052563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_92.asset
+  artifactKey: Guid(02d939ad925daad4587d07382f7ecfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_92.asset using Guid(02d939ad925daad4587d07382f7ecfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '541b0bfa1596fb8d368e564c562131b8') in 0.033484 seconds
+  Import took 0.043970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_91.asset
+  artifactKey: Guid(f5fac56301fc5dd478ec0a41c6e08211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_91.asset using Guid(f5fac56301fc5dd478ec0a41c6e08211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1fda7586667a01733f2196c3f2d14b') in 0.034063 seconds
+  Import took 0.046336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_95.asset
+  artifactKey: Guid(b68c613f8545be74e83fc74b5a5a6ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_95.asset using Guid(b68c613f8545be74e83fc74b5a5a6ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1d957cf114b681753308dc598cc26b') in 0.029599 seconds
+  Import took 0.042117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.667873 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_83.asset
+  artifactKey: Guid(addb7337bdb6a134f929ed61962db37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_83.asset using Guid(addb7337bdb6a134f929ed61962db37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0357284dc91d360e8e4c42f8a90d22cc') in 0.042898 seconds
+  Import took 0.059651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_89.asset
+  artifactKey: Guid(8428d1971703b024d998b0e7a0bad136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_89.asset using Guid(8428d1971703b024d998b0e7a0bad136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c2acdb310b72420b858c5b72573ad6') in 0.034304 seconds
+  Import took 0.045301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_88.asset
+  artifactKey: Guid(f2d7e9048dfaf1840a923899e55d2cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_88.asset using Guid(f2d7e9048dfaf1840a923899e55d2cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb5e9cb4bcbc0c838c7a36e98682acf') in 0.036060 seconds
+  Import took 0.047014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_84.asset
+  artifactKey: Guid(394a66b10d1c19843892c60f24dc4a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_84.asset using Guid(394a66b10d1c19843892c60f24dc4a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2915594359a82d93a172715b505fa61d') in 0.033718 seconds
+  Import took 0.044082 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000373 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_77.asset
-  artifactKey: Guid(2b6a53de9108efa47ae5eac07a2830bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_77.asset using Guid(2b6a53de9108efa47ae5eac07a2830bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6828dc0257d00f4e8230a3e539ddd0f4') in 0.019515 seconds
-  Import took 0.026971 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_73.asset
-  artifactKey: Guid(4a363acc86e1f4e4993af7ad97e7e320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_73.asset using Guid(4a363acc86e1f4e4993af7ad97e7e320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b58ecbf2e0f88ff0308d078ab69158d') in 0.017329 seconds
-  Import took 0.023613 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000447 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_55.asset
-  artifactKey: Guid(04810fcb97a24084a95979a7b302d643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_55.asset using Guid(04810fcb97a24084a95979a7b302d643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d240a21922807b57f32dede85d0fbd') in 0.028482 seconds
-  Import took 0.035576 seconds .
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_86.asset
+  artifactKey: Guid(bb710dbf76678044ea5338c14bf9e492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_86.asset using Guid(bb710dbf76678044ea5338c14bf9e492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf3aea6eab1a30496edc9c8ec3f11f3') in 0.029959 seconds
+  Import took 0.039298 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000379 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_67.asset
-  artifactKey: Guid(3c15983c586b5e9478fb1b15da45dd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_67.asset using Guid(3c15983c586b5e9478fb1b15da45dd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4846ed2f2420e87c9e7089abd96bc456') in 0.021746 seconds
-  Import took 0.029539 seconds .
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_85.asset
+  artifactKey: Guid(635b023075f25404a8d870df928d562f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_85.asset using Guid(635b023075f25404a8d870df928d562f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65bb51368e7497d03aabc2c2243de00') in 0.030100 seconds
+  Import took 0.040285 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_88.asset
-  artifactKey: Guid(f3185b3e60150304c8af77a7f243b79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_88.asset using Guid(f3185b3e60150304c8af77a7f243b79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae16a1e2d11d9de18c88dd5b2a390f21') in 0.020069 seconds
-  Import took 0.026226 seconds .
+  Time since last request: 0.000423 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_87.asset
+  artifactKey: Guid(a9fe46a6ff0b6a9458510eb4c8b88b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_87.asset using Guid(a9fe46a6ff0b6a9458510eb4c8b88b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e983d2b6edd01e0f9aaa226af8b90d24') in 0.025612 seconds
+  Import took 0.036043 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_89.asset
-  artifactKey: Guid(5391c29735aa5e84da61c74ba0c29171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_89.asset using Guid(5391c29735aa5e84da61c74ba0c29171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e994a30624d9d9aea8c8e9d1d472ae89') in 0.022612 seconds
-  Import took 0.028381 seconds .
+  Time since last request: 0.000464 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_80.asset
+  artifactKey: Guid(9b95f9b9607bf01409660e25cfefc01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_80.asset using Guid(9b95f9b9607bf01409660e25cfefc01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f459a1951cfdcc414e104e05be759507') in 0.026804 seconds
+  Import took 0.038473 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_93.asset
-  artifactKey: Guid(48a8d9359a11fb741bee7f731938f9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_93.asset using Guid(48a8d9359a11fb741bee7f731938f9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d3dcd032ea0b275e8ea09fac636b1a') in 0.020260 seconds
-  Import took 0.027668 seconds .
+  Time since last request: 0.000380 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_77.asset
+  artifactKey: Guid(6f5cc733182d26e408582d9bd284bc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_77.asset using Guid(6f5cc733182d26e408582d9bd284bc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a4ad3b53c72917591e3de18d72d6fb') in 0.029509 seconds
+  Import took 0.040197 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000417 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_52.asset
-  artifactKey: Guid(2a9d59ee6afe6c144b572def4574c89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_52.asset using Guid(2a9d59ee6afe6c144b572def4574c89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f894554a807efbedeed812247ef46438') in 0.027429 seconds
-  Import took 0.034867 seconds .
+  Time since last request: 0.000516 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_78.asset
+  artifactKey: Guid(170129f8ba3ff3f4fa173619f0018fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_78.asset using Guid(170129f8ba3ff3f4fa173619f0018fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba7b88df04360569ed36c9bc636c4ea') in 0.029122 seconds
+  Import took 0.039801 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_70.asset
-  artifactKey: Guid(4fc34862ee09d174c9210f6f23a7a3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_70.asset using Guid(4fc34862ee09d174c9210f6f23a7a3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8407239d4dfb977fc86fcd151810785') in 0.028353 seconds
-  Import took 0.034239 seconds .
+  Time since last request: 0.000502 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_81.asset
+  artifactKey: Guid(b01a070683fb9f44497d7f1799a89b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_81.asset using Guid(b01a070683fb9f44497d7f1799a89b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b4804db543160248054fee169f669c') in 0.030531 seconds
+  Import took 0.042897 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_83.asset
-  artifactKey: Guid(3a60e7f19e44cdd45a83686086396694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_83.asset using Guid(3a60e7f19e44cdd45a83686086396694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652df6d680786c0e16c66ea9df30bc0e') in 0.021883 seconds
-  Import took 0.026425 seconds .
+  Time since last request: 0.000339 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_79.asset
+  artifactKey: Guid(304f80424f795bf41b39fcec52426e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_79.asset using Guid(304f80424f795bf41b39fcec52426e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67fce6d0ebcb2cbc983f57da04407210') in 0.034044 seconds
+  Import took 0.043648 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_75.asset
-  artifactKey: Guid(b7faf54ce9bc8ed4c99e8898ba347c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_75.asset using Guid(b7faf54ce9bc8ed4c99e8898ba347c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4a65bca92a2ee8039bf4d64edaa7a5') in 0.019539 seconds
-  Import took 0.024249 seconds .
+  Time since last request: 0.000411 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_82.asset
+  artifactKey: Guid(f9a6df9095fedac4f9ebfe9bbcd1f242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_82.asset using Guid(f9a6df9095fedac4f9ebfe9bbcd1f242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4a5a11945d212bcf6853324dbd4681') in 0.026357 seconds
+  Import took 0.035377 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_74.asset
-  artifactKey: Guid(4317684195fa4fd46b1b8376307c7308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_74.asset using Guid(4317684195fa4fd46b1b8376307c7308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '433561b0756aacac91e02b426113deb8') in 0.023140 seconds
-  Import took 0.030951 seconds .
+  Time since last request: 0.000512 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_76.asset
+  artifactKey: Guid(f20260c9aee234a4bbdc620c75e2e73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_76.asset using Guid(f20260c9aee234a4bbdc620c75e2e73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a47440c2e3ad96179f023c10d94e85') in 0.022502 seconds
+  Import took 0.031220 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000559 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_94.asset
-  artifactKey: Guid(da778a23017320a4db8e7c4c3e579214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_94.asset using Guid(da778a23017320a4db8e7c4c3e579214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85220b3026f3ecaba38608591b4ceef') in 0.019649 seconds
-  Import took 0.029185 seconds .
+  Time since last request: 0.500171 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_69.asset
+  artifactKey: Guid(1a2c5a3669072b743921c0c22f6e1fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_69.asset using Guid(1a2c5a3669072b743921c0c22f6e1fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a4b29b173097191e65c6342353c7d86') in 0.021418 seconds
+  Import took 0.031566 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000548 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_95.asset
-  artifactKey: Guid(14ee64b1edc15f44fb5e2ff68cfb91c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_95.asset using Guid(14ee64b1edc15f44fb5e2ff68cfb91c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c2a2c40be6936444cb10384a325cf0') in 0.021410 seconds
-  Import took 0.032915 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_56.asset
-  artifactKey: Guid(3ed5b252302f63146935f14ff8409417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_56.asset using Guid(3ed5b252302f63146935f14ff8409417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ad4c8a18536d7d850061e83ebf69ae') in 0.022179 seconds
-  Import took 0.031134 seconds .
+  Time since last request: 0.000365 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_67.asset
+  artifactKey: Guid(a62231638a02881468d393591255ccf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_67.asset using Guid(a62231638a02881468d393591255ccf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92890fa187ddbe4ef3606110b59a2e76') in 0.020345 seconds
+  Import took 0.030861 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000395 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_57.asset
-  artifactKey: Guid(96c6f3c8b5fc9cc4ca3a54ea5cda3658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_57.asset using Guid(96c6f3c8b5fc9cc4ca3a54ea5cda3658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847862f57a8bc55e72b3c3f6fa509408') in 0.021158 seconds
-  Import took 0.027811 seconds .
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_64.asset
+  artifactKey: Guid(c0fd822ab592ddf4cb3bd66b16cba640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_64.asset using Guid(c0fd822ab592ddf4cb3bd66b16cba640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b6f47fa9c988a9a8653bb1b794fef1') in 0.037347 seconds
+  Import took 0.049241 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000416 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_58.asset
-  artifactKey: Guid(e7f60971e58e29c45a6854530d1d4190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_58.asset using Guid(e7f60971e58e29c45a6854530d1d4190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e89ac14f97f0bd5d81ed6e66c6fb110') in 0.033704 seconds
-  Import took 0.040587 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000475 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_60.asset
-  artifactKey: Guid(52cd5b16db6ade443a85ec71431daf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_60.asset using Guid(52cd5b16db6ade443a85ec71431daf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1487c65b4e0ac4eb4ee81128f448ea6') in 0.059810 seconds
-  Import took 0.073887 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000828 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_68.asset
-  artifactKey: Guid(eb46150fae4d39041a1d8eaa425c0493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_68.asset using Guid(eb46150fae4d39041a1d8eaa425c0493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ffd90113882ec4e20fd185c0d83ad5') in 0.067450 seconds
-  Import took 0.074933 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_64.asset
-  artifactKey: Guid(df9491cec4a4e5a44bd5770698d5545e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_64.asset using Guid(df9491cec4a4e5a44bd5770698d5545e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a09748ce08214345dac7080e834b909') in 0.068771 seconds
-  Import took 0.072561 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_76.asset
-  artifactKey: Guid(b8b92c528601d1d42a871bfe5b1cdfe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_76.asset using Guid(b8b92c528601d1d42a871bfe5b1cdfe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5cd07fb4c9bf5ee39f4a7bce757cb7') in 0.097204 seconds
-  Import took 0.102100 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_92.asset
-  artifactKey: Guid(7ef5162252d257847a76e0d763729f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_92.asset using Guid(7ef5162252d257847a76e0d763729f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e7cc5b60d8d17c617ebe23f5a94da4') in 0.033578 seconds
-  Import took 0.042201 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001863 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_80.asset
-  artifactKey: Guid(22d2701e38007134dae729d7e3b4c706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_80.asset using Guid(22d2701e38007134dae729d7e3b4c706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f652b3673f9a4732f7112034b2e560') in 0.067271 seconds
-  Import took 0.082071 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001287 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_62.asset
-  artifactKey: Guid(aed858062dd519e47b7a45f73caf83fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_62.asset using Guid(aed858062dd519e47b7a45f73caf83fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8586dca0d6a1f414831a7d85de268b63') in 0.032535 seconds
-  Import took 0.040100 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_87.asset
-  artifactKey: Guid(71c5215e986959f42abe2745aedd0f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_87.asset using Guid(71c5215e986959f42abe2745aedd0f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f98f13e74038b53afe0fc3b69778d0') in 0.033823 seconds
-  Import took 0.042555 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000521 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_82.asset
-  artifactKey: Guid(47fc090e0ef60ad4cbab9eac7bdfb48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_82.asset using Guid(47fc090e0ef60ad4cbab9eac7bdfb48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a1dc179acb6e832f361173a6895cfe') in 0.028955 seconds
-  Import took 0.036769 seconds .
+  Time since last request: 0.000379 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_68.asset
+  artifactKey: Guid(6c1b672d2953080468512960b238a898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_68.asset using Guid(6c1b672d2953080468512960b238a898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2fc8ba20726907bef4deb592180e02') in 0.052450 seconds
+  Import took 0.064880 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000412 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_86.asset
-  artifactKey: Guid(253db3b39d02f344c9044b343d98c917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_86.asset using Guid(253db3b39d02f344c9044b343d98c917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5dd227881c20252776291f13330e617') in 0.038515 seconds
-  Import took 0.047763 seconds .
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_74.asset
+  artifactKey: Guid(679499bb3cb760149b9d4643576345d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_74.asset using Guid(679499bb3cb760149b9d4643576345d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3faa11b4039087fdb99a963deeb54a') in 0.031877 seconds
+  Import took 0.044921 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000592 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_85.asset
-  artifactKey: Guid(a9ba48c7503fb3643b4fe1672b838758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_85.asset using Guid(a9ba48c7503fb3643b4fe1672b838758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57913f8249a27bb4b776a2e24d6169bd') in 0.036925 seconds
-  Import took 0.047282 seconds .
+  Time since last request: 0.000384 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_66.asset
+  artifactKey: Guid(80de086af6550a84bbee5bea69979073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_66.asset using Guid(80de086af6550a84bbee5bea69979073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c4fc8fbc55dc52a689c518cab5e33bc') in 0.039388 seconds
+  Import took 0.050900 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000520 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_81.asset
-  artifactKey: Guid(5ce79dd24e0f56c48a390e6af35c0df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_81.asset using Guid(5ce79dd24e0f56c48a390e6af35c0df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3409886227a7b3bf89b894626d5be2') in 0.030558 seconds
-  Import took 0.038875 seconds .
+  Time since last request: 0.000417 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_58.asset
+  artifactKey: Guid(f8c7702b364598041beb911955b992db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_58.asset using Guid(f8c7702b364598041beb911955b992db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a069eb00bbde4d701dd57f9f6b7ac7a9') in 0.044621 seconds
+  Import took 0.058926 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_85.asset
-  artifactKey: Guid(a9ba48c7503fb3643b4fe1672b838758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview_85.asset using Guid(a9ba48c7503fb3643b4fe1672b838758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57913f8249a27bb4b776a2e24d6169bd') in 0.015005 seconds
-  Import took 0.024855 seconds .
+  Time since last request: 0.000339 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_55.asset
+  artifactKey: Guid(0a04bda4c1832804c828f50ad3c0e1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_55.asset using Guid(0a04bda4c1832804c828f50ad3c0e1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4daba4b00944d0ff24525e646a38ebf4') in 0.033988 seconds
+  Import took 0.044688 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 53.976143 seconds.
-  path: Assets/Sprites/Player/PlayerCopyBlack.png
-  artifactKey: Guid(945956e6cb56aa647b49603e629acff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Player/PlayerCopyBlack.png using Guid(945956e6cb56aa647b49603e629acff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b99728d4bdc9a33a9ec87483a8e3774') in 0.027953 seconds
-  Import took 0.033076 seconds .
+  Time since last request: 0.000486 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_52.asset
+  artifactKey: Guid(be2b40e5d1eb22742bad4438087b3163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_52.asset using Guid(be2b40e5d1eb22742bad4438087b3163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202a18adf11ded826d1994a57c511ced') in 0.039425 seconds
+  Import took 0.051539 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 146.611423 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview.png
-  artifactKey: Guid(4bac277e82323be498002748f5c57a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview.png using Guid(4bac277e82323be498002748f5c57a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2779e25985f1c6c3399bef67c61bd5b9') in 0.142546 seconds
-  Import took 0.148279 seconds .
+  Time since last request: 0.000715 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_49.asset
+  artifactKey: Guid(c8d57bb0be4d1e84098d212cf321357c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_49.asset using Guid(c8d57bb0be4d1e84098d212cf321357c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a831b7c2e5a1405e1cfd36c5d5f9a2c2') in 0.033761 seconds
+  Import took 0.044593 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 55.446642 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview.png
-  artifactKey: Guid(4bac277e82323be498002748f5c57a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview.png using Guid(4bac277e82323be498002748f5c57a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3f3653b8b9d4137acf750bc9cc6a0f') in 0.136016 seconds
-  Import took 0.148635 seconds .
+  Time since last request: 0.000354 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_43.asset
+  artifactKey: Guid(15c0e3071819fb640ab99f9700c8f600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_43.asset using Guid(15c0e3071819fb640ab99f9700c8f600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eebd1a610ccf7e1bc6f9a5b2c11d408') in 0.030935 seconds
+  Import took 0.039752 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.548921 seconds.
-  path: Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview.png
-  artifactKey: Guid(4bac277e82323be498002748f5c57a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Stages/WallOutside-Fantasy1-A4-removebg-preview.png using Guid(4bac277e82323be498002748f5c57a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c582382812ceb9d2045adb3aa1dff88') in 0.258396 seconds
-  Import took 0.263695 seconds .
+  Time since last request: 0.000452 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_41.asset
+  artifactKey: Guid(d71b556eef028b94aa01ecb1fec797fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_41.asset using Guid(d71b556eef028b94aa01ecb1fec797fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0f3efd6a7c869042d5c0ff7e279b1a') in 0.029482 seconds
+  Import took 0.038278 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002154 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.13 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.592 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.76 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1783 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.2 MB.
-System memory in use after: 90.2 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2252.
-Total: 2.893300 ms (FindLiveObjects: 0.229000 ms CreateObjectMapping: 0.088000 ms MarkObjects: 2.447700 ms  DeleteObjects: 0.127500 ms)
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_44.asset
+  artifactKey: Guid(42849837dee65f046b6ee608db356d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_44.asset using Guid(42849837dee65f046b6ee608db356d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d179ec3db870ace4b77aad3333e65f') in 0.037396 seconds
+  Import took 0.045970 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002454 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.598 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1783 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.3 MB.
-System memory in use after: 90.2 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2255.
-Total: 2.807100 ms (FindLiveObjects: 0.323300 ms CreateObjectMapping: 0.123300 ms MarkObjects: 2.236200 ms  DeleteObjects: 0.122700 ms)
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_65.asset
+  artifactKey: Guid(57d339a7cc46e9e49b4f0c9d9d659665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_65.asset using Guid(57d339a7cc46e9e49b4f0c9d9d659665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4103910def1eb83c8e1a8147f580516f') in 0.027388 seconds
+  Import took 0.036460 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002187 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.505 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1783 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.3 MB.
-System memory in use after: 90.3 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2258.
-Total: 9.906400 ms (FindLiveObjects: 4.522800 ms CreateObjectMapping: 0.690600 ms MarkObjects: 4.473500 ms  DeleteObjects: 0.214800 ms)
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_42.asset
+  artifactKey: Guid(dd5b578947b837e49924140a86daa7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_42.asset using Guid(dd5b578947b837e49924140a86daa7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29ec51d28f5e4604c6d40453955e774') in 0.028233 seconds
+  Import took 0.039216 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001370 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.290 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1783 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.3 MB.
-System memory in use after: 90.3 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2261.
-Total: 3.432300 ms (FindLiveObjects: 0.267300 ms CreateObjectMapping: 0.091600 ms MarkObjects: 2.922000 ms  DeleteObjects: 0.149900 ms)
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_51.asset
+  artifactKey: Guid(bad04555be064d44386cfb6074870281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_51.asset using Guid(bad04555be064d44386cfb6074870281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed497f9c7db9df8f5a3e8cca5fde3c0') in 0.029513 seconds
+  Import took 0.039713 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001967 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.327 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1783 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.3 MB.
-System memory in use after: 90.3 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2264.
-Total: 3.037000 ms (FindLiveObjects: 0.499200 ms CreateObjectMapping: 0.159800 ms MarkObjects: 2.213300 ms  DeleteObjects: 0.163200 ms)
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_61.asset
+  artifactKey: Guid(7cd65d1076574ca4ab33f1950dfc8f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_61.asset using Guid(7cd65d1076574ca4ab33f1950dfc8f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '174fdd4e9d1d33784868f8d3dde0e84c') in 0.029692 seconds
+  Import took 0.039435 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001379 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.44 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.253 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1783 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.4 MB.
-System memory in use after: 90.3 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2267.
-Total: 3.776200 ms (FindLiveObjects: 0.323700 ms CreateObjectMapping: 0.131100 ms MarkObjects: 3.123300 ms  DeleteObjects: 0.197000 ms)
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_48.asset
+  artifactKey: Guid(ccfcaeeb82641e345aa314fb1605b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_48.asset using Guid(ccfcaeeb82641e345aa314fb1605b731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6142d44b38244add2d845dd580f3b40f') in 0.028897 seconds
+  Import took 0.039646 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.086053 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.122 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1783 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.4 MB.
-System memory in use after: 90.3 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2270.
-Total: 2.651000 ms (FindLiveObjects: 0.246600 ms CreateObjectMapping: 0.102100 ms MarkObjects: 2.113400 ms  DeleteObjects: 0.187600 ms)
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_72.asset
+  artifactKey: Guid(bf393118dd0bd714db8407efc69b384e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_72.asset using Guid(bf393118dd0bd714db8407efc69b384e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f63565d73c5126b1c8a2d671b17c89a9') in 0.031579 seconds
+  Import took 0.041521 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001716 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.477 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1783 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.4 MB.
-System memory in use after: 90.3 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2273.
-Total: 3.211000 ms (FindLiveObjects: 0.431400 ms CreateObjectMapping: 0.152600 ms MarkObjects: 2.462000 ms  DeleteObjects: 0.163200 ms)
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_71.asset
+  artifactKey: Guid(7e3e72ca0376c4e46b6ab16c0c81a0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_71.asset using Guid(7e3e72ca0376c4e46b6ab16c0c81a0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b440797f511c390d334ac5fbf5324d') in 0.029367 seconds
+  Import took 0.037277 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001424 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.439 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1783 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.4 MB.
-System memory in use after: 90.4 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2276.
-Total: 3.465200 ms (FindLiveObjects: 0.189600 ms CreateObjectMapping: 0.108000 ms MarkObjects: 2.960500 ms  DeleteObjects: 0.205600 ms)
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_54.asset
+  artifactKey: Guid(9662e0ae38874354d9f65c2965851326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_54.asset using Guid(9662e0ae38874354d9f65c2965851326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973404bdee71f29fe4bbf70171404293') in 0.041182 seconds
+  Import took 0.052011 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002682 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.22 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.410 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.92 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1783 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.4 MB.
-System memory in use after: 90.4 MB.
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_53.asset
+  artifactKey: Guid(2776b0c710257434ea8e9405b2f01f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_53.asset using Guid(2776b0c710257434ea8e9405b2f01f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32177b3c2da900d95fd2c83da3c7f0b') in 0.033065 seconds
+  Import took 0.046115 seconds .
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2279.
-Total: 6.714700 ms (FindLiveObjects: 0.605300 ms CreateObjectMapping: 0.253700 ms MarkObjects: 5.453100 ms  DeleteObjects: 0.399500 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_46.asset
+  artifactKey: Guid(49c68c490be3c264e89789a2d659bc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_46.asset using Guid(49c68c490be3c264e89789a2d659bc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e27ebdad5178d3171125c40f1baa3a') in 0.039591 seconds
+  Import took 0.052371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_47.asset
+  artifactKey: Guid(65de9eb9192051040a4492fd18c73582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_47.asset using Guid(65de9eb9192051040a4492fd18c73582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf9bb25c0180333fed870b2cc1ebc89') in 0.037134 seconds
+  Import took 0.055345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000870 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_62.asset
+  artifactKey: Guid(7071ea3c10ac521489536ea473fc85e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_62.asset using Guid(7071ea3c10ac521489536ea473fc85e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c828bd9c9bd3ca70ea1c3aba32124be5') in 0.033809 seconds
+  Import took 0.049003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_60.asset
+  artifactKey: Guid(dce5f7f786b703544a911786995e7378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_60.asset using Guid(dce5f7f786b703544a911786995e7378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616e3c4a4705f5001317881532190689') in 0.045935 seconds
+  Import took 0.058212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_45.asset
+  artifactKey: Guid(6facff106e2dd92469989f1f22d6a87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_45.asset using Guid(6facff106e2dd92469989f1f22d6a87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11820deb425404d5c053967e19f2be31') in 0.029487 seconds
+  Import took 0.041396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000572 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_73.asset
+  artifactKey: Guid(fa05b68410c71a447a95454622e9638c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_73.asset using Guid(fa05b68410c71a447a95454622e9638c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa60493c273d2f90e874259d40f4f3d') in 0.032931 seconds
+  Import took 0.045609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001112 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_57.asset
+  artifactKey: Guid(fe389bba1b3508e47a5939d586c92cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_57.asset using Guid(fe389bba1b3508e47a5939d586c92cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b81bceba7f39f33afb2e112cd533a6e8') in 0.033183 seconds
+  Import took 0.046557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_75.asset
+  artifactKey: Guid(98b05345f277ddf4eac00199ed56a5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_75.asset using Guid(98b05345f277ddf4eac00199ed56a5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a910ab5970e723e9dfecfe4407c4d0') in 0.031695 seconds
+  Import took 0.040194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_59.asset
+  artifactKey: Guid(f311a75ee981c694eb1648331620aa7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_59.asset using Guid(f311a75ee981c694eb1648331620aa7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a494596b77cd75ec1f27a19539350c') in 0.027055 seconds
+  Import took 0.037992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_56.asset
+  artifactKey: Guid(dcffc749e4c3a8a4bb1380bc3c308cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_56.asset using Guid(dcffc749e4c3a8a4bb1380bc3c308cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ceb5eb066ae462b0282636eab0817f') in 0.034876 seconds
+  Import took 0.042743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_50.asset
+  artifactKey: Guid(93cf081c89b700b4c93935e4ba71f3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_50.asset using Guid(93cf081c89b700b4c93935e4ba71f3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4fea89479ad54f96c32d5b0735986f1') in 0.028693 seconds
+  Import took 0.039544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_63.asset
+  artifactKey: Guid(d747e86067cd86d46ac6509f9ced2e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_63.asset using Guid(d747e86067cd86d46ac6509f9ced2e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf082565ee602581fb07b21701f9e3f3') in 0.027217 seconds
+  Import took 0.036360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_70.asset
+  artifactKey: Guid(77080812b83720b41ba34d478852fc3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palettes/NewCastle/WallOutside-Fantasy1-A4-removebg-preview (1)_70.asset using Guid(77080812b83720b41ba34d478852fc3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01dc1daa8c46f2015eff8b0b6f009a5') in 0.028548 seconds
+  Import took 0.040079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.255120 seconds.
+  path: Assets/Sprites/Stages/BricksWide.png
+  artifactKey: Guid(16dd1cff7c2d2ab4793ed389581551dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Stages/BricksWide.png using Guid(16dd1cff7c2d2ab4793ed389581551dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02404593627501cba11d3a8a35c10da1') in 0.382614 seconds
+  Import took 0.400435 seconds .
 
