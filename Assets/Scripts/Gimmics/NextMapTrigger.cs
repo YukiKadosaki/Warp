@@ -6,7 +6,10 @@ public class NextMapTrigger : MonoBehaviour
 {
     [SerializeField]
     private Vector3 m_Destination;
+    [SerializeField]
+    private int m_PSNumber;
     private MoveCamera m_Camera;
+    private PlayerStart[] m_PS;
 
     public Vector3 Destination
     {
@@ -14,21 +17,55 @@ public class NextMapTrigger : MonoBehaviour
         set { m_Destination = value; }
     }
 
+    public int PSNumber
+    {
+        get => m_PSNumber;
+        set { m_PSNumber = value; }
+    }
+    public PlayerStart[] PS
+    {
+        get => m_PS;
+        set { m_PS = value; }
+    }
+
     // Start is called before the first frame update
     void Start()
     {
         m_Camera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<MoveCamera>();
+
+        //PlayerStartを取得
+        int i = 0;
+        PS = new PlayerStart[GameObject.FindGameObjectsWithTag("PlayerStart").Length];
+        foreach (GameObject ps in GameObject.FindGameObjectsWithTag("PlayerStart"))
+        {
+            PS[i] = ps.GetComponent<PlayerStart>();
+            Debug.Log("PS[" + i + "].PSNumber = " + PS[i].PSNumber);
+            i++;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            Debug.Log("Call");
+            //カメラを動かす
             StartCoroutine(m_Camera.MoveToDestination(Destination));
-            Debug.Log("CallEnd");
+
+            //全PlayerStartのアクティブを切る
+            for (int i = 0; i < PS.Length; i++)
+            {
+                PS[i].Active = false;
+            }
+
+            //PlayerStartをアクティベートする
+            for (int i = 0;i < PS.Length; i++)
+            {
+                if(this.PSNumber == PS[i].PSNumber)
+                {
+                    PS[i].Active = true;
+                }
+            }
         }
 
-        m_Camera.DebugLog();
     }
 }

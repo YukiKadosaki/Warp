@@ -8,6 +8,7 @@ TagManager:
   - GameManager
   - Wall
   - Copy
+  - PlayerStart
   layers:
   - Default
   - TransparentFX

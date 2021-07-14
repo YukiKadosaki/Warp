@@ -6,13 +6,13 @@ using UnityEngine;
 public class Player_Sample : MonoBehaviour
 {
     private const float copySpeed = 5;//分身の移動速度
-    private const float jumpForce = 14;//1段目のジャンプ力
+    private const float jumpForce = 15;//1段目のジャンプ力
     private const float secondJumpForce = 10;//2段目のジャンプ力
     private const float maxJumpTime = 0.3f;//最大ジャンプの秒数
     private const float endSpeed = 1.0f;//指を離したときのスピード
     private const float reduceJumpSpeedRate = 0.3f;//ジャンプをやめたときのスピード減少率
     private const float maxFallingSpeed = -10f;//最大落下速度
-    private const float moveSpeed = 4;//横移動速度
+    private const float moveSpeed = 6;//横移動速度
 
     [SerializeField]
     private GameObject[] groundCheckObjects;
@@ -38,6 +38,8 @@ public class Player_Sample : MonoBehaviour
     private bool m_CanLeftMove;
     private bool m_CanRightMove;
     private bool m_CanSecondJump;
+    private bool m_PlayerFlosen;//trueなら操作を受け付けなくなる。KillPlayerの時などに呼ばれる
+    private PlayerStart[] m_PS;
 
 
     public float MoveSpeed
@@ -116,6 +118,16 @@ public class Player_Sample : MonoBehaviour
         set { m_CanSecondJump = value; }
         get => m_CanSecondJump;
     }
+    public bool PlayerFlosen
+    {
+        set { m_PlayerFlosen = value; }
+        get => m_PlayerFlosen;
+    }
+    public PlayerStart[] PS
+    {
+        get => m_PS;
+        set { m_PS = value; }
+    }
 
 
 
@@ -127,55 +139,67 @@ public class Player_Sample : MonoBehaviour
         m_Transform = this.transform;
         m_PlayerCopy = (GameObject)Resources.Load("Prefab/PlayerCopy");
         m_SpriteRenderer = GetComponent<SpriteRenderer>();
+
+        int i = 0;
+        PS = new PlayerStart[GameObject.FindGameObjectsWithTag("PlayerStart").Length];
+        foreach(GameObject ps in GameObject.FindGameObjectsWithTag("PlayerStart"))
+        {
+            PS[i] = ps.GetComponent<PlayerStart>();
+            i++;
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-
-
-        //�W�����v�J�n
-        if (Input.GetKeyDown(KeyCode.Z))
+        if (!PlayerFlosen)
         {
-            if (IsGrounded)//1段ジャンプ
+            //�W�����v�J�n
+            if (Input.GetKeyDown(KeyCode.Z))
             {
-                IsFirstJumping = true;
+                if (IsGrounded)//1段ジャンプ
+                {
+                    IsFirstJumping = true;
+                }
+                else if (!IsSecondJumping && CanSecondJump)//2段ジャンプ
+                {
+                    IsSecondJumping = true;
+                    CanSecondJump = false;
+                }
             }
-            else if (!IsSecondJumping && CanSecondJump)//2段ジャンプ
+
+
+
+            //�W�����v�I��
+            if (Input.GetKeyUp(KeyCode.Z))
             {
-                IsSecondJumping = true;
-                CanSecondJump = false;
+                JumpEnd = true;
             }
+
+            CalculateJumpTime();
+
+            //���g�����
+            if (Input.GetKeyDown(KeyCode.X) && GameObject.FindGameObjectsWithTag("Copy").Length == 0)
+            {
+                CreateCopy();
+            }
+
+            //���n������v�Z
+            GroundCheck();
+            //�ǂ̔�����v�Z
+            RightWallCheck();
+            //�����X�s�[�h�͍ő�7
+            CheckFallingSpeed();
         }
-
-
-
-        //�W�����v�I��
-        if (Input.GetKeyUp(KeyCode.Z))
-        {
-            JumpEnd = true;
-        }
-
-        CalculateJumpTime();
-
-        //���g�����
-        if (Input.GetKeyDown(KeyCode.X) && GameObject.FindGameObjectsWithTag("Copy").Length == 0)
-        {
-            CreateCopy();
-        }
-
-        //���n������v�Z
-        GroundCheck();
-        //�ǂ̔�����v�Z
-        RightWallCheck();
-        //�����X�s�[�h�͍ő�7
-        CheckFallingSpeed();
     }
 
     private void FixedUpdate()
     {
-        Jump();
-        Move();
+        if (!PlayerFlosen)
+        {
+            Jump();
+            Move();
+        }
     }
 
     //分身の位置まで移動する
@@ -367,6 +391,47 @@ public class Player_Sample : MonoBehaviour
         {
             m_RigidBody2D.velocity = new Vector3(m_RigidBody2D.velocity.x, maxFallingSpeed, 0);
         }
+    }
+
+    //Killer.csの付いたオブジェクトに触れると呼ばれる
+    //プレイヤーを操作不能にし、プレイヤーを黒くする。その後プレイヤーを消去し、復活の処理をする。
+    public IEnumerator KillPlayer()
+    {
+        //動けなくする
+        m_RigidBody2D.gravityScale = 0;
+        m_RigidBody2D.velocity = Vector3.zero;
+        PlayerFlosen = true;
+
+        //分身が居るなら分身を消す
+        GameObject copy;
+        if (copy = GameObject.FindGameObjectWithTag("Copy"))
+        {
+            Destroy(copy);
+        }
+
+        //色を黒くする
+        int dc = 2;//decreaseColor 色の減少値
+        Color color = m_SpriteRenderer.color;
+        while (m_SpriteRenderer.color.g > 0)
+        {
+            float dcf = dc * Time.deltaTime;//decrease color float
+            color = new Color(color.r, color.g - dcf, color.b - dcf, color.a);
+            m_SpriteRenderer.color = color;
+            yield return null;
+        }
+        m_SpriteRenderer.color = new Color(255, 0, 0, color.a);
+
+
+        
+
+        //新しいプレイヤーを出して自分は消える
+        for(int i = 0;i < PS.Length; i++)
+        {
+            PS[i].CreatePlayer();
+        }
+        Destroy(this.gameObject);
+
+        yield return null;
     }
 }
 

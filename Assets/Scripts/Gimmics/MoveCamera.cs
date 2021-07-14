@@ -45,8 +45,4 @@ public class MoveCamera : MonoBehaviour
         }
     }
 
-    public void DebugLog()
-    {
-        Debug.Log("DEBUG");
-    }
 }
