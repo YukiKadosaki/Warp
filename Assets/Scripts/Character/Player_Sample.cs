@@ -7,7 +7,7 @@ public class Player_Sample : MonoBehaviour
 {
     private const float copySpeed = 5;//分身の移動速度
     private const float jumpForce = 15;//1段目のジャンプ力
-    private const float secondJumpForce = 10;//2段目のジャンプ力
+    private const float secondJumpForce = 11;//2段目のジャンプ力
     private const float maxJumpTime = 0.3f;//最大ジャンプの秒数
     private const float endSpeed = 1.0f;//指を離したときのスピード
     private const float reduceJumpSpeedRate = 0.3f;//ジャンプをやめたときのスピード減少率
@@ -179,7 +179,7 @@ public class Player_Sample : MonoBehaviour
             CalculateJumpTime();
 
             //���g�����
-            if (Input.GetKeyDown(KeyCode.X) && GameObject.FindGameObjectsWithTag("Copy").Length == 0)
+            if (Input.GetKeyDown(KeyCode.X) && GameObject.FindGameObjectsWithTag("Copy").Length == 0 && CanRightMove)
             {
                 CreateCopy();
             }
@@ -250,12 +250,30 @@ public class Player_Sample : MonoBehaviour
         //プレイヤーの向きの変更
         if (x > 0)
         {
-            m_Transform.localScale = new Vector3(1, 1, 1);
+            //大きいリフトに乗ったときのため
+            if (null == m_Transform.parent)
+            {
+                m_Transform.localScale = new Vector3(1, 1, 1);
+            }
+            else
+            {
+                Vector3 scale = transform.parent.lossyScale;
+                m_Transform.localScale = new Vector3(1f / scale.x, 1f / scale.y, 1f / scale.z);
+            }
             DirectionLeft = false;
         }
         else if (x < 0)
         {
-            m_Transform.localScale = new Vector3(-1, 1, 1);
+            //大きいリフトに乗ったときのため
+            if (null == m_Transform.parent)
+            {
+                m_Transform.localScale = new Vector3(-1, 1, 1);
+            }
+            else
+            {
+                Vector3 scale = transform.parent.lossyScale;
+                m_Transform.localScale = new Vector3(-1f / scale.x, 1f / scale.y, 1f / scale.z);
+            }
             DirectionLeft = true;
         }
 
@@ -334,7 +352,7 @@ public class Player_Sample : MonoBehaviour
         {
             groundCheckCollider[i] = Physics2D.OverlapPoint(groundCheckObjects[i].transform.position);
             //�ڒn����I�u�W�F�N�g�̂����A1�ł������ɏd�Ȃ��Ă�����ڒn���Ă�����̂Ƃ��ďI��
-            if (groundCheckCollider[i] != null && groundCheckCollider[i].isTrigger == false)
+            if (groundCheckCollider[i] != null && (groundCheckCollider[i].isTrigger == false || groundCheckCollider[i].CompareTag("LiftRideCheck")))
             {
                 IsGrounded = true;
                 CanSecondJump = true;

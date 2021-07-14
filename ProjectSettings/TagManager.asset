@@ -9,6 +9,8 @@ TagManager:
   - Wall
   - Copy
   - PlayerStart
+  - LiftRideCheck
+  - Lift
   layers:
   - Default
   - TransparentFX
