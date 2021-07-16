@@ -11,6 +11,8 @@ TagManager:
   - PlayerStart
   - LiftRideCheck
   - Lift
+  - LiftCollisionDetector
+  - DirectionChangeDetector
   layers:
   - Default
   - TransparentFX

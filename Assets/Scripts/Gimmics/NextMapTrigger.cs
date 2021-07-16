@@ -39,7 +39,6 @@ public class NextMapTrigger : MonoBehaviour
         foreach (GameObject ps in GameObject.FindGameObjectsWithTag("PlayerStart"))
         {
             PS[i] = ps.GetComponent<PlayerStart>();
-            Debug.Log("PS[" + i + "].PSNumber = " + PS[i].PSNumber);
             i++;
         }
     }

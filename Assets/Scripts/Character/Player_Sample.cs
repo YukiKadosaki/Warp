@@ -20,6 +20,7 @@ public class Player_Sample : MonoBehaviour
     private GameObject[] rightWallCheckObjects;//右の壁をチェックする
     [SerializeField]
     private GameObject rightDownWallCheckObject;
+    
 
 
 
@@ -40,6 +41,8 @@ public class Player_Sample : MonoBehaviour
     private bool m_CanSecondJump;
     private bool m_PlayerFlosen;//trueなら操作を受け付けなくなる。KillPlayerの時などに呼ばれる
     private PlayerStart[] m_PS;
+    private bool m_Alive = true;//生きているかどうか
+    private Sprite[] m_PlayerSprite;
 
 
     public float MoveSpeed
@@ -128,7 +131,13 @@ public class Player_Sample : MonoBehaviour
         get => m_PS;
         set { m_PS = value; }
     }
+    public bool Alive
+    {
+        get => m_Alive;
+        set { m_Alive = value; }
+    }
 
+    
 
 
     // Start is called before the first frame update
@@ -137,14 +146,14 @@ public class Player_Sample : MonoBehaviour
         Application.targetFrameRate = 50;//フレームレートを50に
         m_RigidBody2D = this.GetComponent<Rigidbody2D>();
         m_Transform = this.transform;
-        m_PlayerCopy = (GameObject)Resources.Load("Prefab/PlayerCopy");
         m_SpriteRenderer = GetComponent<SpriteRenderer>();
+        LoadResources();//プレファブとスプライトのロード
 
         int i = 0;
         PS = new PlayerStart[GameObject.FindGameObjectsWithTag("PlayerStart").Length];
-        foreach(GameObject ps in GameObject.FindGameObjectsWithTag("PlayerStart"))
+        foreach(GameObject m_PlayerSprite in GameObject.FindGameObjectsWithTag("PlayerStart"))
         {
-            PS[i] = ps.GetComponent<PlayerStart>();
+            PS[i] = m_PlayerSprite.GetComponent<PlayerStart>();
             i++;
         }
     }
@@ -152,6 +161,7 @@ public class Player_Sample : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //PlayerFrozenで動けるかどうかが決まる
         if (!PlayerFlosen)
         {
             //�W�����v�J�n
@@ -170,7 +180,7 @@ public class Player_Sample : MonoBehaviour
 
 
 
-            //�W�����v�I��
+            //分身を出す
             if (Input.GetKeyUp(KeyCode.Z))
             {
                 JumpEnd = true;
@@ -184,12 +194,15 @@ public class Player_Sample : MonoBehaviour
                 CreateCopy();
             }
 
-            //���n������v�Z
-            GroundCheck();
+            
             //�ǂ̔�����v�Z
             RightWallCheck();
             //�����X�s�[�h�͍ő�7
             CheckFallingSpeed();
+            //着地判定チェック
+            GroundCheck();
+            //ジャンプしたときにジャンプのスプライトに変える
+            SpriteCheck();
         }
     }
 
@@ -200,6 +213,13 @@ public class Player_Sample : MonoBehaviour
             Jump();
             Move();
         }
+    }
+
+    //Prefab, Spriteのロード
+    private void LoadResources()
+    {
+        m_PlayerCopy = (GameObject)Resources.Load("Prefab/PlayerCopy");
+        m_PlayerSprite = Resources.LoadAll<Sprite>("Sprites/UnityChan_8bit");
     }
 
     //分身の位置まで移動する
@@ -352,7 +372,9 @@ public class Player_Sample : MonoBehaviour
         {
             groundCheckCollider[i] = Physics2D.OverlapPoint(groundCheckObjects[i].transform.position);
             //�ڒn����I�u�W�F�N�g�̂����A1�ł������ɏd�Ȃ��Ă�����ڒn���Ă�����̂Ƃ��ďI��
-            if (groundCheckCollider[i] != null && (groundCheckCollider[i].isTrigger == false || groundCheckCollider[i].CompareTag("LiftRideCheck")))
+            if (null != groundCheckCollider[i]
+                && (groundCheckCollider[i].isTrigger == false || groundCheckCollider[i].CompareTag("LiftRideCheck") ||
+                groundCheckCollider[i].CompareTag("DirectionChangeDetector")))
             {
                 IsGrounded = true;
                 CanSecondJump = true;
@@ -415,6 +437,16 @@ public class Player_Sample : MonoBehaviour
     //プレイヤーを操作不能にし、プレイヤーを黒くする。その後プレイヤーを消去し、復活の処理をする。
     public IEnumerator KillPlayer()
     {
+
+        //すでに死んでいるならコルーチンは呼ばない
+        if (!Alive)
+        {
+            yield break;
+        }
+        else
+        {
+            Alive = false;
+        }
         //動けなくする
         m_RigidBody2D.gravityScale = 0;
         m_RigidBody2D.velocity = Vector3.zero;
@@ -449,7 +481,22 @@ public class Player_Sample : MonoBehaviour
         }
         Destroy(this.gameObject);
 
-        yield return null;
+        yield  break;
     }
+
+    private void SpriteCheck()
+    {
+        //着地しているなら着地しているスプライト、ジャンプしているならジャンプしてるスプライトに変更
+        if (IsGrounded)
+        {
+            m_SpriteRenderer.sprite = m_PlayerSprite[0];
+        }
+        else
+        {
+            m_SpriteRenderer.sprite = m_PlayerSprite[1];
+        }
+    }
+
+    
 }
 

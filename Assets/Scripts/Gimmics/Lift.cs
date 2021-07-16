@@ -38,6 +38,11 @@ public class Lift : MonoBehaviour
     {
         m_Collider.isTrigger = trigger;
     }
+    //壁に触れると跳ね返る。LiftDirectionChangeDetectorから呼ばれる
+    public void ChangeDirection()
+    {
+        Direction *= -1;
+    }
 
     void Update()
     {
@@ -45,16 +50,6 @@ public class Lift : MonoBehaviour
         {
             m_transform.localPosition += Direction.normalized * MoveSpeed * Time.deltaTime;
         }
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        //壁に触れると跳ね返る
-        if (collision.gameObject.CompareTag("Wall"))
-        {
-            Direction *= -1;
-        }
-
     }
 
 }
