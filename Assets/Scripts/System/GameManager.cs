@@ -21,6 +21,8 @@ public class GameManager : SingletonMonoBehaviour<GameManager>
 	{
 		base.Awake();
 
+		Debug.Log("this is " + this.gameObject.name);
+
 		if (Debug.isDebugBuild)
 		{
 			
