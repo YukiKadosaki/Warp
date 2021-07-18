@@ -7,6 +7,7 @@ public class Killer : MonoBehaviour
     private Player_Sample m_Player;
     private bool m_Frozen;
 
+    //TransparecyBlock‚©‚ç•ÏX‚³‚ê‚é
     public bool Frozen
     {
         get => m_Frozen;
@@ -29,4 +30,5 @@ public class Killer : MonoBehaviour
         yield return new WaitForSeconds(0.2f);
         Frozen = false;
     }
+    
 }

@@ -11,17 +11,15 @@ public class Reflection : MonoBehaviour
         leftDown,
         leftUp
     }
-    private Transform m_transform;
+    protected Transform m_transform;
 
     [SerializeField]
-    private ReflectType m_ReflectType;
+    protected ReflectType m_ReflectType;
 
-    Sprite[] m_Sprites = new Sprite[4];
 
     // Start is called before the first frame update
-    void Start()
+    protected virtual void Start()
     {
-        LoadSprite();
         m_transform = transform;
     }
 
@@ -37,12 +35,5 @@ public class Reflection : MonoBehaviour
         Debug.Log("Touch");
     }
 
-    //スプライトのロード子クラスで変更する
-    protected void LoadSprite()
-    {
-        m_Sprites[(int)ReflectType.rightUp] = Resources.Load<Sprite>("Sprites/hansha1");
-        m_Sprites[(int)ReflectType.rightDown] = Resources.Load<Sprite>("Sprites/hansha2");
-        m_Sprites[(int)ReflectType.leftDown] = Resources.Load<Sprite>("Sprites/hansha3");
-        m_Sprites[(int)ReflectType.leftUp] = Resources.Load<Sprite>("Sprites/hansha4");
-    }
+    
 }
