@@ -2126,3 +2126,95 @@ Received Import Request.
 Start importing Assets/Scenes/Tower.unity using Guid(6eac35875e6267a4ead36a9f6dbd71be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e0325d24b1ce069355181efd15aa15') in 0.004643 seconds
   Import took 0.009929 seconds .
 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 13.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.5 MB.
+System memory in use after: 56.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2469.
+Total: 6.514400 ms (FindLiveObjects: 0.427600 ms CreateObjectMapping: 0.143600 ms MarkObjects: 5.679600 ms  DeleteObjects: 0.260500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005277 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.564 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1838 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.6 MB.
+System memory in use after: 92.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2472.
+Total: 6.774100 ms (FindLiveObjects: 0.579100 ms CreateObjectMapping: 0.211400 ms MarkObjects: 3.179600 ms  DeleteObjects: 2.802400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 6517.249580 seconds.
+  path: Assets/Main.PNG
+  artifactKey: Guid(f4471ec2c34f8e541bcbe24aee56f7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main.PNG using Guid(f4471ec2c34f8e541bcbe24aee56f7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503387a8f30397a13d89d14f25253f6b') in 0.246422 seconds
+  Import took 0.253735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000561 seconds.
+  path: Assets/Sub3.PNG
+  artifactKey: Guid(c5c8682ec41e0c54988e79a331921b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sub3.PNG using Guid(c5c8682ec41e0c54988e79a331921b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd8af03c611c586fb15f3751c736fdb') in 0.038456 seconds
+  Import took 0.045387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Sub1.PNG
+  artifactKey: Guid(f22b68021713ec649aff8b413b7d770c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sub1.PNG using Guid(f22b68021713ec649aff8b413b7d770c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4fbc0e07473a139dbd7d70022f0a05d') in 0.034911 seconds
+  Import took 0.040746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Main.PNG
+  artifactKey: Guid(f4471ec2c34f8e541bcbe24aee56f7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main.PNG using Guid(f4471ec2c34f8e541bcbe24aee56f7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503387a8f30397a13d89d14f25253f6b') in 0.029856 seconds
+  Import took 0.034916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Sub2.PNG
+  artifactKey: Guid(44f12c62307734a42a9a1e9d233daf7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sub2.PNG using Guid(44f12c62307734a42a9a1e9d233daf7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60eb268a1de0aabca4ed3f863983db18') in 0.032501 seconds
+  Import took 0.042659 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001862 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.585 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1838 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.7 MB.
+System memory in use after: 92.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2482.
+Total: 4.134100 ms (FindLiveObjects: 0.601100 ms CreateObjectMapping: 0.187600 ms MarkObjects: 3.057000 ms  DeleteObjects: 0.285600 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
