@@ -8,6 +8,7 @@ public class ChangeableReflection : Reflection
     private SpriteRenderer m_SpriteRenderer;
 
 
+
     // Start is called before the first frame update
     protected override void Start()
     {
@@ -15,6 +16,14 @@ public class ChangeableReflection : Reflection
         LoadSprite();
         m_SpriteRenderer = this.GetComponent<SpriteRenderer>();
     }
+
+
+    private void Update()
+    {
+        //反射タイプ通りのスプライトに変更する
+        m_SpriteRenderer.sprite = m_Sprites[(int)m_ReflectType];
+    }
+
 
     //向きの変更
     public void ChangeMyDirection()
@@ -36,10 +45,9 @@ public class ChangeableReflection : Reflection
         {
             m_ReflectType = ReflectType.rightDown;
         }
-
-        //反射タイプ通りのスプライトに変更する
-        m_SpriteRenderer.sprite = m_Sprites[(int)m_ReflectType];
     }
+
+
 
     //スプライトのロード
     protected void LoadSprite()

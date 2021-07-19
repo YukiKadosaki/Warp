@@ -15,12 +15,14 @@ public class Reflection : MonoBehaviour
 
     [SerializeField]
     protected ReflectType m_ReflectType;
+    protected ReflectType m_StartReflectType;
 
 
     // Start is called before the first frame update
     protected virtual void Start()
     {
         m_transform = transform;
+        m_StartReflectType = m_ReflectType;
     }
 
     //ƒRƒs[‚ªG‚ê‚Ä‚«‚½‚ç©•ª‚ÌŒü‚«‚ğ“n‚µ‚Ä•ûŒü‚ğ•Ï‚¦‚Ä‚à‚ç‚¤
@@ -35,5 +37,8 @@ public class Reflection : MonoBehaviour
         Debug.Log("Touch");
     }
 
-    
+    public void ReturnType()
+    {
+        m_ReflectType = m_StartReflectType;
+    }
 }

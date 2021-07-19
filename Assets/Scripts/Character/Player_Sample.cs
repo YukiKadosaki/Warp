@@ -43,6 +43,7 @@ public class Player_Sample : MonoBehaviour
     private PlayerStart[] m_PS;
     private bool m_Alive = true;//生きているかどうか
     private Sprite[] m_PlayerSprite;
+    private Reflection[] m_Refrector;
 
 
     public float MoveSpeed
@@ -136,6 +137,11 @@ public class Player_Sample : MonoBehaviour
         get => m_Alive;
         set { m_Alive = value; }
     }
+    public Reflection[] Reflector
+    {
+        get => m_Refrector;
+        set { m_Refrector = value; }
+    }
 
     
 
@@ -150,12 +156,24 @@ public class Player_Sample : MonoBehaviour
         LoadResources();//プレファブとスプライトのロード
 
         int i = 0;
+        //PlayerStartを取得
         PS = new PlayerStart[GameObject.FindGameObjectsWithTag("PlayerStart").Length];
         foreach(GameObject m_PlayerSprite in GameObject.FindGameObjectsWithTag("PlayerStart"))
         {
             PS[i] = m_PlayerSprite.GetComponent<PlayerStart>();
             i++;
         }
+
+        i = 0;
+        Reflector = new Reflection[GameObject.FindGameObjectsWithTag("ChangeReflector").Length];
+        foreach(GameObject obj in GameObject.FindGameObjectsWithTag("ChangeReflector"))
+        {
+            Reflector[i] = obj.GetComponent<Reflection>();
+            i++;
+        }
+
+        //Reflectorを取得
+        
     }
 
     // Update is called once per frame
@@ -471,11 +489,14 @@ public class Player_Sample : MonoBehaviour
         }
         m_SpriteRenderer.color = new Color(255, 0, 0, color.a);
 
-
-        
+        //反射板を元に戻す
+        for(int i = 0;i < Reflector.Length; i++)
+        {
+            Reflector[i].ReturnType();
+        }
 
         //新しいプレイヤーを出して自分は消える
-        for(int i = 0;i < PS.Length; i++)
+        for (int i = 0;i < PS.Length; i++)
         {
             PS[i].CreatePlayer();
         }
