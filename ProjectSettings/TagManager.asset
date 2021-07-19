@@ -8,6 +8,12 @@ TagManager:
   - GameManager
   - Wall
   - Copy
+  - PlayerStart
+  - LiftRideCheck
+  - Lift
+  - LiftCollisionDetector
+  - DirectionChangeDetector
+  - ChangeReflector
   layers:
   - Default
   - TransparentFX
