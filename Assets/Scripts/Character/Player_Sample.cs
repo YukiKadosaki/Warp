@@ -44,6 +44,7 @@ public class Player_Sample : MonoBehaviour
     private bool m_Alive = true;//生きているかどうか
     private Sprite[] m_PlayerSprite;
     private Reflection[] m_Refrector;
+    private TowerManager m_TowerManager;//死亡回数を記録させたい
 
 
     public float MoveSpeed
@@ -141,9 +142,7 @@ public class Player_Sample : MonoBehaviour
     {
         get => m_Refrector;
         set { m_Refrector = value; }
-    }
-
-    
+    }  
 
 
     // Start is called before the first frame update
@@ -164,6 +163,7 @@ public class Player_Sample : MonoBehaviour
             i++;
         }
 
+        //Reflectorを取得
         i = 0;
         Reflector = new Reflection[GameObject.FindGameObjectsWithTag("ChangeReflector").Length];
         foreach(GameObject obj in GameObject.FindGameObjectsWithTag("ChangeReflector"))
@@ -172,7 +172,8 @@ public class Player_Sample : MonoBehaviour
             i++;
         }
 
-        //Reflectorを取得
+        //TowerManagerを取得
+        m_TowerManager = GameObject.FindGameObjectWithTag("TowerManager").GetComponent<TowerManager>();
         
     }
 
@@ -494,6 +495,9 @@ public class Player_Sample : MonoBehaviour
         {
             Reflector[i].ReturnType();
         }
+
+        //死亡回数を増やす
+        m_TowerManager.DeathCount += 1;
 
         //新しいプレイヤーを出して自分は消える
         for (int i = 0;i < PS.Length; i++)

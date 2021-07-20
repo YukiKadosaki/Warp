@@ -14,6 +14,7 @@ TagManager:
   - LiftCollisionDetector
   - DirectionChangeDetector
   - ChangeReflector
+  - TowerManager
   layers:
   - Default
   - TransparentFX
