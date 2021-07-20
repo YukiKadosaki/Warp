@@ -1,3 +1,5 @@
+//プレイ時間、死亡回数などを記録
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

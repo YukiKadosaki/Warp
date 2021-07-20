@@ -21,7 +21,7 @@ public class TimeShower : MonoBehaviour
         double time = m_TowerManager.ClimbingTime;
         int hour = (int)time / 3600;
         int minute = (int)time / 60;
-        int sec = (int)time;
+        int sec = (int)time % 60;
         m_Text.text = hour + ":" + minute + ":" + sec;
     }
 
