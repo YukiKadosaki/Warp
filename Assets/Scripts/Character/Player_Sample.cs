@@ -45,6 +45,7 @@ public class Player_Sample : MonoBehaviour
     private Sprite[] m_PlayerSprite;
     private Reflection[] m_Refrector;
     private TowerManager m_TowerManager;//死亡回数を記録させたい
+    private AudioSource m_AudioSource;
 
 
     public float MoveSpeed
@@ -173,8 +174,15 @@ public class Player_Sample : MonoBehaviour
         }
 
         //TowerManagerを取得
-        m_TowerManager = GameObject.FindGameObjectWithTag("TowerManager").GetComponent<TowerManager>();
-        
+        GameObject obj1;
+        obj1 = GameObject.FindGameObjectWithTag("TowerManager");
+        if (obj1 != null) { 
+            obj1.TryGetComponent(out m_TowerManager);
+        }
+
+        //AudioSourceを取得
+        m_AudioSource = this.GetComponent<AudioSource>();
+
     }
 
     // Update is called once per frame
@@ -189,17 +197,23 @@ public class Player_Sample : MonoBehaviour
                 if (IsGrounded)//1段ジャンプ
                 {
                     IsFirstJumping = true;
+                    //音を鳴らす
+                    m_AudioSource.clip = Resources.Load<AudioClip>("Audio/SE/Jump1");
+                    m_AudioSource.Play();
                 }
                 else if (!IsSecondJumping && CanSecondJump)//2段ジャンプ
                 {
                     IsSecondJumping = true;
                     CanSecondJump = false;
+                    //音を鳴らす
+                    m_AudioSource.clip = Resources.Load<AudioClip>("Audio/SE/Jump2");
+                    m_AudioSource.Play();
                 }
             }
 
 
 
-            //分身を出す
+            //ジャンプをやめたとき
             if (Input.GetKeyUp(KeyCode.Z))
             {
                 JumpEnd = true;
@@ -207,10 +221,21 @@ public class Player_Sample : MonoBehaviour
 
             CalculateJumpTime();
 
-            //���g�����
+            //壁に密着して無くて分身が部屋にいないときにXキーで分身を出す
             if (Input.GetKeyDown(KeyCode.X) && GameObject.FindGameObjectsWithTag("Copy").Length == 0 && CanRightMove)
             {
                 CreateCopy();
+                //音を鳴らす(音を小さくする)
+                m_AudioSource.volume = 0.1f;
+                m_AudioSource.clip = Resources.Load<AudioClip>("Audio/SE/shoot");
+                m_AudioSource.Play();
+                m_AudioSource.volume = 0.2f;
+            }
+
+            //Qキーで自殺
+            if (Input.GetKeyDown(KeyCode.Q))
+            {
+                StartCoroutine(KillPlayer());
             }
 
             
@@ -244,6 +269,10 @@ public class Player_Sample : MonoBehaviour
     //分身の位置まで移動する
     public void WarpToCopy(Vector3 pos)
     {
+        //音を鳴らす
+        m_AudioSource.clip = Resources.Load<AudioClip>("Audio/SE/warp");
+        m_AudioSource.Play();
+
         m_Transform.position = pos;
         m_RigidBody2D.velocity = Vector3.zero;
         CanSecondJump = true;
@@ -466,6 +495,10 @@ public class Player_Sample : MonoBehaviour
         {
             Alive = false;
         }
+        //音を鳴らす
+        m_AudioSource.clip = Resources.Load<AudioClip>("Audio/SE/die");
+        m_AudioSource.Play();
+
         //動けなくする
         m_RigidBody2D.gravityScale = 0;
         m_RigidBody2D.velocity = Vector3.zero;
@@ -497,7 +530,10 @@ public class Player_Sample : MonoBehaviour
         }
 
         //死亡回数を増やす
-        m_TowerManager.DeathCount += 1;
+        if (null != m_TowerManager)
+        {
+            m_TowerManager.DeathCount += 1;
+        }
 
         //新しいプレイヤーを出して自分は消える
         for (int i = 0;i < PS.Length; i++)

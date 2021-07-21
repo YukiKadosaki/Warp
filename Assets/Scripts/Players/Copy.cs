@@ -11,6 +11,7 @@ public class Copy : MonoBehaviour
     private Player_Sample m_Player;
     private Transform m_Transform;
     private Rigidbody2D m_RigidBody2D;
+    private AudioSource m_AudioSource;
 
 
     // Start is called before the first frame update
@@ -19,11 +20,13 @@ public class Copy : MonoBehaviour
         m_Player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player_Sample>();
         m_Transform = this.transform;
         m_RigidBody2D = this.GetComponent<Rigidbody2D>();
+        m_AudioSource = this.GetComponent<AudioSource>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Wall") && !collision.isTrigger){
+            //プレイヤーをワープさせる
             m_Player.WarpToCopy(m_Transform.position);
             Destroy(this.gameObject);
         }
@@ -32,6 +35,10 @@ public class Copy : MonoBehaviour
     //反射オブジェクトに触れたときの処理
     public void ChangeDirection(Reflection.ReflectType rtype)
     {
+        //音を鳴らす
+        m_AudioSource.clip = Resources.Load<AudioClip>("Audio/SE/DirChange");
+        m_AudioSource.Play();
+
         Vector3 v = m_RigidBody2D.velocity;//現在の速度
 
         //向きが右上
