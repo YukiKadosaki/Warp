@@ -20,6 +20,8 @@ public class Player_Sample : MonoBehaviour
     private GameObject[] rightWallCheckObjects;//右の壁をチェックする
     [SerializeField]
     private GameObject rightDownWallCheckObject;
+    [SerializeField]
+    private bool canPressQ;
     
 
 
@@ -233,7 +235,7 @@ public class Player_Sample : MonoBehaviour
             }
 
             //Qキーで自殺
-            if (Input.GetKeyDown(KeyCode.Q))
+            if (Input.GetKeyDown(KeyCode.Q) && canPressQ)
             {
                 StartCoroutine(KillPlayer());
             }
@@ -533,12 +535,17 @@ public class Player_Sample : MonoBehaviour
         if (null != m_TowerManager)
         {
             m_TowerManager.DeathCount += 1;
+            PlayerPrefs.SetInt("DeathCount", m_TowerManager.DeathCount);
+            PlayerPrefs.Save();
         }
+
+        yield return null;
 
         //新しいプレイヤーを出して自分は消える
         for (int i = 0;i < PS.Length; i++)
         {
-            PS[i].CreatePlayer();
+            Debug.Log("SC");
+            PS[i].CreatePlayerVoid();
         }
         Destroy(this.gameObject);
 
@@ -556,6 +563,13 @@ public class Player_Sample : MonoBehaviour
         {
             m_SpriteRenderer.sprite = m_PlayerSprite[1];
         }
+    }
+
+    //PlayerStartから呼ばれる
+    public void SaveSE()
+    {
+        m_AudioSource.clip = Resources.Load<AudioClip>("Audio/SE/Save");
+        m_AudioSource.Play();
     }
 
     

@@ -1,3 +1,5 @@
+//PlayerPrefsには帰ってくるPSNumberを保存する
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,6 +12,7 @@ public class NextMapTrigger : MonoBehaviour
     private int m_PSNumber;
     private MoveCamera m_Camera;
     private PlayerStart[] m_PS;
+    private World m_World;
 
     public Vector3 Destination
     {
@@ -29,7 +32,7 @@ public class NextMapTrigger : MonoBehaviour
     }
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         m_Camera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<MoveCamera>();
 
@@ -40,6 +43,19 @@ public class NextMapTrigger : MonoBehaviour
         {
             PS[i] = ps.GetComponent<PlayerStart>();
             i++;
+        }
+
+        m_World = GameObject.FindGameObjectWithTag("World").GetComponent<World>();
+
+        //int activate_num = m_World.psNumber;
+        int activate_num = 0;
+
+
+        //PlayerStartをアクティベートする
+        for (int j = 0; j < PS.Length; j++)
+        {
+            PS[activate_num].Active = true;
+            StartCoroutine(PS[activate_num].CreatePlayer());
         }
     }
 
@@ -54,6 +70,9 @@ public class NextMapTrigger : MonoBehaviour
             for (int i = 0; i < PS.Length; i++)
             {
                 PS[i].Active = false;
+                Sprite s = Resources.Load<Sprite>("Sprites/beforesave");
+                Debug.Log(s);
+                PS[i].ChangeSprite(s);
             }
 
             //PlayerStartをアクティベートする
@@ -61,7 +80,12 @@ public class NextMapTrigger : MonoBehaviour
             {
                 if(this.PSNumber == PS[i].PSNumber)
                 {
+                    /*PlayerPrefs.SetInt("ReturnPSNum", this.PSNumber);
+                    PlayerPrefs.Save();*/
+
                     PS[i].Active = true;
+                    Sprite s = Resources.Load<Sprite>("Sprites/aftersave");
+                    PS[i].ChangeSprite(s);
                 }
             }
         }

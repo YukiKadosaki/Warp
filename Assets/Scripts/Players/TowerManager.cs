@@ -6,12 +6,13 @@ using UnityEngine;
 
 public class TowerManager : MonoBehaviour
 {
-    private double m_ClimbingTime;
+    private float m_ClimbingTime;
     private bool m_Timekeeping;
     private int m_DeathCount;
+    private float m_countTime;
 
 
-    public double ClimbingTime
+    public float ClimbingTime
     {
         get => m_ClimbingTime;
         set { m_ClimbingTime = value; }
@@ -26,20 +27,35 @@ public class TowerManager : MonoBehaviour
         get => m_DeathCount;
         set { m_DeathCount = value; }
     }
+    public float CountTime
+    {
+        get => m_countTime;
+        set { m_countTime = value; }
+    }
 
 
     // Start is called before the first frame update
     void Start()
     {
         Timekeeping = true;
-        DeathCount = 0;
+        //DeathCount‚ÍŽ€–SŽž‚ÉƒvƒŒƒCƒ„[‚ª‘‚â‚·
+        DeathCount = PlayerPrefs.GetInt("DeathCount", 0);
+        CountTime = 0;
         Timekeeping = true;
+        ClimbingTime = PlayerPrefs.GetFloat("PlayTime", 0);
     }
 
     // Update is called once per frame
     void Update()
     {
         TryTimeKeep();
+        CountTime += Time.deltaTime;
+        if(CountTime > 1)
+        {
+            PlayerPrefs.SetFloat("PlayTime", ClimbingTime);
+            PlayerPrefs.Save();
+            CountTime = 0;
+        }
     }
 
     private void TryTimeKeep()

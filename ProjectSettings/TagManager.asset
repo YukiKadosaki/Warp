@@ -15,6 +15,7 @@ TagManager:
   - DirectionChangeDetector
   - ChangeReflector
   - TowerManager
+  - World
   layers:
   - Default
   - TransparentFX
