@@ -3351,7 +3351,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42f8ad92bdffdd644bab3287f5764a1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: Tower
+  nextScene: EXTower
 --- !u!19719996 &2014943938
 TilemapCollider2D:
   m_ObjectHideFlags: 0

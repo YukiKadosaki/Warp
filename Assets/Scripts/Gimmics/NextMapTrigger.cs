@@ -45,7 +45,7 @@ public class NextMapTrigger : MonoBehaviour
             i++;
         }
 
-        m_World = GameObject.FindGameObjectWithTag("World").GetComponent<World>();
+        //m_World = GameObject.FindGameObjectWithTag("World").GetComponent<World>();
 
         //int activate_num = m_World.psNumber;
         int activate_num = 0;

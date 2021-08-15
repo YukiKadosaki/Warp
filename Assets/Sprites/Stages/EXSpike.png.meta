@@ -1,16 +1,7 @@
 fileFormatVersion: 2
-guid: 741ec4cbcfe7ca540b1b2eff19a37b68
+guid: 53ea331d9642ea94f9bd5deea2e65106
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -8669629486202061474
-    second: EXBlock_0
-  - first:
-      213: 5183664153755061176
-    second: EXBlock_1
-  - first:
-      213: 7098898381723108923
-    second: EXBlock_2
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -50,7 +41,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -60,7 +51,7 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -98,72 +89,17 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: EXBlock_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e5d7cac7ae94fa780800000000000000
-      internalID: -8669629486202061474
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EXBlock_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8bb0f77651310f740800000000000000
-      internalID: 5183664153755061176
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: EXBlock_2
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b368333777a548260800000000000000
-      internalID: 7098898381723108923
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    outline: []
-    physicsShape: []
+    sprites: []
+    outline:
+    - - {x: -16, y: -16}
+      - {x: 0, y: 16}
+      - {x: 0, y: 16}
+      - {x: 16, y: -16}
+    physicsShape:
+    - - {x: 0, y: 15}
+      - {x: -15, y: -16}
+      - {x: 15, y: -16}
+      - {x: 0, y: 15}
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
