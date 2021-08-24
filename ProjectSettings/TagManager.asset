@@ -16,6 +16,7 @@ TagManager:
   - ChangeReflector
   - TowerManager
   - World
+  - PortalOut
   layers:
   - Default
   - TransparentFX
