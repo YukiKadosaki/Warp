@@ -13,6 +13,7 @@ public class CircleMove : MonoBehaviour
     [Header("ˆÚ“®‘¬“x")]
     [SerializeField]
     private float m_MoveSpeed;
+    [Header("")]
     private float m_Radius;//‰ñ“]‚Ì”¼Œa
     private float m_MoveTime = 0;//ˆÚ“®ŽžŠÔ
     private Vector3 m_Center;

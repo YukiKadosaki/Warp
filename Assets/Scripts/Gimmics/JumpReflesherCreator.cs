@@ -33,7 +33,7 @@ public class JumpReflesherCreator : MonoBehaviour
     //ジャンプリフレレッシャーを生成し、クールタイムを挟む
     private IEnumerator CreateJumpReflesher()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1.8f);
         Instantiate(m_JumpReflesher, this.transform.localPosition, Quaternion.identity);
         Frozen = false;
     }
