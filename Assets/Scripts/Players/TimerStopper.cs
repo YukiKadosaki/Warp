@@ -10,6 +10,7 @@ public class TimerStopper : MonoBehaviour
     void Start()
     {
         m_TowerManager = GameObject.FindGameObjectWithTag("TowerManager").GetComponent<TowerManager>();
+        this.GetComponent<SpriteRenderer>().enabled = false;
     }
 
     //プレイヤーが触れたら計測終了
