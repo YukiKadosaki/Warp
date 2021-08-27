@@ -275,6 +275,7 @@ public class Player_Sample : MonoBehaviour
         m_AudioSource.clip = Resources.Load<AudioClip>("Audio/SE/warp");
         m_AudioSource.Play();
 
+        //ワープする
         m_Transform.position = pos;
         m_RigidBody2D.velocity = Vector3.zero;
         CanSecondJump = true;
@@ -421,18 +422,23 @@ public class Player_Sample : MonoBehaviour
         for (int i = 0; i < groundCheckObjects.Length; i++)
         {
             groundCheckCollider[i] = Physics2D.OverlapPoint(groundCheckObjects[i].transform.position);
-            //�ڒn����I�u�W�F�N�g�̂����A1�ł������ɏd�Ȃ��Ă�����ڒn���Ă�����̂Ƃ��ďI��
+            //着地している時
             if (null != groundCheckCollider[i]
                 && (groundCheckCollider[i].isTrigger == false || groundCheckCollider[i].CompareTag("LiftRideCheck") ||
                 groundCheckCollider[i].CompareTag("DirectionChangeDetector")))
             {
+                //着地したらy速度を0に
+                m_RigidBody2D.velocity *= new Vector3(1, 0, 1);
+                m_RigidBody2D.gravityScale = 0;
+
                 IsGrounded = true;
                 CanSecondJump = true;
                 JumpEnd = false;
                 return;
             }
         }
-        //�����܂ł����Ƃ������Ƃ͉����d�Ȃ��Ă��Ȃ��Ƃ������ƂȂ̂ŁA�ڒn���Ă��Ȃ��Ɣ��f����
+        //returnされてないと言うことは着地していない
+        m_RigidBody2D.gravityScale = 2;//2は元々の値
         IsGrounded = false;
     }
 
