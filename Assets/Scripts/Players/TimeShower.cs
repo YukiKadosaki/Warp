@@ -18,7 +18,7 @@ public class TimeShower : MonoBehaviour
 
     private void Update()
     {
-        double time = m_TowerManager.ClimbingTime;
+        double time = m_TowerManager.SaveData.playTime;
         int hour = (int)time / 3600;
         int minute = (int)time / 60;
         int sec = (int)time % 60;

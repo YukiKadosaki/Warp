@@ -17,7 +17,7 @@ public class DeathCountShower : MonoBehaviour
 
     private void Update()
     {
-        m_Text.text = "" + m_TowerManager.DeathCount;
+        m_Text.text = "" + m_TowerManager.SaveData.deathCount;
     }
 
 }

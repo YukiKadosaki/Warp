@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 public class Player_Sample : MonoBehaviour
@@ -48,6 +49,8 @@ public class Player_Sample : MonoBehaviour
     private Reflection[] m_Refrector;
     private TowerManager m_TowerManager;//死亡回数を記録させたい
     private AudioSource m_AudioSource;
+    private int m_ActiveSaveNum;
+
 
 
     public float MoveSpeed
@@ -145,7 +148,12 @@ public class Player_Sample : MonoBehaviour
     {
         get => m_Refrector;
         set { m_Refrector = value; }
-    }  
+    }
+    public int ActiveSaveNum
+    {
+        get => m_ActiveSaveNum;
+        set { m_ActiveSaveNum = value; }
+    }
 
 
     // Start is called before the first frame update
@@ -540,19 +548,29 @@ public class Player_Sample : MonoBehaviour
         //死亡回数を増やす
         if (null != m_TowerManager)
         {
-            m_TowerManager.DeathCount += 1;
-            PlayerPrefs.SetInt("DeathCount", m_TowerManager.DeathCount);
-            PlayerPrefs.Save();
+            m_TowerManager.SaveData.deathCount += 1;
         }
+
+        
+
+        //新しいプレイヤーを出して自分は消える
+        for(int i = 0;i < PS.Length; i++)
+        {
+            if (PS[i].PSNumber == m_TowerManager.SaveData.floorNumber)
+            {
+                StartCoroutine(PS[i].CreatePlayer());
+            }
+        }
+
+
+        //デバッグ用　後で消す
+        GameObject obj = GameObject.FindGameObjectWithTag("Debug");
+        obj.GetComponent<Text>().text = "Death";
+        obj.GetComponent<Text>().text += "PS[" + PS[m_TowerManager.SaveData.floorNumber].gameObject.name + "]";
+
 
         yield return null;
 
-        //新しいプレイヤーを出して自分は消える
-        for (int i = 0;i < PS.Length; i++)
-        {
-            Debug.Log("SC");
-            PS[i].CreatePlayerVoid();
-        }
         Destroy(this.gameObject);
 
         yield  break;

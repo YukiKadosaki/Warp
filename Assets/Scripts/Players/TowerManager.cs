@@ -1,69 +1,83 @@
 //プレイ時間、死亡回数などを記録
 
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
+using UnityEngine.UI;
+using System.Collections;
 
 public class TowerManager : MonoBehaviour
 {
-    private float m_ClimbingTime;
+    private PlayerSaveData m_SaveData;
     private bool m_Timekeeping;
-    private int m_DeathCount;
-    private float m_countTime;
+    private World m_World;
+    private PlayerStart[] m_PS;
 
 
-    public float ClimbingTime
-    {
-        get => m_ClimbingTime;
-        set { m_ClimbingTime = value; }
-    }
     public bool Timekeeping
     {
         get => m_Timekeeping;
         set { m_Timekeeping = value; }
     }
-    public int DeathCount
+    public PlayerSaveData SaveData
     {
-        get => m_DeathCount;
-        set { m_DeathCount = value; }
+        get => m_SaveData;
+        set { m_SaveData = value; }
     }
-    public float CountTime
+    public PlayerStart[] PS
     {
-        get => m_countTime;
-        set { m_countTime = value; }
+        get => m_PS;
+        set { m_PS = value; }
     }
 
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
+        m_World = GameObject.FindGameObjectWithTag("World").GetComponent<World>();
+        //データのロード
+        m_SaveData = m_World.LoadGame();
+
         Timekeeping = true;
         //DeathCountは死亡時にプレイヤーが増やす
-        DeathCount = PlayerPrefs.GetInt("DeathCount", 0);
-        CountTime = 0;
-        Timekeeping = true;
-        ClimbingTime = PlayerPrefs.GetFloat("PlayTime", 0);
+
+        int i = 0;
+        //PlayerStartを取得
+        PS = new PlayerStart[GameObject.FindGameObjectsWithTag("PlayerStart").Length];
+        foreach (GameObject m_PlayerSprite in GameObject.FindGameObjectsWithTag("PlayerStart"))
+        {
+            PS[i] = m_PlayerSprite.GetComponent<PlayerStart>();
+            i++;
+        }
+
+        //プレイヤーを生成
+        for (int j = 0;j < PS.Length; j++)
+        {
+            if(PS[j].PSNumber == SaveData.floorNumber)
+            {
+                PS[j].CreatePlayerVoid();
+            }
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
         TryTimeKeep();
-        CountTime += Time.deltaTime;
-        if(CountTime > 1)
-        {
-            PlayerPrefs.SetFloat("PlayTime", ClimbingTime);
-            PlayerPrefs.Save();
-            CountTime = 0;
-        }
     }
 
     private void TryTimeKeep()
     {
         if (Timekeeping)
         {
-            ClimbingTime += Time.deltaTime;
+            SaveData.playTime += Time.deltaTime;
         }
+    }
+
+    //ゲームをやめたときの処理
+    private void OnApplicationQuit()
+    {
+        //セーブする
+        m_World.SaveGame(SaveData.floorNumber, SaveData.playTime, SaveData.deathCount);
     }
 
 }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerStart : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class PlayerStart : MonoBehaviour
     private bool m_Active = false;
     private bool m_Touched = false;//触れられたことがあるかどうか（セーブ音に使う）
     private SpriteRenderer m_SpriteRenderer;
+    private TowerManager m_TowerManager;
 
     public int PSNumber
     {
@@ -28,43 +30,33 @@ public class PlayerStart : MonoBehaviour
         set { m_Touched = value; }
     }
 
-    private void Awake()
+    private void Start()
     {
         m_SpriteRenderer = this.GetComponent<SpriteRenderer>();
-        //m_SpriteRenderer.enabled = false;
+        m_TowerManager = GameObject.FindGameObjectWithTag("TowerManager").GetComponent<TowerManager>();
     }
 
 
-    //Player_Sumpleと、NextMapTriggerから呼ばれる
+    //Player_Sampleから呼ぶときは、プレイヤーが消えてから呼ぶ必要があるので一旦コルーチンを呼ぶ
     public IEnumerator CreatePlayer()
     {
-        Debug.Log("Called");
-        if (Active)
-        {
-            Vector3 pos = this.transform.position;
-            pos.z = 0;
-            GameObject obj = Instantiate((GameObject)Resources.Load("Prefab/Player"), pos, Quaternion.identity);
-            if(GameObject.FindGameObjectsWithTag("Player").Length > 1)
-            {
-                Destroy(obj);
-            }
-        }
-        yield break;
+        yield return null;
+        CreatePlayerVoid();
     }
 
     //Player_SampleからCreatePlayerを呼び出すため
     public void CreatePlayerVoid()
     {
-        if (Active)
+        Debug.Log("CreatePlayerVoid");
+
+        Vector3 pos = this.transform.position;
+        pos.z = 0;
+        GameObject obj = Instantiate((GameObject)Resources.Load("Prefab/Player"), pos, Quaternion.identity);
+        if (GameObject.FindGameObjectsWithTag("Player").Length > 2)
         {
-            Vector3 pos = this.transform.position;
-            pos.z = 0;
-            GameObject obj = Instantiate((GameObject)Resources.Load("Prefab/Player"), pos, Quaternion.identity);
-            if (GameObject.FindGameObjectsWithTag("Player").Length > 2)
-            {
-                Destroy(obj);
-            }
+            Destroy(obj);
         }
+
     }
 
     public void ChangeSprite(Sprite s)
@@ -77,10 +69,26 @@ public class PlayerStart : MonoBehaviour
     {
         //セーブSE
         Player_Sample p;
+        Sprite s;
         if(!Touched && collision.TryGetComponent<Player_Sample>(out p))
         {
             Touched = true;
             p.SaveSE();
+            s = Resources.Load<Sprite>("Sprites/aftersave");
+            ChangeSprite(s);
+
+            //デバッグ用　後で消す
+            GameObject obj = GameObject.FindGameObjectWithTag("Debug");
+            obj.GetComponent<Text>().text = "PlayerStartTouched";
+            for (int i = 0; i < UnityEngine.Random.Range(0, 10); i++)
+            {
+                obj.GetComponent<Text>().text += "!";
+            }
+
+            //階層を保存する
+            m_TowerManager.SaveData.floorNumber = this.PSNumber;
         }
+        
+
     }
 }
