@@ -77,13 +77,6 @@ public class PlayerStart : MonoBehaviour
             s = Resources.Load<Sprite>("Sprites/aftersave");
             ChangeSprite(s);
 
-            //デバッグ用　後で消す
-            GameObject obj = GameObject.FindGameObjectWithTag("Debug");
-            obj.GetComponent<Text>().text = "PlayerStartTouched";
-            for (int i = 0; i < UnityEngine.Random.Range(0, 10); i++)
-            {
-                obj.GetComponent<Text>().text += "!";
-            }
 
             //階層を保存する
             m_TowerManager.SaveData.floorNumber = this.PSNumber;

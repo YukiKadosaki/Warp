@@ -283,6 +283,19 @@ public class Player_Sample : MonoBehaviour
         m_AudioSource.clip = Resources.Load<AudioClip>("Audio/SE/warp");
         m_AudioSource.Play();
 
+        //右に向いているときにずらす量
+        float posFixLeft = 0.44f;
+        float posFixRight = 0.6f;
+
+        //左を向いているときは少し右にずらす
+        if (DirectionLeft)
+        {
+            pos.x = Mathf.Floor(pos.x) + posFixRight;
+        }
+        else //右を向いているときは少し左にずらす
+        {
+            pos.x = Mathf.Floor(pos.x) + posFixLeft;
+        }
         //ワープする
         m_Transform.position = pos;
         m_RigidBody2D.velocity = Vector3.zero;
@@ -561,12 +574,6 @@ public class Player_Sample : MonoBehaviour
                 StartCoroutine(PS[i].CreatePlayer());
             }
         }
-
-
-        //デバッグ用　後で消す
-        GameObject obj = GameObject.FindGameObjectWithTag("Debug");
-        obj.GetComponent<Text>().text = "Death";
-        obj.GetComponent<Text>().text += "PS[" + PS[m_TowerManager.SaveData.floorNumber].gameObject.name + "]";
 
 
         yield return null;
