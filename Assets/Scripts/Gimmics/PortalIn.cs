@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class PortalIn : MonoBehaviour
 {
     [SerializeField]
@@ -20,8 +21,6 @@ public class PortalIn : MonoBehaviour
                 m_PortalOut = o.GetComponent<PortalOut>();
             }
         }
-
-
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

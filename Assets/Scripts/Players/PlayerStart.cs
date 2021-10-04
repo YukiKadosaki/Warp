@@ -80,6 +80,18 @@ public class PlayerStart : MonoBehaviour
 
             //ŠK‘w‚ð•Û‘¶‚·‚é
             m_TowerManager.SaveData.floorNumber = this.PSNumber;
+
+            //”½ŽË”Â‚ðŒ³‚É–ß‚·
+
+            //Reflector‚ðŽæ“¾
+            int i = 0;
+            Reflection[] re = new Reflection[GameObject.FindGameObjectsWithTag("ChangeReflector").Length];
+            foreach (GameObject obj in GameObject.FindGameObjectsWithTag("ChangeReflector"))
+            {
+                obj.GetComponent<Reflection>().ReturnType();
+                i++;
+            }
+            
         }
         
 

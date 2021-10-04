@@ -39,7 +39,6 @@ public class Player_Sample : MonoBehaviour
     private bool m_JumpEnd;
     private bool m_isGrounded;
     private bool m_isGroundedPrev;
-    private bool m_CanLeftMove;
     private bool m_CanRightMove;
     private bool m_CanSecondJump;
     private bool m_PlayerFlosen;//trueなら操作を受け付けなくなる。KillPlayerの時などに呼ばれる
@@ -50,6 +49,7 @@ public class Player_Sample : MonoBehaviour
     private TowerManager m_TowerManager;//死亡回数を記録させたい
     private AudioSource m_AudioSource;
     private int m_ActiveSaveNum;
+    private float m_GroundedPosY;//着地したy座標
 
 
 
@@ -113,12 +113,6 @@ public class Player_Sample : MonoBehaviour
         get => m_isGroundedPrev;
     }
 
-    public bool CanLeftMove
-    {
-        set { m_CanLeftMove = value; }
-        get => m_CanLeftMove;
-    }
-
     public bool CanRightMove
     {
         set { m_CanRightMove = value; }
@@ -154,7 +148,11 @@ public class Player_Sample : MonoBehaviour
         get => m_ActiveSaveNum;
         set { m_ActiveSaveNum = value; }
     }
-
+    public float GroundedPosY
+    {
+        get => m_GroundedPosY;
+        set { m_GroundedPosY = value; }
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -455,8 +453,18 @@ public class Player_Sample : MonoBehaviour
                 IsGrounded = true;
                 CanSecondJump = true;
                 JumpEnd = false;
+
+                //ブロックに着地した場合、少し上に上げる
+                if (!IsGroundedPrev)
+                {
+                    GroundedPosY = m_Transform.localPosition.y;
+                    var pos = m_Transform.localPosition;
+                    pos.y = GroundedPosY + 0.01f;
+                    m_Transform.localPosition = pos;
+                }
                 return;
             }
+
         }
         //returnされてないと言うことは着地していない
         m_RigidBody2D.gravityScale = 2;//2は元々の値
@@ -464,22 +472,44 @@ public class Player_Sample : MonoBehaviour
     }
 
 
+
     //壁の判定のチェック
     private void RightWallCheck()
     {
-        //�E���̕ǃ`�F�b�N
-        //�W�����v�Ńu���b�N�ɂԂ���Ȃ���o��Ƃ��ɉ��̕�������������̂�h�~���邽��
-        //�ڒn���Ă���Ƃ��͊֌W�Ȃ�
+        bool canRightMovePrev = CanRightMove;//前フレームで右に動けていたかどうか
+
+        void PositionReapir()
+        {
+            //右を向いているか左を向いているかでずらす方向を変える
+            Vector3 pos = m_Transform.localPosition;
+            if (DirectionLeft)
+            {
+                pos.x += 0.01f;
+            }
+            else
+            {
+                pos.x -= 0.01f;
+            }
+
+            m_Transform.localPosition = pos;
+        }
+
+        //空中での右下のチェック
         if (!IsGrounded)
         {
             Collider2D rightDownWallCheckCollider = new Collider2D();
 
             rightDownWallCheckCollider = Physics2D.OverlapPoint(rightDownWallCheckObject.transform.position);
 
-            //�u���b�N�ɐG��Ă���ΉE�ɍs���Ȃ��B
+            //ブロックにコライダーがヒットしたとき
             if (rightDownWallCheckCollider != null && rightDownWallCheckCollider.isTrigger == false)
             {
                 CanRightMove = false;
+                //初めて壁にぶつかった場合は距離を取る
+                if (canRightMovePrev)
+                {
+                    PositionReapir();
+                }
                 return;
             }
         }
@@ -495,6 +525,11 @@ public class Player_Sample : MonoBehaviour
             if (rightWallCheckCollider[i] != null && rightWallCheckCollider[i].isTrigger == false)
             {
                 CanRightMove = false;
+                //初めて壁にぶつかった場合は距離を取る
+                if (canRightMovePrev)
+                {
+                    PositionReapir();
+                }
                 return;
             }
         }
