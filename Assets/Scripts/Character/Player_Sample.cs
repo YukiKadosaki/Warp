@@ -14,6 +14,7 @@ public class Player_Sample : MonoBehaviour
     private const float reduceJumpSpeedRate = 0.3f;//ジャンプをやめたときのスピード減少率
     private const float maxFallingSpeed = -10f;//最大落下速度
     private const float moveSpeed = 6;//横移動速度
+    private const float ceilingSpeed = 0;//頭を打ったときのスピード
 
     [SerializeField]
     private GameObject[] groundCheckObjects;
@@ -21,6 +22,8 @@ public class Player_Sample : MonoBehaviour
     private GameObject[] rightWallCheckObjects;//右の壁をチェックする
     [SerializeField]
     private GameObject rightDownWallCheckObject;
+    [SerializeField]
+    private GameObject[] ceilingCheckObjects;//天井をチェックするオブジェクト
     [SerializeField]
     private bool canPressQ;
     
@@ -154,6 +157,7 @@ public class Player_Sample : MonoBehaviour
         set { m_GroundedPosY = value; }
     }
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -253,6 +257,8 @@ public class Player_Sample : MonoBehaviour
             CheckFallingSpeed();
             //着地判定チェック
             GroundCheck();
+            //天井判定チェック
+            CeilingCheck();
             //ジャンプしたときにジャンプのスプライトに変える
             SpriteCheck();
         }
@@ -535,6 +541,36 @@ public class Player_Sample : MonoBehaviour
         }
         //ここまで来ていると言うことは右に壁が無いということなのでtrue
         CanRightMove = true;
+    }
+
+    //天井に当たるとスピードが落ちる
+    private void CeilingCheck()
+    {
+        Collider2D[] ceilingCheckCollider = new Collider2D[ceilingCheckObjects.Length];
+        //�ڒn����I�u�W�F�N�g�������ɏd�Ȃ��Ă��邩�ǂ������`�F�b�N
+        for (int i = 0; i < ceilingCheckObjects.Length; i++)
+        {
+            ceilingCheckCollider[i] = Physics2D.OverlapPoint(ceilingCheckObjects[i].transform.position);
+            Debug.Log("check");
+
+            //頭が天井にぶつかったとき
+            /*Debug.Log("null != ceilingCheckCollider[i] :" + (bool)(null != ceilingCheckCollider[i]));
+            Debug.Log("ceilingCheckCollider[i].isTrigger != false :" + (bool)(ceilingCheckCollider[i].isTrigger == false));
+            Debug.Log("!IsGrounded : " + !IsGrounded);*/
+
+            if (ceilingCheckCollider[i] != null && ceilingCheckCollider[i].isTrigger == false && !IsGrounded)
+            {
+                //天井に着いたらy速度を0に
+                Vector3 velocity = m_RigidBody2D.velocity;
+                velocity.y = ceilingSpeed;
+                m_RigidBody2D.velocity = velocity;
+                JumpEnd = true;
+
+                Debug.Log("aaa");
+                return;
+            }
+
+        }
     }
 
     private void CheckFallingSpeed()
