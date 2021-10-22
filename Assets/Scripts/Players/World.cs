@@ -18,7 +18,8 @@ public class World : MonoBehaviour
     {
         DontDestroyOnLoad(this.gameObject);
         SaveFilePath = Application.persistentDataPath + "/savedPlayer.save";
-
+        //画面のアスペクト比を設定する。
+        Screen.SetResolution(800, 608, false, 50);
     }
 
     private void Update()
