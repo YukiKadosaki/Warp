@@ -551,7 +551,7 @@ public class Player_Sample : MonoBehaviour
         for (int i = 0; i < ceilingCheckObjects.Length; i++)
         {
             ceilingCheckCollider[i] = Physics2D.OverlapPoint(ceilingCheckObjects[i].transform.position);
-            Debug.Log("check");
+
 
             //頭が天井にぶつかったとき
             /*Debug.Log("null != ceilingCheckCollider[i] :" + (bool)(null != ceilingCheckCollider[i]));

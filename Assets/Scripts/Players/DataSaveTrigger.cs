@@ -28,7 +28,7 @@ public class DataSaveTrigger : MonoBehaviour
         //‰Šú‰»
         if(collision.CompareTag("Player") || collision.CompareTag("Copy"))
         {
-            Debug.Log("HIT");
+
             if(gameStartType == GameStartType.newGame) {
                 m_World.NewGame();
             }
